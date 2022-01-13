@@ -10,7 +10,9 @@
 	"type": "bluespice",
 	"requires": {
 		"MediaWiki": ">= 1.35.0",
-		"BlueSpiceFoundation": ">= 4.1.0"
+		"extensions": {
+			"BlueSpiceFoundation": ">= 4.0"
+		}
 	},
 	"MessagesDirs": {
 		"BlueSpiceProDistributionConnector": "i18n"
