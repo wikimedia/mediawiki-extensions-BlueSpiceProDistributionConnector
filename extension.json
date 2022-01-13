@@ -1,0 +1,23 @@
+{
+	"name": "BlueSpiceProDistributionConnector",
+	"version": "4.1.0-RC2",
+	"license-name": "GPL-3.0-only",
+	"author": [
+		"[http://www.hallowelt.com Hallo Welt! GmbH]"
+	],
+	"url": "https://en.wiki.bluespice.com/wiki/Reference:BlueSpiceProDistributionConnector",
+	"descriptionmsg": "bs-prodistributionconnector-desc",
+	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+		"BlueSpiceFoundation": ">= 4.1.0"
+	},
+	"MessagesDirs": {
+		"BlueSpiceProDistributionConnector": "i18n"
+	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\ProDistributionConnector\\": "src/",
+		"BlueSpice\\ProDistributionConnector\\Tests\\": "tests/phpunit"
+	},
+	"manifest_version": 2
+}
