@@ -21,5 +21,14 @@
 		"BlueSpice\\ProDistributionConnector\\": "src/",
 		"BlueSpice\\ProDistributionConnector\\Tests\\": "tests/phpunit"
 	},
+	"HookHandlers": {
+		"pdfexport-convert-math-svg-to-png": {
+			"factory": "BlueSpice\\ProDistributionConnector\\HookHandler\\PdfExportConvertMathSVGtoPNG::factory",
+			"services": [ "MediaHandlerFactory" ]
+		}
+	},
+	"Hooks": {
+		"BSUEModulePDFFindFiles": "pdfexport-convert-math-svg-to-png"
+	},
 	"manifest_version": 2
 }
