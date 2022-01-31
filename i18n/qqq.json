@@ -1,3 +1,6 @@
 {
-	"bs-prodistributionconnector-desc": "Description of BlueSpiceProDistributionConnector for [[Special:Version]]"
+	"bs-prodistributionconnector-desc": "Description of BlueSpiceProDistributionConnector for [[Special:Version]]",
+	"@metadata": {
+		"authors": []
+	}
 }
