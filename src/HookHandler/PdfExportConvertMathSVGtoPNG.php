@@ -26,7 +26,7 @@ class PdfExportConvertMathSVGtoPNG implements IBSUEModulePDFFindFiles {
 
 	/**
 	 *
-	 * @var boolean
+	 * @var bool
 	 */
 	private $enabled = true;
 
