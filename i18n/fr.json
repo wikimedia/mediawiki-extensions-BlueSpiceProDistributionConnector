@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
-	"bs-prodistributionconnector-desc": "Connecte BlueSpice à diverses extensions de MédiaWiki"
+	"bs-prodistributionconnector-desc": "Connecte BlueSpice à diverses extensions de MediaWiki"
 }
