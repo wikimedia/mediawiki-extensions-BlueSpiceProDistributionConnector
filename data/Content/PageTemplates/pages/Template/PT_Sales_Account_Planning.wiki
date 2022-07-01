@@ -1,0 +1,115 @@
+{| class="wikitable"
+! style="vertical-align:middle;text-align:left;" |'''Account name'''
+|
+|-
+! style="vertical-align:middle;text-align:left;" |'''Account manager'''
+|@ mention the account manager
+|-
+! style="vertical-align:middle;text-align:left;" |'''Account stage'''
+|Prospecting / Negotiation / Proposal / Qualification / Closed won / Closed lost
+|}
+
+==Account overview==
+{| class="wikitable"
+! style="background-color:#fffae6;vertical-align:middle;text-align:left;" |'''Account revenue'''
+|
+|-
+! style="background-color:#fffae6;vertical-align:middle;text-align:left;" |'''Industry'''
+|e.g., Retail
+|-
+! style="background-color:#fffae6;vertical-align:middle;text-align:left;" |'''# of employees'''
+|
+|-
+! style="background-color:#fffae6;vertical-align:middle;text-align:left;" |'''Account's key contacts'''
+|
+|-
+! style="background-color:#fffae6;vertical-align:middle;text-align:left;" |'''Account's key competitors'''
+|
+|-
+! style="background-color:#fffae6;vertical-align:middle;text-align:left;" |'''Relationship strength'''
+|Strong / Weak
+|-
+! style="background-color:#fffae6;vertical-align:middle;text-align:left;" |'''Period of plan'''
+|e.g., Annual / Quarterly
+|-
+! style="background-color:#fffae6;vertical-align:middle;text-align:left;" |'''Plan last reviewed'''
+|e.g.,
+|-
+! style="background-color:#fffae6;vertical-align:middle;text-align:left;" |'''Overview'''
+|
+*List anything to keep top of mind while reviewing this plan, such as major news, buying info, or objectives.
+*
+*
+|}
+
+==Account objectives==
+These questions can be asked to your point contact during a call.
+{| class="wikitable"
+! style="background-color:#e6fcff;" |'''Goals'''
+! style="background-color:#e6fcff;" |'''Challenges'''
+! style="background-color:#e6fcff;" |'''Tried solutions'''
+! style="background-color:#e6fcff;" |'''Measures of success'''
+|-
+|What does the client want to achieve in the next 12 months?
+|What challenges is the account facing?
+|What solutions have they tried?
+|How will they measure success at the end of the year?
+|}
+
+==Account solutions==
+{| class="wikitable"
+! style="background-color:#fffae6;" |'''Solutions'''
+! style="background-color:#fffae6;" |'''ROI'''
+! style="background-color:#fffae6;" |'''Potential objections'''
+! style="background-color:#fffae6;" |'''Objection handling'''
+! style="background-color:#fffae6;" |'''Status'''
+|-
+|List the potential products or services that support your client's objectives.
+|List the potential ROI or benefit of suggested solution for your client.
+|List some objections your client may come up with to your solution (e.g., too expensive).
+|List some follow up talking points to potential objections (e.g., social proof).
+|presented / reviewing / in progress / Declined
+|-
+|
+|
+|
+|
+|
+|}
+
+==Account map==
+An account map is a visualization of the client's company, decision makers, and structure so you can take a holistic approach to their sales strategy.
+----<Embed your results>
+
+----
+
+==Action plan==
+{| class="wikitable"
+!'''Objective'''
+!'''Action'''
+!'''Owner'''
+!'''Date'''
+!'''Status'''
+|-
+| rowspan="3" |List the objectives of the account and associated actions.
+|e.g., Present demo of product to internal team and CFO
+|@ Owner name
+|e.g.,
+|To do / in progress / Done
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|
+|}
