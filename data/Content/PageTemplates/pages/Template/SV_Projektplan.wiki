@@ -1,0 +1,140 @@
+<div class="databox">
+<div class="tbl">
+{|
+|-
+!Zielsetzung:
+|kurze Zusammenfassung des Hauptziels
+|-
+!Projekteigner:
+|Benutzername
+|}
+</div>
+<div class="tbl">
+{| 
+|-
+!Fällig am:
+|tt.mm.jjjj
+|-
+!Projektstatus:
+|'''nicht gestartet'''  / laufend / abgeschlossen
+|}
+</div>
+</div>
+==Projektbeschreibung==
+Geben Sie einen kurzen Überblick über die Projektziele. Alle Beteiligten sollten verstehen, was Sie mit diesem Projekt erreichen wollen.
+
+===Stakeholder===
+Wer ist von dem Projekt und seinen Ergebnissen betroffen? Wer beeinflusst das Projekt?
+{| class="wikitable" style="width:100%;"
+!Name oder Rolle des Stakeholders
+!Beschreibung der Interessen des Stakeholders
+|-
+|...
+|
+|-
+|...
+|
+|}
+
+===Mitwirkende / Projektmitglieder===
+{| class="wikitable" style="width:100%;"
+!Projektrolle
+!Beschreibung
+!Mitglieder
+|-
+|...
+|
+|
+|-
+|...
+|
+|
+|}
+
+===Ressourcen / Kosten===
+
+*Erwartete Kosten und zeitliche Voraussetzungen
+*Wer gibt das Budget frei?
+
+==Umfang==
+Geben Sie an, welche Ergebnisse im Umfang enthalten sind und welche nicht.
+
+===Enthalten===
+{| class="wikitable" style="width:100%;"
+!Ergebnis
+!Beschreibung
+! style="width:80px;" |Priorität
+|-
+|Name des Ergebnisses
+|
+| style="width:80px;" |hoch /
+mittel /
+
+niedrig
+|-
+|..
+|
+| style="width:80px;" |
+|-
+|..
+|
+| style="width:80px;" |
+|}
+
+===Nicht enthalten===
+{| class="wikitable" style="width:100%;"
+!Ergebnis
+!Beschreibung
+! style="width:80px;" |Priorität
+|-
+|Name des Ergebnisses
+|
+| style="width:80px;" |hoch /
+mittel /
+
+niedrig
+|-
+|..
+|
+| style="width:80px;" |
+|-
+|..
+|
+| style="width:80px;" |
+|}
+
+==Akzeptanzkritgerien==
+
+*80% der Ergebnisse von hoher Priorität sind fertig
+*Ergebnis 1 ist vollständig umgesetzt
+*...
+
+==Meilensteine und Fälligkeitsdaten==
+{| class="wikitable" style="width:100%;"
+!Meilenstein
+!Verantwortlich
+! style="vertical-align:middle;text-align:center;" |Fällig
+!Status
+|-
+|z.B. Ergebnis 1 ist vollständig umgesetzt
+|Benutzername
+| style="vertical-align:middle;text-align:center;" |tt.mm
+|not started / in progress / complete
+|-
+|..
+|
+| style="vertical-align:middle;text-align:center;" |
+|
+|-
+|..
+|
+| style="vertical-align:middle;text-align:center;" |
+|
+|}
+
+==Begleitdokumente==
+
+*Links zu projektbezogenen Wikiseiten
+*Links zu projektbezogenen Dateien
+
+[[Category:Projektplan]]

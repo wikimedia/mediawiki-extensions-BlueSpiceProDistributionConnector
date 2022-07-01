@@ -1,0 +1,51 @@
+
+==Week: e.g., September 21-27, 2020==
+{| class="wikitable"
+!'''Incident ID'''
+!'''Status'''
+!'''Last updated'''
+!'''Priority'''
+!'''Owner'''
+!'''Reporter'''
+!'''Date created'''
+!'''Summary'''
+!'''Affected services'''
+!'''Documentation'''
+!'''Related records'''
+|-
+|Add an incident ID
+|in review / resolved / other
+|Add a date and describe what was updated
+|p1 <span class="fabric-text-color-mark">/ p2 <span class="fabric-text-color-mark">/ P3+
+|@ mention the owner
+|@ reporter
+|
+|Briefly describe the incident and how it impacted services and users
+|e.g., Billing applications
+|Add incident reports and postmortems
+|Add documentation about related incidents
+|-
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|}

@@ -1,0 +1,95 @@
+{| class="wikitable" style="width:100%;"
+| style="width:33%;" |'''<big>Priority Level</big>'''
+| style="width:33%;" |'''<big>Team</big>'''
+
+'''Project owner:''' ''Add project owner'' 
+
+'''Team members:''' ''Add the team members''
+| style="width:33%;" |'''<big>Status</big>'''
+
+''PENDING / IN PROGRESS / SHIPPED / CANCELLED''
+|}
+{| class="wikitable" style="width:100%;"
+! colspan="2" style="vertical-align:middle;text-align:center;" |<big>'''Define the problem'''</big>
+|-
+! style="vertical-align:middle;text-align:left;width:25%;" |'''What is the problem?'''
+|Why should you solve this problem and what would happen if we didn't do anything?
+|-
+! style="vertical-align:middle;text-align:left;width:25%;" |'''What are the possible solutions?'''
+|Think through several options for how you might solve this problem and which one you think is the best approach.
+|-
+! style="vertical-align:middle;text-align:left;width:25%;" |'''What teams and systems will be impacted?'''
+|What teams will you need help from, and what other teams and systems will be impacted?
+|}
+{| class="wikitable" style="width:100%;"
+! colspan="2" style="vertical-align:middle;text-align:center;" |'''<big>Solution Details</big>'''
+|-
+! style="vertical-align:middle;text-align:left;width:25%;" |'''Solution details'''
+|Summarize how you will solve the problem and what you will deliver
+|-
+! style="vertical-align:middle;text-align:left;width:25%;" |'''Validation'''
+|Summarize why you chose this solution, relevant data used to support your decision and any open questions
+|-
+! style="vertical-align:middle;text-align:left;width:25%;" |'''Visualize the solution'''
+|Work with your architects to draft how information flows between systems and seek design guidance to understand the user experience
+|-
+! style="vertical-align:middle;text-align:left;width:25%;" |'''Measuring success'''
+|Define the outcome you are driving for the business and how you will measure it
+|}
+{| class="wikitable" style="width:100%;"
+! colspan="4" style="vertical-align:middle;text-align:center;" |'''<big>Project Impacts</big>'''
+|-
+! style="vertical-align:middle;text-align:left;width:25%;" |'''Impact rating'''
+! style="vertical-align:middle;text-align:left;width:25%;" |'''System or team impacted'''
+! style="vertical-align:middle;text-align:left;width:25%;" |'''Contact'''
+! style="vertical-align:middle;text-align:left;width:25%;" |'''Description of impact'''
+|-
+| style="background-color:#ffebe6;width:25%;" |HIGH / MEDIUM / LOW
+| style="width:25%;" |List the system or team and the type of impact
+| style="width:25%;" |@ mention key point of contact
+| style="width:25%;" |Summarize what the impact or change is
+|-
+| style="background-color:#ffebe6;width:25%;" |
+| style="width:25%;" |
+| style="width:25%;" |
+| style="width:25%;" |
+|}
+
+=='''Ready to Go'''==
+
+{| class="wikitable"
+! colspan="4" style="background-color:#e3fcef;" |'''<big>Milestones</big>'''
+|-
+! style="vertical-align:middle;text-align:left;width:25%;" |'''Milestone summary'''
+! style="vertical-align:middle;text-align:left;width:25%;" |'''Details'''
+! style="vertical-align:middle;text-align:left;width:25%;" |'''Dependencies'''
+! style="vertical-align:middle;text-align:left;width:25%;" |'''Ship date'''
+|-
+| style="width:25%;" |
+| style="width:25%;" |List out specifics of what this milestone includes
+| style="width:25%;" |Is this dependent on any other milestones?
+| style="width:25%;" |Use /date to share an estimated availability date
+|-
+| style="width:25%;" |
+| style="width:25%;" |
+| style="width:25%;" |
+| style="width:25%;" |
+|}
+{| class="wikitable"
+! colspan="4" |'''<big>Team</big>'''
+|-
+! style="vertical-align:middle;text-align:left;width:25%;" |'''Role'''
+! style="vertical-align:middle;text-align:left;width:25%;" |'''Department'''
+! style="vertical-align:middle;text-align:left;width:25%;" |'''Which milestones will they work on?'''
+! style="vertical-align:middle;text-align:left;width:25%;" |'''Availability notes'''
+|-
+| style="width:25%;" |
+| style="width:25%;" |What team are they from?
+| style="width:25%;" |Connect the people to the milestones you outlined above
+| style="width:25%;" |List candidates and any potential blockers to staffing this role
+|-
+| style="background-color:#fffae6;width:25%;" |
+| style="width:25%;" |
+| style="width:25%;" |
+| style="width:25%;" |
+|}

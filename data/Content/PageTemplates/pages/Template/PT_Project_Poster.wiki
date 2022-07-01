@@ -1,0 +1,58 @@
+
+==Overview==
+Define your project's scope and problem space by following the instructions for the Project Poster Play.
+{| class="wikitable"
+! style="background-color:#f4f5f7;vertical-align:middle;text-align:left;" |'''How does this project fit into your broader strategy?'''
+|
+|-
+! style="background-color:#f4f5f7;vertical-align:middle;text-align:left;" |'''Team'''
+|e.g., Team All-Stars
+|-
+! style="background-color:#f4f5f7;vertical-align:middle;text-align:left;" |'''Project owner'''
+|@ mention project owner
+|-
+! style="background-color:#f4f5f7;vertical-align:middle;text-align:left;" |'''Team members'''
+|@ team members
+|-
+! style="background-color:#f4f5f7;vertical-align:middle;text-align:left;" |'''Date'''
+|Type // to add a date
+|-
+! style="background-color:#f4f5f7;vertical-align:middle;text-align:left;" |'''Status'''
+|not started / in progress / done
+|}
+
+==Problem space==
+{| class="wikitable"
+! style="background-color:#ffebe6;vertical-align:middle;text-align:left;" |'''Why are we doing this?'''
+|Add a problem statement and explain how the problem affects customers and business
+|-
+! style="background-color:#ffebe6;vertical-align:middle;text-align:left;" |'''How do we judge success?'''
+|Draft specific and measurable goals before progressing to the Ready to make it section
+|-
+! style="background-color:#ffebe6;vertical-align:middle;text-align:left;" |'''What are possible solutions?'''
+|
+|}
+
+==Validation==
+{| class="wikitable"
+! style="background-color:#e3fcef;vertical-align:middle;text-align:left;" |'''What do we already know?'''
+|
+|-
+! style="background-color:#e3fcef;vertical-align:middle;text-align:left;" |'''What do we need to answer?'''
+|
+|}
+
+==Ready to make it==
+{| class="wikitable"
+! style="background-color:#fffae6;vertical-align:middle;text-align:left;" |'''What are we doing?'''
+|
+|-
+! style="background-color:#fffae6;vertical-align:middle;text-align:left;" |'''Why will a customer want this?'''
+|
+|-
+! style="background-color:#fffae6;vertical-align:middle;text-align:left;" |'''Visualize the solution'''
+|Type /image to add screenshots and type /link to add materials that show what you're building
+|-
+! style="background-color:#fffae6;vertical-align:middle;text-align:left;" |'''Scale and scope'''
+|Estimate the team size (S, M, L, XL) and define what's included and not included
+|}
