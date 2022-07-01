@@ -1,0 +1,132 @@
+<div class="databox">
+<div class="tbl">
+{|
+|-
+!Objective:
+|brief summary of the main goal
+|-
+!Project owner:
+|username
+|}
+</div>
+<div class="tbl">
+{| 
+|-
+!Due date:
+|mm/dd/yyyy
+|-
+!Project status:
+|'''not started''' / in progress / complete
+|}
+</div>
+</div>
+==Project description==
+Provide a brief overview of the project goals. All stakeholders should understand what you try to accomplish with this project.
+
+===Stakeholders ===
+Who is affected by the project and its results? Who influences the project?
+{| class="wikitable" style="width:100%;"
+!Stakeholder name or role
+! Description of the interests of this stakeholder
+|-
+|...
+|
+|-
+|...
+|
+|}
+
+===Contributors / Project members===
+{| class="wikitable" style="width:100%;"
+!Project role
+!Description
+!Members
+|-
+|...
+|
+|
+|-
+|...
+|
+|
+|}
+
+===Ressources / costs===
+
+*Expected costs and time requirements.
+*Who releases the budget?
+
+==Scope==
+
+===In scope===
+{| class="wikitable" style="width:100%;"
+!ID
+!Deliverables
+!Description
+! style="width:80px;" |Priority
+|-
+|1
+| Name of the deliverable
+|Describe the deliverable / results
+| style="width:80px;" |High / medium / low
+|-
+|2
+|
+|
+| style="width:80px;" |
+|-
+|3
+|
+|
+| style="width:80px;" |
+|}
+
+===Out of scope ===
+{| class="wikitable" style="width:100%;"
+!Deliverables
+!Description
+|-
+|Name of the deliverable
+|Why is this deliverable out of scope?
+|-
+|..
+|
+|-
+|..
+|
+|}
+
+==Acceptance criteria==
+
+*80% of high priority features are available
+*Deliverable 1 is implemented
+*...
+
+==Milestones and deadlines==
+{| class="wikitable" style="width:100%;"
+!Milestone
+!Owner
+!Deadline
+!Status
+|-
+|e.g. finish development of deliverable 1
+|username
+|mm/dd
+|not started / in progress / complete
+|-
+|..
+|
+|
+|
+|-
+|..
+|
+|
+|
+|}
+
+==Reference documents==
+
+*Links to related wiki pages
+*Links to related files
+[[Category:Project plan]]
