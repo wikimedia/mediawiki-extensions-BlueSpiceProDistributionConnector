@@ -21,7 +21,7 @@
 			]
 		},
 		"BlueSpicePageTemplates": {
-			"PageTemplates": [
+			"DefaultPageTemplates": [
 				"extensions/BlueSpiceProDistributionConnector/data/Content/PageTemplates/manifest.json"
 			]
 		}
