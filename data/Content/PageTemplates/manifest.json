@@ -1,137 +1,74 @@
 {
-    "Template:PT Project plan": {
+    "Template:PT_Event_planning": {
         "lang": "en",
-        "label": "Project plan",
-        "description": "Define and scope your next project.",
-        "target_title": "Template:PT Project plan",
-        "content_path": "/pages/Template/PT_Project_plan.wiki",
-        "sha1": "a8cc137cf9e4bde3654f926f49e0e9199f936abc",
+        "label": "Event",
+        "description": "Plan an event from beginning to end",
+        "target_title": "Template:PT_Event_planning",
+        "content_path": "/pages/Template/PT_Event_planning.wiki",
+        "sha1": "5a0dcce47bb5829e8b317f4f2fc39fc27821f398",
         "old_sha1": []
     },
-    "Template:SV Projektplan": {
+    "Template:SV_Veranstaltung": {
         "lang": "de",
-        "label": "Projektplan",
-        "description": "Bestimmung der Zielsetzung und des Umfangs eines neuen Projekts.",
-        "target_title": "Template:SV Projektplan",
-        "content_path": "/pages/Template/SV_Projektplan.wiki",
-        "sha1": "de91879086ae7020788f79f533bb08ce8da9b828",
+        "label": "Veranstaltung",
+        "description": "Planungshilfe f\u00fcr Veranstaltungen anlegen",
+        "target_title": "Template:SV_Veranstaltung",
+        "content_path": "/pages/Template/SV_Veranstaltung.wiki",
+        "sha1": "c5d660f82025d9a6bdcf6483005e7f1bc1717350",
         "old_sha1": []
     },
-    "Template:PT Decision matrix": {
+    "Template:PT_Request_for_Comments": {
         "lang": "en",
-        "label": "Decision matrix",
-        "description": "Evaluate design strategies and follow up on your design decisions.",
-        "target_title": "Template:PT Decision matrix",
-        "content_path": "/pages/Template/PT_Decision_matrix.wiki",
-        "sha1": "1f7e921f84a68a6503ed053fbf7af24869af5376",
+        "label": "Request for Comments",
+        "description": "Ask for feedback about an important decision that needs to be made",
+        "target_title": "Template:PT_Request_for_Comments",
+        "content_path": "/pages/Template/PT_Request_for_Comments.wiki",
+        "sha1": "a40c6b57c0f41686c08ab2d99f26a90a00354a75",
         "old_sha1": []
     },
-    "Template:SV Entscheidungsmatrix": {
+    "Template:SV_Aufforderung_zur_Stellungnahme": {
         "lang": "de",
-        "label": "Entscheidungsmatrix",
-        "description": "Evaluieren Sie Designstrategien und verfolgen Sie Ihre Designentscheidungen.",
-        "target_title": "Template:SV Entscheidungsmatrix",
-        "content_path": "/pages/Template/SV_Entscheidungsmatrix.wiki",
-        "sha1": "b7389c7df9f07b1e1d8d3afcbf711a9359a6cd92",
+        "label": "Aufforderung zur Stellungnahme",
+        "description": "Feedback f\u00fcr eine wichtige anstehende Entscheidung sammeln\n\n*Template:PT_Decision_matrix",
+        "target_title": "en",
+        "content_path": "/pages/Template/SV_Aufforderung_zur_Stellungnahme.wiki",
+        "sha1": "f6e327090e2b3fa804d5f0470072ac0fe0d4d539",
         "old_sha1": []
     },
-    "Template:PT Design component": {
+    "Template:PT_Guideline": {
         "lang": "en",
-        "label": "Design component",
-        "description": "Document components in your design system with this handy template.",
-        "target_title": "Template:PT Design component",
-        "content_path": "/pages/Template/PT_Design_component.wiki",
-        "sha1": "9cab9b0728ec0b1725b2d5fa8c9cba0ce74ab3f1",
+        "label": "Guideline",
+        "description": "Create a code of conduct or other guideline",
+        "target_title": "Template:PT_Guideline",
+        "content_path": "/pages/Template/PT_Guideline.wiki",
+        "sha1": "53356ecd3009523e5864a970b1b6f0a25a28631e",
         "old_sha1": []
     },
-    "Template:PT ITSM Change Management": {
-        "lang": "en",
-        "label": "ITSM Change Management",
-        "description": "Manage ITSM change plans and post-implementation reviews with our template.",
-        "target_title": "Template:PT ITSM Change Management",
-        "content_path": "/pages/Template/PT_ITSM_Change_Management.wiki",
-        "sha1": "96d3f592785cca91faac16cc9c8b0b5c291c537d",
+    "Template:SV_Richtlinie": {
+        "lang": "de",
+        "label": "Richtlinie",
+        "description": "Allgemeine Verhaltensrichtlinie anlegen",
+        "target_title": "Template:SV_Richtlinie",
+        "content_path": "/pages/Template/SV_Richtlinie.wiki",
+        "sha1": "463143b237de2e79ff876ae0c795bd28ab35faef",
         "old_sha1": []
     },
-    "Template:PT ITSM Known Bugs": {
+    "Template:PT_Meeting_minutes_Management": {
         "lang": "en",
-        "label": "ITSM Known Bugs",
-        "description": "Keep your ITSM team prepared by using our template to document information about known errors.",
-        "target_title": "Template:PT ITSM Known Bugs",
-        "content_path": "/pages/Template/PT_ITSM_Known_Bugs.wiki",
-        "sha1": "2ed04b2f85d738dfc5cb3c83b9c250ae8463b435",
+        "label": "Management meeting minutes",
+        "description": "Create minutes for a regular management meeting",
+        "target_title": "Template:PT_Meeting_minutes_Management",
+        "content_path": "/pages/Template/PT_Meeting_minutes_Management.wiki",
+        "sha1": "e8450017ea6f19f80b10f227f391cffdb58d863a",
         "old_sha1": []
     },
-    "Template:PT ITSM Post Incident Reviews": {
-        "lang": "en",
-        "label": "ITSM Post Incident Review",
-        "description": "Review an incident by using our template to discover root causes and organize incident timelines.",
-        "target_title": "Template:PT ITSM Post Incident Reviews",
-        "content_path": "/pages/Template/PT_ITSM_Post_Incident_Reviews.wiki",
-        "sha1": "19bac6e0c2476f22422d0875bd62ca9815be16ec",
-        "old_sha1": []
-    },
-    "Template:PT ITSM Runbook": {
-        "lang": "en",
-        "label": "ITSM Runbook",
-        "description": "Organize troubleshooting steps so that your ITSM team can quickly respond to alerts.",
-        "target_title": "Template:PT ITSM Runbook",
-        "content_path": "/pages/Template/PT_ITSM_Runbook.wiki",
-        "sha1": "0528cb190e53f02f26f46967e80a684c44a00f04",
-        "old_sha1": []
-    },
-    "Template:PT ITSM Weekly Major Incident Report": {
-        "lang": "en",
-        "label": "ITSM Weekly Major Incident Report",
-        "description": "Keep your system running smoothly by using our template to track incidents every week.",
-        "target_title": "Template:PT ITSM Weekly Major Incident Report",
-        "content_path": "/pages/Template/PT_ITSM_Weekly_Major_Incident_Report.wiki",
-        "sha1": "6fa9933b2f2290fba5ac31a202c9223773bf774b",
-        "old_sha1": []
-    },
-    "Template:PT Sales Account Planning": {
-        "lang": "en",
-        "label": "Sales Account Planning",
-        "description": "Develop a unique sales strategy for your accounts to close more deals.",
-        "target_title": "Template:PT Sales Account Planning",
-        "content_path": "/pages/Template/PT_Sales_Account_Planning.wiki",
-        "sha1": "be5cc73786d4649f70af883b60a114c875bf92a4",
-        "old_sha1": []
-    },
-    "Template:PT Status report": {
-        "lang": "en",
-        "label": "Status report",
-        "description": "Provide regular updates to leadership and the wider team on business and product performance.",
-        "target_title": "Template:PT Status report",
-        "content_path": "/pages/Template/PT_Status_report.wiki",
-        "sha1": "dd7e0c2c1ab2ecacb44c0b0347d06d2e7853b556",
-        "old_sha1": []
-    },
-    "Template:PT Project Poster": {
-        "lang": "en",
-        "label": "Project Poster",
-        "description": "User this template to define your problem, propose a solution and get ready to execute.",
-        "target_title": "Template:PT Project Poster",
-        "content_path": "/pages/Template/PT_Project_Poster.wiki",
-        "sha1": "70bbedb0fa2ebbbed1922a0ea035e50eb9aa4c00",
-        "old_sha1": []
-    },
-    "Template:PT IT Project Poster": {
-        "lang": "en",
-        "label": "IT Project Poster",
-        "description": "Use this template to start a project that impacts many teams and/or systems.",
-        "target_title": "Template:PT IT Project Poster",
-        "content_path": "/pages/Template/PT_IT_Project_Poster.wiki",
-        "sha1": "c113e6160f71bf72481ee2dc77a64e886cbd3006",
-        "old_sha1": []
-    },
-    "Template:PT Project Status": {
-        "lang": "en",
-        "label": "Project Status",
-        "description": "Easily report progress on your projects to stakeholders.",
-        "target_title": "Template:PT Project Status",
-        "content_path": "/pages/Template/PT_Project_Status.wiki",
-        "sha1": "64fbc0c60010c56cfa282dbc30651503bb0ea9d2",
+    "Template:SV_Management_Protokoll": {
+        "lang": "de",
+        "label": "Management-Besprechung",
+        "description": "Besprechungsprotokoll f\u00fcr regelm\u00e4\u00dfige Management-Besprechungen erstellen",
+        "target_title": "Template:SV_Management_Protokoll",
+        "content_path": "/pages/Template/SV_Management_Protokoll.wiki",
+        "sha1": "0509fac551629f6c17ee756a4866126c219ce6cb",
         "old_sha1": []
     }
 }
