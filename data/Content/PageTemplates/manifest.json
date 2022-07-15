@@ -1,74 +1,74 @@
 {
-    "Template:PT_Event_planning": {
-        "lang": "en",
-        "label": "Event",
-        "description": "Plan an event from beginning to end",
-        "target_title": "Template:PT_Event_planning",
-        "content_path": "/pages/Template/PT_Event_planning.wiki",
-        "sha1": "5a0dcce47bb5829e8b317f4f2fc39fc27821f398",
-        "old_sha1": []
-    },
-    "Template:SV_Veranstaltung": {
-        "lang": "de",
-        "label": "Veranstaltung",
-        "description": "Planungshilfe f\u00fcr Veranstaltungen anlegen",
-        "target_title": "Template:SV_Veranstaltung",
-        "content_path": "/pages/Template/SV_Veranstaltung.wiki",
-        "sha1": "c5d660f82025d9a6bdcf6483005e7f1bc1717350",
-        "old_sha1": []
-    },
-    "Template:PT_Request_for_Comments": {
-        "lang": "en",
-        "label": "Request for Comments",
-        "description": "Ask for feedback about an important decision that needs to be made",
-        "target_title": "Template:PT_Request_for_Comments",
-        "content_path": "/pages/Template/PT_Request_for_Comments.wiki",
-        "sha1": "a40c6b57c0f41686c08ab2d99f26a90a00354a75",
-        "old_sha1": []
-    },
-    "Template:SV_Aufforderung_zur_Stellungnahme": {
-        "lang": "de",
-        "label": "Aufforderung zur Stellungnahme",
-        "description": "Feedback f\u00fcr eine wichtige anstehende Entscheidung sammeln\n\n*Template:PT_Decision_matrix",
-        "target_title": "en",
-        "content_path": "/pages/Template/SV_Aufforderung_zur_Stellungnahme.wiki",
-        "sha1": "f6e327090e2b3fa804d5f0470072ac0fe0d4d539",
-        "old_sha1": []
-    },
-    "Template:PT_Guideline": {
-        "lang": "en",
-        "label": "Guideline",
-        "description": "Create a code of conduct or other guideline",
-        "target_title": "Template:PT_Guideline",
-        "content_path": "/pages/Template/PT_Guideline.wiki",
-        "sha1": "53356ecd3009523e5864a970b1b6f0a25a28631e",
-        "old_sha1": []
-    },
-    "Template:SV_Richtlinie": {
-        "lang": "de",
-        "label": "Richtlinie",
-        "description": "Allgemeine Verhaltensrichtlinie anlegen",
-        "target_title": "Template:SV_Richtlinie",
-        "content_path": "/pages/Template/SV_Richtlinie.wiki",
-        "sha1": "463143b237de2e79ff876ae0c795bd28ab35faef",
-        "old_sha1": []
-    },
-    "Template:PT_Meeting_minutes_Management": {
-        "lang": "en",
-        "label": "Management meeting minutes",
-        "description": "Create minutes for a regular management meeting",
-        "target_title": "Template:PT_Meeting_minutes_Management",
-        "content_path": "/pages/Template/PT_Meeting_minutes_Management.wiki",
-        "sha1": "e8450017ea6f19f80b10f227f391cffdb58d863a",
-        "old_sha1": []
-    },
-    "Template:SV_Management_Protokoll": {
-        "lang": "de",
-        "label": "Management-Besprechung",
-        "description": "Besprechungsprotokoll f\u00fcr regelm\u00e4\u00dfige Management-Besprechungen erstellen",
-        "target_title": "Template:SV_Management_Protokoll",
-        "content_path": "/pages/Template/SV_Management_Protokoll.wiki",
-        "sha1": "0509fac551629f6c17ee756a4866126c219ce6cb",
-        "old_sha1": []
-    }
+	"Template:PT_Event_planning": {
+		"lang": "en",
+		"label": "Event",
+		"description": "Plan an event from beginning to end",
+		"target_title": "Template:PT_Event_planning",
+		"content_path": "/pages/Template/PT_Event_planning.wiki",
+		"sha1": "5a0dcce47bb5829e8b317f4f2fc39fc27821f398",
+		"old_sha1": []
+	},
+	"Template:SV_Veranstaltung": {
+		"lang": "de",
+		"label": "Veranstaltung",
+		"description": "Planungshilfe f\u00fcr Veranstaltungen anlegen",
+		"target_title": "Template:SV_Veranstaltung",
+		"content_path": "/pages/Template/SV_Veranstaltung.wiki",
+		"sha1": "c5d660f82025d9a6bdcf6483005e7f1bc1717350",
+		"old_sha1": []
+	},
+	"Template:PT_Request_for_Comments": {
+		"lang": "en",
+		"label": "Request for Comments",
+		"description": "Ask for feedback about an important decision that needs to be made",
+		"target_title": "Template:PT_Request_for_Comments",
+		"content_path": "/pages/Template/PT_Request_for_Comments.wiki",
+		"sha1": "a40c6b57c0f41686c08ab2d99f26a90a00354a75",
+		"old_sha1": []
+	},
+	"Template:SV_Aufforderung_zur_Stellungnahme": {
+		"lang": "de",
+		"label": "Aufforderung zur Stellungnahme",
+		"description": "Feedback f\u00fcr eine wichtige anstehende Entscheidung sammeln\n\n*Template:PT_Decision_matrix",
+		"target_title ": "Template:SV_Aufforderung_zur_Stellungnahme",
+		"content_path": "/pages/Template/SV_Aufforderung_zur_Stellungnahme.wiki",
+		"sha1": "f6e327090e2b3fa804d5f0470072ac0fe0d4d539",
+		"old_sha1": []
+	},
+	"Template:PT_Guideline": {
+		"lang": "en",
+		"label": "Guideline",
+		"description": "Create a code of conduct or other guideline",
+		"target_title": "Template:PT_Guideline",
+		"content_path": "/pages/Template/PT_Guideline.wiki",
+		"sha1": "53356ecd3009523e5864a970b1b6f0a25a28631e",
+		"old_sha1": []
+	},
+	"Template:SV_Richtlinie": {
+		"lang": "de",
+		"label": "Richtlinie",
+		"description": "Allgemeine Verhaltensrichtlinie anlegen",
+		"target_title": "Template:SV_Richtlinie",
+		"content_path": "/pages/Template/SV_Richtlinie.wiki",
+		"sha1": "463143b237de2e79ff876ae0c795bd28ab35faef",
+		"old_sha1": []
+	},
+	"Template:PT_Meeting_minutes_Management": {
+		"lang": "en",
+		"label": "Management meeting minutes",
+		"description": "Create minutes for a regular management meeting",
+		"target_title": "Template:PT_Meeting_minutes_Management",
+		"content_path": "/pages/Template/PT_Meeting_minutes_Management.wiki",
+		"sha1": "e8450017ea6f19f80b10f227f391cffdb58d863a",
+		"old_sha1": []
+	},
+	"Template:SV_Management_Protokoll": {
+		"lang": "de",
+		"label": "Management-Besprechung",
+		"description": "Besprechungsprotokoll f\u00fcr regelm\u00e4\u00dfige Management-Besprechungen erstellen",
+		"target_title": "Template:SV_Management_Protokoll",
+		"content_path": "/pages/Template/SV_Management_Protokoll.wiki",
+		"sha1": "0509fac551629f6c17ee756a4866126c219ce6cb",
+		"old_sha1": []
+	}
 }
