@@ -29,10 +29,37 @@
 	"Template:SV_Aufforderung_zur_Stellungnahme": {
 		"lang": "de",
 		"label": "Aufforderung zur Stellungnahme",
-		"description": "Feedback f\u00fcr eine wichtige anstehende Entscheidung sammeln\n\n*Template:PT_Decision_matrix",
-		"target_title ": "Template:SV_Aufforderung_zur_Stellungnahme",
+		"description": "Feedback f\u00fcr eine wichtige anstehende Entscheidung sammeln",
+		"target_title": "Template:SV_Aufforderung_zur_Stellungnahme",
 		"content_path": "/pages/Template/SV_Aufforderung_zur_Stellungnahme.wiki",
 		"sha1": "f6e327090e2b3fa804d5f0470072ac0fe0d4d539",
+		"old_sha1": []
+	},
+	"Template:PT_Decision_matrix": {
+		"lang": "en",
+		"label": "Decision Matrix",
+		"description": "Make an informed decision by comparing your options",
+		"target_title": "Template:PT_Decision_matrix",
+		"content_path": "/pages/Template/PT_Decision_matrix.wiki",
+		"sha1": "0e73b816dc1b32361dc5193371ae1f1e834ee547",
+		"old_sha1": []
+	},
+	"Template:SV_Entscheidungsmatrix": {
+		"lang": "de",
+		"label": "Entscheidungsmatrix",
+		"description": "Entscheidungshilfe durch den Vergleich verschiedener Optionen erstellen\n\n*Template:PT_Status_report",
+		"target_title": "en",
+		"content_path": "/pages/Template/SV_Entscheidungsmatrix.wiki",
+		"sha1": "39ffe199a3e26eeeccadd57784501f68697929b9",
+		"old_sha1": []
+	},
+	"Template:SV_Statusbericht": {
+		"lang": "de",
+		"label": "Statusbericht",
+		"description": "Stakeholder \u00fcber den derzeitigen Stand eines Projekts informieren",
+		"target_title": "Template:SV_Statusbericht",
+		"content_path": "/pages/Template/SV_Statusbericht.wiki",
+		"sha1": "54e6a5fe1fdb4788b998beb92fa2af0489b7fff5",
 		"old_sha1": []
 	},
 	"Template:PT_Guideline": {
@@ -55,7 +82,7 @@
 	},
 	"Template:PT_Meeting_minutes_Management": {
 		"lang": "en",
-		"label": "Management meeting minutes",
+		"label": "Management Meeting Minutes",
 		"description": "Create minutes for a regular management meeting",
 		"target_title": "Template:PT_Meeting_minutes_Management",
 		"content_path": "/pages/Template/PT_Meeting_minutes_Management.wiki",
