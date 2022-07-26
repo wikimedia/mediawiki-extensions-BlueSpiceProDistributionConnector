@@ -40,7 +40,8 @@
 		}
 	},
 	"Hooks": {
-		"BSUEModulePDFFindFiles": "pdfexport-convert-math-svg-to-png"
+		"BSUEModulePDFFindFiles": "pdfexport-convert-math-svg-to-png",
+		"BSUsageTrackerRegisterCollectors": "BlueSpice\\ProDistributionConnector\\Hook\\BSUsageTrackerRegisterCollectors\\NumberOfNamespaces::callback"
 	},
 	"manifest_version": 2
 }
