@@ -47,10 +47,19 @@
 	"Template:SV_Entscheidungsmatrix": {
 		"lang": "de",
 		"label": "Entscheidungsmatrix",
-		"description": "Entscheidungshilfe durch den Vergleich verschiedener Optionen erstellen\n\n*Template:PT_Status_report",
-		"target_title": "en",
+		"description": "Entscheidungshilfe durch den Vergleich verschiedener Optionen erstellen",
+		"target_title": "Template:SV_Entscheidungsmatrix",
 		"content_path": "/pages/Template/SV_Entscheidungsmatrix.wiki",
 		"sha1": "39ffe199a3e26eeeccadd57784501f68697929b9",
+		"old_sha1": []
+	},
+	"Template:PT_Status_report": {
+		"lang": "en",
+		"label": "Status Report",
+		"description": "Inform stakeholders about the current status of a project or task",
+		"target_title": "Template:PT_Status_report",
+		"content_path": "/pages/Template/PT_Status_report.wiki",
+		"sha1": "dd7e0c2c1ab2ecacb44c0b0347d06d2e7853b556",
 		"old_sha1": []
 	},
 	"Template:SV_Statusbericht": {
@@ -99,4 +108,3 @@
 		"old_sha1": []
 	}
 }
-
