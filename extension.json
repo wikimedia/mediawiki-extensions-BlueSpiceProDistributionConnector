@@ -36,6 +36,9 @@
 				},
 				"smw-report": {
 					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\SMWReportDroplet"
+				},
+				"pro-con-list": {
+					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\ProConListDroplet"
 				}
 			}
 		}
@@ -65,6 +68,20 @@
 				"droplets-smw-report-cat-label",
 				"droplets-smw-report-modified-label",
 				"droplets-smw-report-printouts-label"
+			]
+		},
+		"ext.prodistributionconnector.droplet.proConList": {
+			"scripts": [
+				"objects/ProConListDroplet.js"
+			],
+			"styles": [
+				"stylesheets/bluespice.contentdroplets.proconlist.css"
+			],
+			"messages": [
+				"droplets-pro-con-advantages-title-label",
+				"droplets-pro-con-advantages-label",
+				"droplets-pro-con-disadvantages-title-label",
+				"droplets-pro-con-disadvantages-label"
 			]
 		}
 	},

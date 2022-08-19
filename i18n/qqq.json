@@ -17,6 +17,10 @@
 	"droplets-smw-report-cat-label": "Label for number text field",
 	"droplets-smw-report-modified-label": "Label for number text field",
 	"droplets-smw-report-printouts-label": "Label for number text field",
+	"droplets-pro-con-advantages-title-label": "Label for input field for advantages title",
+	"droplets-pro-con-advantages-label": "Label for input field for advantages",
+	"droplets-pro-con-disadvantages-title-label": "Label for input field for disadvantages title",
+	"droplets-pro-con-disadvantages-label": "Label for input field for disadvantages",
 	"@metadata": {
 		"authors": []
 	}
