@@ -16,5 +16,9 @@
 	"droplets-smw-report-ns-label": "Namespace",
 	"droplets-smw-report-cat-label": "Category",
 	"droplets-smw-report-modified-label": "Modification",
-	"droplets-smw-report-printouts-label": "Printout statements"
+	"droplets-smw-report-printouts-label": "Printout statements",
+	"droplets-pro-con-advantages-title-label": "Title for advantages",
+	"droplets-pro-con-advantages-label": "Advantages",
+	"droplets-pro-con-disadvantages-title-label": "Title for disadvantages",
+	"droplets-pro-con-disadvantages-label": "Disadvantages"
 }
