@@ -21,6 +21,10 @@
 	"droplets-pro-con-advantages-label": "Label for input field for advantages",
 	"droplets-pro-con-disadvantages-title-label": "Label for input field for disadvantages title",
 	"droplets-pro-con-disadvantages-label": "Label for input field for disadvantages",
+	"droplets-modal-dialog-btn-label": "Label for input field to set button label",
+	"droplets-modal-dialog-title-label": "Label for input field to set title for dialog",
+	"droplets-modal-dialog-body-label": "Label for input field to set content for dialog",
+	"droplets-modal-dialog-footer-label": "Label for input field to set footer of dialog",
 	"@metadata": {
 		"authors": []
 	}
