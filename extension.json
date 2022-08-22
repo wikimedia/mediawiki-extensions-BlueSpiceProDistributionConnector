@@ -39,6 +39,9 @@
 				},
 				"pro-con-list": {
 					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\ProConListDroplet"
+				},
+				"modal-dialog": {
+					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\ModalDialogDroplet"
 				}
 			}
 		}
@@ -82,6 +85,18 @@
 				"droplets-pro-con-advantages-label",
 				"droplets-pro-con-disadvantages-title-label",
 				"droplets-pro-con-disadvantages-label"
+			]
+		},
+		"ext.prodistributionconnector.droplet.modalDialog": {
+			"scripts": [
+				"objects/ModalDialogDroplet.js"
+			],
+			"styles": "stylesheets/droplet.modaldialog.css",
+			"messages": [
+				"droplets-modal-dialog-btn-label",
+				"droplets-modal-dialog-title-label",
+				"droplets-modal-dialog-body-label",
+				"droplets-modal-dialog-footer-label"
 			]
 		}
 	},
