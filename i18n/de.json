@@ -18,5 +18,9 @@
 	"droplets-pro-con-advantages-title-label": "Titel für Vorteile",
 	"droplets-pro-con-advantages-label": "Vorteile",
 	"droplets-pro-con-disadvantages-title-label": "Titel für Nachteile",
-	"droplets-pro-con-disadvantages-label": "Nachteile"
+	"droplets-pro-con-disadvantages-label": "Nachteile",
+	"droplets-modal-dialog-btn-label": "Text für Button",
+	"droplets-modal-dialog-title-label": "Titel für Dialog",
+	"droplets-modal-dialog-body-label": "Inhalt für Dialog",
+	"droplets-modal-dialog-footer-label": "Footer des Dialogs"
 }
