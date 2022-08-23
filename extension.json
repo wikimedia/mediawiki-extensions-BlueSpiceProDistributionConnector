@@ -42,6 +42,9 @@
 				},
 				"modal-dialog": {
 					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\ModalDialogDroplet"
+				},
+				"decision": {
+					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\DecisionDroplet"
 				}
 			}
 		}
@@ -97,6 +100,15 @@
 				"droplets-modal-dialog-title-label",
 				"droplets-modal-dialog-body-label",
 				"droplets-modal-dialog-footer-label"
+			]
+		},
+		"ext.prodistributionconnector.droplet.decision": {
+			"scripts": [
+				"objects/DecisionDroplet.js"
+			],
+			"styles": "stylesheets/droplet.decision.css",
+			"messages": [
+				"droplets-decision-label"
 			]
 		}
 	},
