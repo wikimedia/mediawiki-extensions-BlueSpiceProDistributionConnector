@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"bs-prodistributionconnector-desc": "Verbindet BlueSpice Pro mit verschiedenen MediaWiki-Erweiterungen",
 	"bs-pro-distribution-droplet-pro-con-list-name": "Pro und Kontra",
 	"bs-pro-distribution-droplet-pro-con-list-desc": "Tabelle zum Vergleich von Pro und Kontra",
@@ -20,8 +23,5 @@
 	"droplets-modal-dialog-title-label": "Titel für Dialog",
 	"droplets-modal-dialog-body-label": "Inhalt für Dialog",
 	"droplets-modal-dialog-footer-label": "Footer des Dialogs",
-	"@metadata": {
-		"authors": []
-	},
-	"bs-prodistributionconnector-desc": "Verbindet BlueSpice Pro mit verschiedenen MediaWiki-Erweiterungen"
+	"droplets-decision-label": "Entscheidung"
 }
