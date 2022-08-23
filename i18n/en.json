@@ -24,5 +24,6 @@
 	"droplets-modal-dialog-btn-label": "Text for button",
 	"droplets-modal-dialog-title-label": "Title for dialog",
 	"droplets-modal-dialog-body-label": "Content for dialog",
-	"droplets-modal-dialog-footer-label": "Footer for dialog"
+	"droplets-modal-dialog-footer-label": "Footer for dialog",
+	"droplets-decision-label": "Decision"
 }
