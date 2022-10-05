@@ -76,5 +76,3 @@ Definieren Sie Begriffe, die möglicherweise mehrdeutig, technisch oder speziali
 
 *'''Term 1:''' Definition
 *'''Term 2:''' Definition
-
-[[Category:Guideline]]

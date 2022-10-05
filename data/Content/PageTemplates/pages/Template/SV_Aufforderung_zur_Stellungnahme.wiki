@@ -65,5 +65,3 @@ Was denken alle von dieser Idee?
 
 *Kommentar, Name / Signatur
 *Kommentar, Name / Signatur
-
-[[Category:Request for Comment]]
