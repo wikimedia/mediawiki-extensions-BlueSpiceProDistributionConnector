@@ -65,5 +65,3 @@ What does everyone think about the idea?
 
 *comment, name / sign
 *comment, name / sign
-
-[[Category:Request for Comment]]
