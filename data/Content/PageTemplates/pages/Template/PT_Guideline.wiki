@@ -75,6 +75,3 @@ Define terms that are potentially ambiguous,  technical or specialized.
 
 *'''Term 1:''' Definition
 *'''Term 2:''' Definition
-
-
-[[Category:Guideline]]
