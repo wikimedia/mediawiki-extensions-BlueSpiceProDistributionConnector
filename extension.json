@@ -15,15 +15,15 @@
 		}
 	},
 	"attributes": {
-		"BlueSpiceDistributionConnector": {
-			"ContentManifests": [
-				"extensions/BlueSpiceProDistributionConnector/data/Content/PageTemplates/manifest.json"
-			]
-		},
-		"BlueSpicePageTemplates": {
-			"DefaultPageTemplates": [
-				"extensions/BlueSpiceProDistributionConnector/data/Content/PageTemplates/manifest.json"
-			]
+		"MWStakeContentProvisioner": {
+			"ContentManifests": {
+				"DefaultContentProvisioner": [
+					"extensions/BlueSpiceProDistributionConnector/data/Content/PageTemplates/manifest.json"
+				],
+				"DefaultPageTemplates": [
+					"extensions/BlueSpiceProDistributionConnector/data/Content/PageTemplates/manifest.json"
+				]
+			}
 		},
 		"ContentDroplets": {
 			"Droplets": {
