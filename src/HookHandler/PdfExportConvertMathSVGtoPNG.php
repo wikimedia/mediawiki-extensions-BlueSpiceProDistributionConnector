@@ -106,6 +106,8 @@ class PdfExportConvertMathSVGtoPNG implements IBSUEModulePDFFindFiles {
 			$this->svgDOM->save( $svgPathname );
 
 			$this->svgHandler->rasterize( $svgPathname, $pngPathname, $width, $height );
+		} else {
+			list( $width, $height ) = getimagesize( $pngPathname );
 		}
 
 		$absFSpath = $pngPathname;
