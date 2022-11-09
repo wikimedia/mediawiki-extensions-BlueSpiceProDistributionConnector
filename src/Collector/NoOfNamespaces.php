@@ -15,7 +15,7 @@ class NoOfNamespaces extends Base {
 	public function getUsageData() {
 		$oRes = new \BS\UsageTracker\CollectorResult( $this );
 		$configBsg  = new GlobalVarConfig( 'bsg' );
-		$pageTemplatesDisabled = count( $configBsg->get( 'PageTemplatesExcludeNs' ) );
+		$pageTemplatesDisabled = count( $configBsg->get( 'PageTemplatesExcludeNs' ) ?? [] );
 		$configSmwg  = new GlobalVarConfig( 'smwg' );
 		$linksArray = $configSmwg->get( 'NamespacesWithSemanticLinks' );
 		$SMWEnabled = count( array_filter(
@@ -25,8 +25,10 @@ class NoOfNamespaces extends Base {
 					}
 		) );
 		$configWg  = new GlobalVarConfig( 'wg' );
-		$flaggedRevsEnabled = count( array_unique( $configWg->get( 'FlaggedRevsNamespaces' ) ) );
-		$readConfirmationEnabled = count( $configWg->get( 'NamespacesWithEnabledReadConfirmation' ) );
+		$flaggedRevsEnabled = count( array_unique( $configWg->get( 'FlaggedRevsNamespaces' ) ?? [] ) );
+		$readConfirmationEnabled = count( array_unique(
+			$configWg->get( 'NamespacesWithEnabledReadConfirmation' ) ?? []
+		) );
 		$count =
 		[
 			"PageTemplatesDisabled" => $pageTemplatesDisabled,
