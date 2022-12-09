@@ -18,7 +18,8 @@
 		"MWStakeContentProvisioner": {
 			"ContentManifests": {
 				"DefaultContentProvisioner": [
-					"extensions/BlueSpiceProDistributionConnector/data/Content/PageTemplates/manifest.json"
+					"extensions/BlueSpiceProDistributionConnector/data/Content/PageTemplates/manifest.json",
+					"extensions/BlueSpiceProDistributionConnector/data/Content/ContentDropletsTemplates/manifest.json"
 				],
 				"DefaultPageTemplates": [
 					"extensions/BlueSpiceProDistributionConnector/data/Content/PageTemplates/manifest.json"
