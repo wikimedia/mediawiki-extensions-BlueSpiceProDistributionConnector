@@ -1,4 +1,17 @@
 {
+	"bs-prodistributionconnector-desc": "Description of BlueSpiceProDistributionConnector for [[Special:Version]]",
+	"bs-pro-distribution-droplet-pro-con-list-name": "Title of droplet for template proconlist",
+	"bs-pro-distribution-droplet-pro-con-list-desc": "Description of droplet for template proconlist",
+	"bs-pro-distribution-droplet-math-name": "Title of droplet for tag math",
+	"bs-pro-distribution-droplet-math-desc": "Description of droplet for tag math",
+	"bs-pro-distribution-droplet-chem-name": "Title of droplet for tag chem",
+	"bs-pro-distribution-droplet-chem-desc": "Description of droplet for tag chem",
+	"bs-pro-distribution-droplet-modal-dialog-name": "Title of droplet for template modal dialog",
+	"bs-pro-distribution-droplet-modal-dialog-desc": "Description of droplet for template modal dialog",
+	"bs-pro-distribution-droplet-decision-name": "Title of droplet for template decision",
+	"bs-pro-distribution-droplet-decision-desc": "Description of droplet for template decision",
+	"bs-pro-distribution-droplet-smw-report-name": "Title of droplet for template smw report",
+	"bs-pro-distribution-droplet-smw-report-desc": "Description of droplet for template smw report",
 	"@metadata": {
 		"authors": []
 	},
