@@ -12,6 +12,11 @@
 	"bs-pro-distribution-droplet-decision-desc": "Description of droplet for template decision",
 	"bs-pro-distribution-droplet-smw-report-name": "Title of droplet for template smw report",
 	"bs-pro-distribution-droplet-smw-report-desc": "Description of droplet for template smw report",
+	"droplets-smw-report-count-label": "Label for number input field",
+	"droplets-smw-report-ns-label": "Label for number text field",
+	"droplets-smw-report-cat-label": "Label for number text field",
+	"droplets-smw-report-modified-label": "Label for number text field",
+	"droplets-smw-report-printouts-label": "Label for number text field",
 	"@metadata": {
 		"authors": []
 	},
