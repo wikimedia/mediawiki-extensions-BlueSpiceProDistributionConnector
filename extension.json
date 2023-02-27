@@ -33,6 +33,9 @@
 				},
 				"chem-form": {
 					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\ChemFormDroplet"
+				},
+				"smw-report": {
+					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\SMWReportDroplet"
 				}
 			}
 		}
@@ -50,6 +53,19 @@
 		},
 		"ext.prodistributionconnector.droplet.chem": {
 			"styles": "stylesheets/droplet.chem.css"
+		},
+		"ext.prodistributionconnector.droplet.smwreport": {
+			"scripts": [
+				"objects/SMWReport.js"
+			],
+			"styles": "stylesheets/droplet.smwreport.css",
+			"messages": [
+				"droplets-smw-report-count-label",
+				"droplets-smw-report-ns-label",
+				"droplets-smw-report-cat-label",
+				"droplets-smw-report-modified-label",
+				"droplets-smw-report-printouts-label"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
