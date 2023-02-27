@@ -6,7 +6,6 @@ namespace BlueSpice\ProDistributionConnector\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\GenericDroplet;
 use Message;
-use RawMessage;
 
 class ChemFormDroplet extends GenericDroplet {
 
@@ -19,28 +18,31 @@ class ChemFormDroplet extends GenericDroplet {
 	 * @inheritDoc
 	 */
 	public function getName(): Message {
-		return new RawMessage( 'Chemical formula' );
+		return Message::newFromKey( 'bs-pro-distribution-droplet-chem-name' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return new RawMessage( "Chemical formula" );
+		return Message::newFromKey( 'bs-pro-distribution-droplet-chem-desc' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getIcon(): string {
-		return 'check';
+		return 'droplet-chem';
 	}
 
 	/**
 	 * @inheritDoc
 	 */
-	public function getRLModule(): string {
-		return 'ext.math.visualEditor';
+	public function getRLModules(): array {
+		return [
+			'ext.math.visualEditor',
+			'ext.prodistributionconnector.droplet.chem'
+		];
 	}
 
 	/**

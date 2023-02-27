@@ -43,6 +43,18 @@
 		"BlueSpice\\ProDistributionConnector\\": "src/",
 		"BlueSpice\\ProDistributionConnector\\Tests\\": "tests/phpunit"
 	},
+	"ResourceModules": {
+		"ext.prodistributionconnector.droplet.math": {
+			"styles": "stylesheets/droplet.math.css"
+		},
+		"ext.prodistributionconnector.droplet.chem": {
+			"styles": "stylesheets/droplet.chem.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceProDistributionConnector/resources"
+	},
 	"HookHandlers": {
 		"pdfexport-convert-math-svg-to-png": {
 			"factory": "BlueSpice\\ProDistributionConnector\\HookHandler\\PdfExportConvertMathSVGtoPNG::factory",
