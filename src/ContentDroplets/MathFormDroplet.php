@@ -6,7 +6,6 @@ namespace BlueSpice\ProDistributionConnector\ContentDroplets;
 
 use MediaWiki\Extension\ContentDroplets\Droplet\GenericDroplet;
 use Message;
-use RawMessage;
 
 class MathFormDroplet extends GenericDroplet {
 
@@ -19,28 +18,31 @@ class MathFormDroplet extends GenericDroplet {
 	 * @inheritDoc
 	 */
 	public function getName(): Message {
-		return new RawMessage( 'Math formula' );
+		return Message::newFromKey( 'bs-pro-distribution-droplet-math-name' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getDescription(): Message {
-		return new RawMessage( "Math formula" );
+		return Message::newFromKey( 'bs-pro-distribution-droplet-math-desc' );
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function getIcon(): string {
-		return 'check';
+		return 'droplet-math';
 	}
 
 	/**
 	 * @inheritDoc
 	 */
-	public function getRLModule(): string {
-		return 'ext.math.visualEditor';
+	public function getRLModules(): array {
+		return [
+			'ext.math.visualEditor',
+			'ext.prodistributionconnector.droplet.math'
+		];
 	}
 
 	/**
