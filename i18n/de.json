@@ -1,4 +1,17 @@
 {
+	"bs-prodistributionconnector-desc": "Verbindet BlueSpice Pro mit verschiedenen MediaWiki-Erweiterungen",
+	"bs-pro-distribution-droplet-pro-con-list-name": "Pro und Kontra",
+	"bs-pro-distribution-droplet-pro-con-list-desc": "Tabelle zum Vergleich von Pro und Kontra",
+	"bs-pro-distribution-droplet-math-name": "Mathematische Formel",
+	"bs-pro-distribution-droplet-math-desc": "Anzeige mathematischer Formeln",
+	"bs-pro-distribution-droplet-chem-name": "Chemische Formel",
+	"bs-pro-distribution-droplet-chem-desc": "Anzeige chemischer Formeln",
+	"bs-pro-distribution-droplet-modal-dialog-name": "Modal-Button",
+	"bs-pro-distribution-droplet-modal-dialog-desc": "Konfigurierbarer Button, der einen anpassbaren Modaldialog öffnet",
+	"bs-pro-distribution-droplet-decision-name": "Entscheidung",
+	"bs-pro-distribution-droplet-decision-desc": "Hervorheben einer Entscheidung als Seitenattribut",
+	"bs-pro-distribution-droplet-smw-report-name": "Datenabfrage",
+	"bs-pro-distribution-droplet-smw-report-desc": "Abfrage zu Inhalten im Wiki",
 	"@metadata": {
 		"authors": []
 	},
