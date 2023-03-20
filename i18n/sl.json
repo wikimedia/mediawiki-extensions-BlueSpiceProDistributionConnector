@@ -4,5 +4,17 @@
 			"Eleassar"
 		]
 	},
-	"bs-prodistributionconnector-desc": "Poveže BlueSpice z različnimi razširitvami za MediaWiki"
+	"bs-prodistributionconnector-desc": "Poveže BlueSpice z različnimi razširitvami za MediaWiki",
+	"bs-pro-distribution-droplet-pro-con-list-name": "Prednosti in slabosti",
+	"bs-pro-distribution-droplet-pro-con-list-desc": "Tabela za primerjavo prednosti in slabosti",
+	"bs-pro-distribution-droplet-math-name": "Matematična formula",
+	"bs-pro-distribution-droplet-math-desc": "Prikaz matematičnih formul",
+	"bs-pro-distribution-droplet-chem-name": "Kemijska formula",
+	"bs-pro-distribution-droplet-chem-desc": "Prikaz kemijskih formul",
+	"bs-pro-distribution-droplet-modal-dialog-name": "Modalni gumb",
+	"bs-pro-distribution-droplet-modal-dialog-desc": "Nastavljiv gumb, ki odpre prilagodljiv modalni dialog",
+	"bs-pro-distribution-droplet-decision-name": "Odločitev",
+	"bs-pro-distribution-droplet-decision-desc": "Označi odločitev kot lastnost strani",
+	"bs-pro-distribution-droplet-smw-report-name": "Podatkovna poizvedba",
+	"bs-pro-distribution-droplet-smw-report-desc": "Omogoča poizvedbe po vsebini v vikiju"
 }
