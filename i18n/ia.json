@@ -4,5 +4,17 @@
 			"McDutchie"
 		]
 	},
-	"bs-prodistributionconnector-desc": "Connecte BlueSpice a varie extensiones de MediaWiki"
+	"bs-prodistributionconnector-desc": "Connecte BlueSpice a varie extensiones de MediaWiki",
+	"bs-pro-distribution-droplet-pro-con-list-name": "Pro e contra",
+	"bs-pro-distribution-droplet-pro-con-list-desc": "Tabella pro comparar factores pro e contra",
+	"bs-pro-distribution-droplet-math-name": "Formula mathematic",
+	"bs-pro-distribution-droplet-math-desc": "Monstra formulas mathematic",
+	"bs-pro-distribution-droplet-chem-name": "Formula chimic",
+	"bs-pro-distribution-droplet-chem-desc": "Monstra formulas chimic",
+	"bs-pro-distribution-droplet-modal-dialog-name": "Button modal",
+	"bs-pro-distribution-droplet-modal-dialog-desc": "Button configurabile que aperi un dialogo modal personalisabile",
+	"bs-pro-distribution-droplet-decision-name": "Decision",
+	"bs-pro-distribution-droplet-decision-desc": "Mitte in evidentia un decision como proprietate de pagina",
+	"bs-pro-distribution-droplet-smw-report-name": "Consulta de datos",
+	"bs-pro-distribution-droplet-smw-report-desc": "Permitte consultas de contento in le wiki"
 }

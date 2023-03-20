@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
-	"bs-prodistributionconnector-desc": "Verbënnt BlueSpice mat verschiddene MediaWiki Erweiderungen"
+	"bs-prodistributionconnector-desc": "Verbënnt BlueSpice mat verschiddene MediaWiki Erweiderungen",
+	"bs-pro-distribution-droplet-math-name": "Mathematesch Formel",
+	"bs-pro-distribution-droplet-chem-name": "Cheemesch Formel"
 }
