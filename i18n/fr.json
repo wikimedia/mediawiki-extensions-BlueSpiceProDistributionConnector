@@ -5,5 +5,17 @@
 			"Verdy p"
 		]
 	},
-	"bs-prodistributionconnector-desc": "Connecte BlueSpice à diverses extensions de MediaWiki"
+	"bs-prodistributionconnector-desc": "Connecte BlueSpice à diverses extensions de MediaWiki",
+	"bs-pro-distribution-droplet-pro-con-list-name": "Avantages et inconvénients",
+	"bs-pro-distribution-droplet-pro-con-list-desc": "Tableau pour comparer les avantages et les inconvénients",
+	"bs-pro-distribution-droplet-math-name": "Formule mathématique",
+	"bs-pro-distribution-droplet-math-desc": "Affichage des formules mathématiques",
+	"bs-pro-distribution-droplet-chem-name": "Formule chimique",
+	"bs-pro-distribution-droplet-chem-desc": "Affichage des formules chimiques",
+	"bs-pro-distribution-droplet-modal-dialog-name": "Bouton modal",
+	"bs-pro-distribution-droplet-modal-dialog-desc": "Bouton configurable qui ouvre un dialogue modal personnalisable",
+	"bs-pro-distribution-droplet-decision-name": "Décision",
+	"bs-pro-distribution-droplet-decision-desc": "Met en évidence une décision en tant que propriété de page",
+	"bs-pro-distribution-droplet-smw-report-name": "Requête de données",
+	"bs-pro-distribution-droplet-smw-report-desc": "Active les requêtes sur le contenu du wiki"
 }
