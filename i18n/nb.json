@@ -1,8 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jon Harald Søby"
+			"Jon Harald Søby",
+			"EdoAug"
 		]
 	},
-	"bs-prodistributionconnector-desc": "Kobler BlueSpice med diverse MediaWiki-utvidelser"
+	"bs-prodistributionconnector-desc": "Kobler BlueSpice med diverse MediaWiki-utvidelser",
+	"bs-pro-distribution-droplet-pro-con-list-name": "Fordeler og ulemper",
+	"bs-pro-distribution-droplet-pro-con-list-desc": "Tabell til sammenligning av fordeler og ulemper",
+	"bs-pro-distribution-droplet-math-name": "Matematisk formel",
+	"bs-pro-distribution-droplet-math-desc": "Visning av matematiske formler",
+	"bs-pro-distribution-droplet-chem-name": "Kjemisk formel",
+	"bs-pro-distribution-droplet-chem-desc": "Visning av kjemiske formler",
+	"bs-pro-distribution-droplet-decision-name": "Valg",
+	"bs-pro-distribution-droplet-smw-report-name": "Dataspørring",
+	"bs-pro-distribution-droplet-smw-report-desc": "Aktiver innholdsspørringer i wikien"
 }

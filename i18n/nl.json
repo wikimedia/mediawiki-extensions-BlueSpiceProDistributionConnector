@@ -1,8 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rots61"
+			"Rots61",
+			"McDutchie"
 		]
 	},
-	"bs-prodistributionconnector-desc": "Verbindt BlueSpice met verscheidene MediaWiki-uitbreidingen"
+	"bs-prodistributionconnector-desc": "Verbindt BlueSpice met verscheidene MediaWiki-uitbreidingen",
+	"bs-pro-distribution-droplet-pro-con-list-name": "Voors en tegens",
+	"bs-pro-distribution-droplet-pro-con-list-desc": "Tabel voor het vergelijken van voor- en nadelen",
+	"bs-pro-distribution-droplet-math-name": "Wiskundige formule",
+	"bs-pro-distribution-droplet-math-desc": "Weergave van wiskundige formules",
+	"bs-pro-distribution-droplet-chem-name": "Scheikundige formule",
+	"bs-pro-distribution-droplet-chem-desc": "Weergave van scheikundige formules",
+	"bs-pro-distribution-droplet-modal-dialog-name": "Modale knop",
+	"bs-pro-distribution-droplet-modal-dialog-desc": "Configureerbare knop die een aanpasbare modale dialoog opent",
+	"bs-pro-distribution-droplet-decision-name": "Beslissing",
+	"bs-pro-distribution-droplet-decision-desc": "Markeert een beslissing als een pagina-eigenschap",
+	"bs-pro-distribution-droplet-smw-report-name": "Gegevens opvragen",
+	"bs-pro-distribution-droplet-smw-report-desc": "Maakt het opvragen van inhoud in de wiki mogelijk"
 }
