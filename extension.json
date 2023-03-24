@@ -44,6 +44,19 @@
 					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\DecisionDroplet"
 				}
 			}
+		},
+		"BlueSpiceInstanceStatus": {
+			"InstanceStatusProvider": {
+				"numberofusers": {
+					"class": "BlueSpice\\ProDistributionConnector\\InstanceStatusProvider\\NumberOfUsers",
+					"services": [ "BlueSpiceUserCounter" ]
+				}
+			}
+		},
+		"BlueSpiceFoundation": {
+			"JSConfigVars": {
+				"BlueSpiceUserLimit": "\\BlueSpice\\ProDistributionConnector\\JSConfigVariable\\UserLimit::factory"
+			}
 		}
 	},
 	"MessagesDirs": {
@@ -94,6 +107,13 @@
 			"messages": [
 				"droplets-decision-label"
 			]
+		},
+		"ext.prodistributionconnector.usermanager.quota": {
+			"scripts": "ext.prodistributionconnector.usermanager.quota.js",
+			"dependencies": [
+				"ext.bluespice",
+				"oojs-ui"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
@@ -104,11 +124,42 @@
 		"pdfexport-convert-math-svg-to-png": {
 			"factory": "BlueSpice\\ProDistributionConnector\\HookHandler\\PdfExportConvertMathSVGtoPNG::factory",
 			"services": [ "MediaHandlerFactory" ]
+		},
+		"applyUserQuota": {
+			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\ApplyUserQuota",
+			"services": [ "BlueSpiceUserCounter" ]
+		}
+	},
+	"AuthManagerAutoConfig": {
+		"preauth": {
+			"UserLimitedAuthenticationProvider": {
+				"class": "BlueSpice\\ProDistributionConnector\\UserLimitedAuthenticationProvider",
+				"sort": 25
+			}
 		}
 	},
 	"Hooks": {
 		"BSUEModulePDFFindFiles": "pdfexport-convert-math-svg-to-png",
-		"BSUsageTrackerRegisterCollectors": "BlueSpice\\ProDistributionConnector\\Hook\\BSUsageTrackerRegisterCollectors\\NumberOfNamespaces::callback"
+		"BSUsageTrackerRegisterCollectors": "BlueSpice\\ProDistributionConnector\\Hook\\BSUsageTrackerRegisterCollectors\\NumberOfNamespaces::callback",
+		"BeforePageDisplay": "applyUserQuota",
+		"UnblockUser":  "applyUserQuota"
 	},
+	"config_prefix": "bsg",
+	"config": {
+		"UserLimitWhitelist": {
+			"value": [
+				"BSMaintenance", "WikiSysop", "MediaWiki default", "DynamicPageList3 extension",
+				"Mediawiki default", "Maintenance script"
+			],
+			"description": "Contains user names that do not count towards the user limit"
+		},
+		"UserLimit": {
+			"value": -1,
+			"description": "The limit of users"
+		}
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
 	"manifest_version": 2
 }

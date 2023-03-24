@@ -21,5 +21,11 @@
 	"droplets-modal-dialog-title-label": "Label for input field to set title for dialog",
 	"droplets-modal-dialog-body-label": "Label for input field to set content for dialog",
 	"droplets-modal-dialog-footer-label": "Label for input field to set footer of dialog",
-	"droplets-decision-label": "Label for input field to insert decision"
+	"droplets-decision-label": "Label for input field to insert decision",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "Value for the instance status user quota when limit is unknown.\n$1 - current number of active users",
+	"bs-pro-distribution-instance-status-number-of-users-unlimited": "Value for the instance status user quota when limit is set to unlimited.\n$1 - current number of active user",
+	"bs-pro-distribution-instance-status-number-of-users-limited": "Value for the instance status user quota when limit is set to valid number.\n$1 - current number of active user\n$2 - limit\n$3 - percent of user limit used",
+	"bs-pro-distribution-instance-status-user-quota-label": "Label for the instance status field",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "Value for the instance status user quota when limit is reached.\n$1 - current number of active users",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "Information text that the maximum number of accounts has been exceeded"
 }
