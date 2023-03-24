@@ -1,0 +1,179 @@
+<?php
+
+namespace BlueSpice\ProDistributionConnector;
+
+use Config;
+use Html;
+use MediaWiki\Block\BlockManager;
+use Message;
+use User;
+use Wikimedia\Rdbms\ILoadBalancer;
+
+class UserCounter {
+
+	/** @var Config */
+	protected $config;
+	/** @var ILoadBalancer */
+	protected $lb;
+	/** @var BlockManager */
+	protected $blockManager;
+	/** @var string[] */
+	private $warningLevels = [
+		70 => 'orange',
+		90 => 'red'
+	];
+
+	/**
+	 * @param Config $config
+	 * @param ILoadBalancer $lb
+	 * @param BlockManager $blockManager
+	 */
+	public function __construct( Config $config, ILoadBalancer $lb, BlockManager $blockManager ) {
+		$this->config = $config;
+		$this->lb = $lb;
+		$this->blockManager = $blockManager;
+	}
+
+	/**
+	 * Get the maximum allowed active user from CIMS
+	 *
+	 * @return int
+	 */
+	public function getUserLimit() {
+		return (int)$this->config->get( 'UserLimit' );
+	}
+
+	/**
+	 * Get the current number of active user.
+	 * Bots and an additional whitelist are ignored.
+	 *
+	 * @return int
+	 */
+	public function getCurrentNumberOfUser() {
+		$whitelist = $this->getUserNameWhitelist();
+		$userCount = 0;
+
+		$dbr = $this->lb->getConnection( DB_REPLICA );
+		$result = $dbr->select(
+			'user',
+			[ '*' ],
+			[ 'user_name NOT IN (' . $dbr->makeList( $whitelist ) . ')' ],
+			__METHOD__
+		);
+
+		if ( !$result ) {
+			return $userCount;
+		}
+
+		foreach ( $result as $row ) {
+			$user = User::newFromRow( $row );
+			$blockStatus = $this->blockManager->getUserBlock( $user, null, true );
+
+			if ( $blockStatus === null ) {
+				$userCount++;
+			}
+		}
+
+		return (int)$userCount;
+	}
+
+	/**
+	 * Get the formatted status sentence as HTML
+	 * @return string
+	 */
+	public function getSentenceHtml() {
+		return $this->getSentenceInternal( true );
+	}
+
+	/**
+	 * Get status sentence
+	 * @return string
+	 */
+	public function getSentence() {
+		return $this->getSentenceInternal( false );
+	}
+
+	/**
+	 * Get ratio of usage
+	 *
+	 * @param int|null $currentCount
+	 * @param int|null $limit
+	 * @return int|null
+	 */
+	public function getRatio( ?int $currentCount = null, ?int $limit = null ) {
+		if ( $currentCount === null ) {
+			$currentCount = $this->getCurrentNumberOfUser();
+		}
+		if ( $limit === null ) {
+			$limit = $this->getUserLimit();
+			if ( $limit < 1 ) {
+				return null;
+			}
+		}
+		return intval( ( $currentCount * 100 ) / $limit );
+	}
+
+	/**
+	 * @param bool|null $html
+	 * @return string
+	 */
+	protected function getSentenceInternal( $html = false ) {
+		$currentCount = $this->getCurrentNumberOfUser();
+		$limit = $this->getUserLimit();
+		$percent = null;
+
+		if ( $limit === 0 ) {
+			$status = Message::newFromKey(
+				'bs-pro-distribution-instance-status-number-of-users-unknown'
+			)->params( $currentCount )->parse();
+		} elseif ( $limit === -1 ) {
+			$status = Message::newFromKey(
+				'bs-pro-distribution-instance-status-number-of-users-unlimited'
+			)->params( $currentCount )->parse();
+		} else {
+			$percent = $this->getRatio( $currentCount, $limit );
+			if ( $percent > 99 ) {
+				$status = Message::newFromKey(
+					'bs-pro-distribution-instance-status-number-of-users-limited-full'
+				)->params( $currentCount )->parse();
+			} else {
+				$status = Message::newFromKey(
+					'bs-pro-distribution-instance-status-number-of-users-limited'
+				)->params( $currentCount, $limit, $percent )->parse();
+			}
+		}
+
+		if ( !$html ) {
+			return $status;
+		}
+
+		if ( $percent !== null ) {
+			$color = 'green';
+			foreach ( $this->warningLevels as $level => $levelColor ) {
+				if ( $level <= $percent ) {
+					$color = $levelColor;
+				}
+			}
+
+			$html = Html::openElement( 'span', [
+				'style' => "color: $color",
+			] );
+		} else {
+			$html = Html::openElement( 'span' );
+		}
+
+		$html .= $status;
+		$html .= Html::closeElement( 'span' );
+
+		return $html;
+	}
+
+	/**
+	 * Get a whitelist with user which are not counted for the limit
+	 *
+	 * @return array
+	 */
+	private function getUserNameWhitelist() {
+		return $this->config->get( 'UserLimitWhitelist' );
+	}
+}
