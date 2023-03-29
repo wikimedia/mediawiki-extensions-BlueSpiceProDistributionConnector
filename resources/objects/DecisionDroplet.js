@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-global-assign
 ext = ext || {};
 ext.proDistribution = ext.proDistribution || {};
-ext.proDistribution.objects = {};
+ext.proDistribution.objects = ext.proDistribution.objects || {};
 
 ext.proDistribution.objects.DecisionDroplet = function( cfg ) {
 	ext.proDistribution.objects.DecisionDroplet.parent.call( this, cfg );

@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-global-assign
 ext = ext || {};
 ext.proDistribution = ext.proDistribution || {};
-ext.proDistribution.objects = {};
+ext.proDistribution.objects = ext.proDistribution.objects || {};
 
 ext.proDistribution.objects.ProConListDroplet = function( cfg ) {
 	ext.proDistribution.objects.ProConListDroplet.parent.call( this, cfg );
