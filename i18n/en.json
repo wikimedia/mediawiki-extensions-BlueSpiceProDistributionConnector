@@ -11,5 +11,19 @@
 	"bs-pro-distribution-droplet-decision-name": "Decision",
 	"bs-pro-distribution-droplet-decision-desc": "Highlights a decision as a page property",
 	"bs-pro-distribution-droplet-smw-report-name": "Data query",
-	"bs-pro-distribution-droplet-smw-report-desc": "Enables queries on content in the wiki"
+	"bs-pro-distribution-droplet-smw-report-desc": "Enables queries on content in the wiki",
+	"droplets-smw-report-count-label": "Number",
+	"droplets-smw-report-ns-label": "Namespace",
+	"droplets-smw-report-cat-label": "Category",
+	"droplets-smw-report-modified-label": "Modification",
+	"droplets-smw-report-printouts-label": "Printout statements",
+	"droplets-pro-con-advantages-title-label": "Title for advantages",
+	"droplets-pro-con-advantages-label": "Advantages",
+	"droplets-pro-con-disadvantages-title-label": "Title for disadvantages",
+	"droplets-pro-con-disadvantages-label": "Disadvantages",
+	"droplets-modal-dialog-btn-label": "Text for button",
+	"droplets-modal-dialog-title-label": "Title for dialog",
+	"droplets-modal-dialog-body-label": "Content for dialog",
+	"droplets-modal-dialog-footer-label": "Footer for dialog",
+	"droplets-decision-label": "Decision"
 }

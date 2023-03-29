@@ -14,5 +14,19 @@
 	"bs-pro-distribution-droplet-decision-name": "Title of droplet for template decision",
 	"bs-pro-distribution-droplet-decision-desc": "Description of droplet for template decision",
 	"bs-pro-distribution-droplet-smw-report-name": "Title of droplet for template smw report",
-	"bs-pro-distribution-droplet-smw-report-desc": "Description of droplet for template smw report"
+	"bs-pro-distribution-droplet-smw-report-desc": "Description of droplet for template smw report",
+	"droplets-smw-report-count-label": "Label for number input field",
+	"droplets-smw-report-ns-label": "Label for number text field",
+	"droplets-smw-report-cat-label": "Label for number text field",
+	"droplets-smw-report-modified-label": "Label for number text field",
+	"droplets-smw-report-printouts-label": "Label for number text field",
+	"droplets-pro-con-advantages-title-label": "Label for input field for advantages title",
+	"droplets-pro-con-advantages-label": "Label for input field for advantages",
+	"droplets-pro-con-disadvantages-title-label": "Label for input field for disadvantages title",
+	"droplets-pro-con-disadvantages-label": "Label for input field for disadvantages",
+	"droplets-modal-dialog-btn-label": "Label for input field to set button label",
+	"droplets-modal-dialog-title-label": "Label for input field to set title for dialog",
+	"droplets-modal-dialog-body-label": "Label for input field to set content for dialog",
+	"droplets-modal-dialog-footer-label": "Label for input field to set footer of dialog",
+	"droplets-decision-label": "Label for input field to insert decision"
 }
