@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-global-assign
 ext = ext || {};
 ext.proDistribution = ext.proDistribution || {};
-ext.proDistribution.objects = {};
+ext.proDistribution.objects = ext.proDistribution.objects || {};
 ext.proDistribution.objects.ModalDialogDroplet = function( cfg ) {
 	ext.proDistribution.objects.ModalDialogDroplet.parent.call( this, cfg );
 };
