@@ -16,5 +16,19 @@
 	"bs-pro-distribution-droplet-decision-name": "Odločitev",
 	"bs-pro-distribution-droplet-decision-desc": "Označi odločitev kot lastnost strani",
 	"bs-pro-distribution-droplet-smw-report-name": "Podatkovna poizvedba",
-	"bs-pro-distribution-droplet-smw-report-desc": "Omogoča poizvedbe po vsebini v vikiju"
+	"bs-pro-distribution-droplet-smw-report-desc": "Omogoča poizvedbe po vsebini v vikiju",
+	"droplets-smw-report-count-label": "Številka",
+	"droplets-smw-report-ns-label": "Imenski prostor",
+	"droplets-smw-report-cat-label": "Kategorija",
+	"droplets-smw-report-modified-label": "Sprememba",
+	"droplets-smw-report-printouts-label": "Izjave za izpis",
+	"droplets-pro-con-advantages-title-label": "Naslov za prednosti",
+	"droplets-pro-con-advantages-label": "Prednosti",
+	"droplets-pro-con-disadvantages-title-label": "Naslov za slabosti",
+	"droplets-pro-con-disadvantages-label": "Slabosti",
+	"droplets-modal-dialog-btn-label": "Besedilo za gumb",
+	"droplets-modal-dialog-title-label": "Naslov pogovornega okna",
+	"droplets-modal-dialog-body-label": "Vsebina za pogovorno okno",
+	"droplets-modal-dialog-footer-label": "Noga za pogovorno okno",
+	"droplets-decision-label": "Odločitev"
 }
