@@ -1,8 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Juan90264"
+			"Juan90264",
+			"Re demz"
 		]
 	},
-	"bs-prodistributionconnector-desc": "Conecta o BlueSpice a várias extensões do MediaWiki"
+	"bs-prodistributionconnector-desc": "Conecta o BlueSpice a várias extensões do MediaWiki",
+	"droplets-smw-report-count-label": "Número",
+	"droplets-smw-report-ns-label": "Espaço nominal",
+	"droplets-smw-report-cat-label": "Categoria",
+	"droplets-smw-report-modified-label": "Modificação",
+	"droplets-pro-con-advantages-title-label": "Título para vantagens",
+	"droplets-pro-con-advantages-label": "Vantagens",
+	"droplets-pro-con-disadvantages-title-label": "Título para disavantagens",
+	"droplets-pro-con-disadvantages-label": "Disavantagens",
+	"droplets-modal-dialog-btn-label": "Texto para botão",
+	"droplets-modal-dialog-title-label": "Título para diálogo",
+	"droplets-modal-dialog-body-label": "Conteúdo para diálogo",
+	"droplets-decision-label": "Decisão"
 }
