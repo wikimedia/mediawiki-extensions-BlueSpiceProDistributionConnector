@@ -16,5 +16,19 @@
 	"bs-pro-distribution-droplet-decision-name": "Decision",
 	"bs-pro-distribution-droplet-decision-desc": "Mitte in evidentia un decision como proprietate de pagina",
 	"bs-pro-distribution-droplet-smw-report-name": "Consulta de datos",
-	"bs-pro-distribution-droplet-smw-report-desc": "Permitte consultas de contento in le wiki"
+	"bs-pro-distribution-droplet-smw-report-desc": "Permitte consultas de contento in le wiki",
+	"droplets-smw-report-count-label": "Numero",
+	"droplets-smw-report-ns-label": "Spatio de nomines",
+	"droplets-smw-report-cat-label": "Categoria",
+	"droplets-smw-report-modified-label": "Modification",
+	"droplets-smw-report-printouts-label": "Declarationes a imprimer",
+	"droplets-pro-con-advantages-title-label": "Titulo pro avantages",
+	"droplets-pro-con-advantages-label": "Avantages",
+	"droplets-pro-con-disadvantages-title-label": "Titulo pro disavantages",
+	"droplets-pro-con-disadvantages-label": "Disavantages",
+	"droplets-modal-dialog-btn-label": "Texto pro button",
+	"droplets-modal-dialog-title-label": "Titulo pro dialogo",
+	"droplets-modal-dialog-body-label": "Contento pro dialogo",
+	"droplets-modal-dialog-footer-label": "Pede pro dialogo",
+	"droplets-decision-label": "Decision"
 }
