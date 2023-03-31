@@ -1,8 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
+			"Beta16",
 			"GpieroMW"
 		]
 	},
-	"bs-prodistributionconnector-desc": "Connette BlueSpice a diverse estensioni MediaWiki"
+	"bs-prodistributionconnector-desc": "Connette BlueSpice a diverse estensioni MediaWiki",
+	"droplets-smw-report-count-label": "Numero",
+	"droplets-smw-report-ns-label": "Namespace",
+	"droplets-smw-report-cat-label": "Categoria",
+	"droplets-modal-dialog-btn-label": "Testo per pulsante",
+	"droplets-modal-dialog-title-label": "Titolo per dialogo",
+	"droplets-modal-dialog-footer-label": "Piè di pagina per la finestra di dialogo",
+	"droplets-decision-label": "Decisione"
 }

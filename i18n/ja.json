@@ -4,5 +4,8 @@
 			"MathXplore"
 		]
 	},
-	"bs-pro-distribution-droplet-chem-name": "化学式"
+	"bs-pro-distribution-droplet-chem-name": "化学式",
+	"droplets-smw-report-ns-label": "名前空間",
+	"droplets-smw-report-cat-label": "カテゴリ",
+	"droplets-smw-report-modified-label": "変更"
 }
