@@ -7,5 +7,8 @@
 	},
 	"bs-prodistributionconnector-desc": "Verbënnt BlueSpice mat verschiddene MediaWiki Erweiderungen",
 	"bs-pro-distribution-droplet-math-name": "Mathematesch Formel",
-	"bs-pro-distribution-droplet-chem-name": "Cheemesch Formel"
+	"bs-pro-distribution-droplet-chem-name": "Cheemesch Formel",
+	"droplets-smw-report-ns-label": "Nummraum",
+	"droplets-smw-report-cat-label": "Kategorie",
+	"droplets-pro-con-advantages-label": "Virdeeler"
 }
