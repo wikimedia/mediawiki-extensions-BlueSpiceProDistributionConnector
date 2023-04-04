@@ -17,5 +17,19 @@
 	"bs-pro-distribution-droplet-decision-name": "Décision",
 	"bs-pro-distribution-droplet-decision-desc": "Met en évidence une décision en tant que propriété de page",
 	"bs-pro-distribution-droplet-smw-report-name": "Requête de données",
-	"bs-pro-distribution-droplet-smw-report-desc": "Active les requêtes sur le contenu du wiki"
+	"bs-pro-distribution-droplet-smw-report-desc": "Active les requêtes sur le contenu du wiki",
+	"droplets-smw-report-count-label": "Nombre",
+	"droplets-smw-report-ns-label": "Espace de noms",
+	"droplets-smw-report-cat-label": "Catégorie",
+	"droplets-smw-report-modified-label": "Modification",
+	"droplets-smw-report-printouts-label": "Déclarations imprimées",
+	"droplets-pro-con-advantages-title-label": "Titre pour les avantages",
+	"droplets-pro-con-advantages-label": "Avantages",
+	"droplets-pro-con-disadvantages-title-label": "Titre pour les inconvénients",
+	"droplets-pro-con-disadvantages-label": "Inconvénients",
+	"droplets-modal-dialog-btn-label": "Texte pour le bouton",
+	"droplets-modal-dialog-title-label": "Titre pour la boîte de dialogue",
+	"droplets-modal-dialog-body-label": "Contenu de la boîte de dialogue",
+	"droplets-modal-dialog-footer-label": "Pied de la boîte de dialogue",
+	"droplets-decision-label": "Décision"
 }
