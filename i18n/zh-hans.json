@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"850710247liu",
+			"Kishinsagi",
 			"StarrySky"
 		]
 	},
 	"bs-prodistributionconnector-desc": "将BlueSpice连接到各种MediaWiki的扩展",
-	"bs-pro-distribution-droplet-pro-con-list-name": "优点和缺点"
+	"bs-pro-distribution-droplet-pro-con-list-name": "优点和缺点",
+	"droplets-smw-report-ns-label": "命名空间"
 }
