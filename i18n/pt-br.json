@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Eduardoaddad",
 			"Juan90264",
 			"Re demz"
 		]
@@ -17,5 +18,6 @@
 	"droplets-modal-dialog-btn-label": "Texto para botão",
 	"droplets-modal-dialog-title-label": "Título para diálogo",
 	"droplets-modal-dialog-body-label": "Conteúdo para diálogo",
-	"droplets-decision-label": "Decisão"
+	"droplets-decision-label": "Decisão",
+	"bs-pro-distribution-droplet-decision-name": "Decisão"
 }

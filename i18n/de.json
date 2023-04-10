@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"MGChecker"
+		]
 	},
 	"bs-prodistributionconnector-desc": "Verbindet BlueSpice Pro mit verschiedenen MediaWiki-Erweiterungen",
 	"bs-pro-distribution-droplet-pro-con-list-name": "Pro und Kontra",
@@ -23,5 +25,7 @@
 	"droplets-modal-dialog-title-label": "Titel für Dialog",
 	"droplets-modal-dialog-body-label": "Inhalt für Dialog",
 	"droplets-modal-dialog-footer-label": "Footer des Dialogs",
-	"droplets-decision-label": "Entscheidung"
+	"droplets-decision-label": "Entscheidung",
+	"droplets-smw-report-ns-label": "Namensraum",
+	"droplets-smw-report-cat-label": "Kategorie"
 }
