@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Juan90264",
-			"Re demz"
+			"Re demz",
+			"Eduardoaddad"
 		]
 	},
 	"bs-prodistributionconnector-desc": "Conecta o BlueSpice a várias extensões do MediaWiki",
+	"bs-pro-distribution-droplet-decision-name": "Decisão",
 	"droplets-smw-report-count-label": "Número",
 	"droplets-smw-report-ns-label": "Espaço nominal",
 	"droplets-smw-report-cat-label": "Categoria",
