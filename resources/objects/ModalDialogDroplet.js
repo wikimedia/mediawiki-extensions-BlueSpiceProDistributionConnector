@@ -24,6 +24,25 @@ ext.proDistribution.objects.ModalDialogDroplet.prototype.getFormItems = function
 			type: 'text'
 		},
 		{
+			name: 'bg-color',
+			label: mw.message( 'droplets-modal-dialog-bg-color-label' ).plain(),
+			type: 'dropdown',
+			options: [
+				{
+					data: 'blue',
+					label: mw.message( 'droplets-modal-dialog-bg-color-blue' ).plain()
+				},
+				{
+					data: 'neutral',
+					label: mw.message( 'droplets-modal-dialog-bg-color-neutral' ).plain()
+				},
+				{
+					data: 'red',
+					label: mw.message( 'droplets-modal-dialog-bg-color-red' ).plain()
+				}
+			]
+		},
+		{
 			name: 'title',
 			label: mw.message( 'droplets-modal-dialog-title-label' ).plain(),
 			type: 'text'

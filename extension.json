@@ -99,7 +99,11 @@
 				"droplets-modal-dialog-btn-label",
 				"droplets-modal-dialog-title-label",
 				"droplets-modal-dialog-body-label",
-				"droplets-modal-dialog-footer-label"
+				"droplets-modal-dialog-footer-label",
+				"droplets-modal-dialog-bg-color-label",
+				"droplets-modal-dialog-bg-color-blue",
+				"droplets-modal-dialog-bg-color-red",
+				"droplets-modal-dialog-bg-color-neutral"
 			]
 		},
 		"ext.prodistributionconnector.droplet.decision": {
