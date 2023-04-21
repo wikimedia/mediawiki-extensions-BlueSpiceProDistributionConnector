@@ -33,12 +33,5 @@
         "content_path": "/pages/Template/ProConListstyles.css.wiki",
         "sha1": "144f3777691f7beb29e615b87dbc95252c89ee42",
         "old_sha1": []
-    },
-    "Template:SMWReport": {
-        "lang": "en",
-        "target_title": "Template:SMWReport",
-        "content_path": "/pages/Template/SMWReport.wiki",
-        "sha1": "6c0c47a09a65e3a322ce099ec4dfc667a80d84e6",
-        "old_sha1": []
     }
 }
