@@ -1,3 +1,0 @@
-<div>
-<bs:smartlist count="{{{count|5}}}" categories="{{{categories|}}}" namespaces="{{{namespaces|}}}" modified="{{{modified|}}}" printouts="{{{printouts|}}}" mode="smwreport"/>
-</div>
