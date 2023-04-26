@@ -6,8 +6,5 @@
 		]
 	},
 	"bs-prodistributionconnector-desc": "連接 BlueSpice 至各種 MediaWiki 擴充套件",
-	"droplets-smw-report-ns-label": "命名空間",
-	"droplets-smw-report-cat-label": "分類",
-	"droplets-smw-report-modified-label": "修改",
 	"droplets-modal-dialog-btn-label": "按鈕文字"
 }

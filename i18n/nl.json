@@ -15,7 +15,5 @@
 	"bs-pro-distribution-droplet-modal-dialog-name": "Modale knop",
 	"bs-pro-distribution-droplet-modal-dialog-desc": "Configureerbare knop die een aanpasbare modale dialoog opent",
 	"bs-pro-distribution-droplet-decision-name": "Beslissing",
-	"bs-pro-distribution-droplet-decision-desc": "Markeert een beslissing als een pagina-eigenschap",
-	"bs-pro-distribution-droplet-smw-report-name": "Gegevens opvragen",
-	"bs-pro-distribution-droplet-smw-report-desc": "Maakt het opvragen van inhoud in de wiki mogelijk"
+	"bs-pro-distribution-droplet-decision-desc": "Markeert een beslissing als een pagina-eigenschap"
 }

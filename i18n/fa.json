@@ -5,11 +5,6 @@
 		]
 	},
 	"bs-pro-distribution-droplet-decision-name": "تصمیم",
-	"bs-pro-distribution-droplet-smw-report-name": "پرسمان تاریخ",
-	"droplets-smw-report-count-label": "شماره",
-	"droplets-smw-report-ns-label": "فضای نام",
-	"droplets-smw-report-cat-label": "رده",
-	"droplets-smw-report-modified-label": "آگاه‌سازی",
 	"droplets-modal-dialog-btn-label": "متن برای دکمه",
 	"droplets-modal-dialog-title-label": "عنوان پنجره",
 	"droplets-modal-dialog-body-label": "محتوای پنجره",
