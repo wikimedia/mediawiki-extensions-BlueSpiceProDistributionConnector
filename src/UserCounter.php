@@ -11,6 +11,21 @@ use Wikimedia\Rdbms\ILoadBalancer;
 
 class UserCounter {
 
+	/** @var array */
+	private $userLimits = [
+		'9d3cc888b83410c13b1406f784fb55129c36b520' => 50,
+		'a416fa165396d208d806b63ba409b86e23c2cb10' => 100,
+		'9d30f6794f1ee6bc3d8d4e7495aff9e6ffb12d75' => 250,
+		'88530acf24588b4b8ad0cae873ab22d19f77f959' => 500,
+		'20942e9dc9d1eed4c73f90add45f650b64d8f5e2' => 1000,
+		'c9ece401393ea5533037675658c4299826a02859' => 2000,
+		'2d5eddf952cfebd4966242c464acb3842f6f648c' => 2500,
+		'c0e5ea7b86dde728f5d33de195210bbad57d9b71' => 5000,
+		'0a6d3a57ad1565dbd78f1126df3d315932fd5489' => 10000,
+		// Unlimited
+		'5185bf3320c8930f2cd4b7bbbe500b7151ead181' => -1,
+	];
+
 	/** @var Config */
 	protected $config;
 	/** @var ILoadBalancer */
@@ -40,7 +55,11 @@ class UserCounter {
 	 * @return int
 	 */
 	public function getUserLimit() {
-		return (int)$this->config->get( 'UserLimit' );
+		$licenseKey = $this->normalizeLicenseKey( (string)$this->config->get( 'LicenseKey' ) );
+		if ( !$licenseKey || !isset( $this->userLimits[$licenseKey] ) ) {
+			return array_values( $this->userLimits )[0];
+		}
+		return $this->userLimits[$licenseKey];
 	}
 
 	/**
@@ -175,5 +194,18 @@ class UserCounter {
 	 */
 	private function getUserNameWhitelist() {
 		return $this->config->get( 'UserLimitWhitelist' );
+	}
+
+	/**
+	 * @param string $key
+	 *
+	 * @return string
+	 */
+	private function normalizeLicenseKey( string $key ): string {
+		if ( !$key ) {
+			return '';
+		}
+		$key = trim( strtolower( str_replace( '-', '', $key ) ) );
+		return sha1( $key );
 	}
 }
