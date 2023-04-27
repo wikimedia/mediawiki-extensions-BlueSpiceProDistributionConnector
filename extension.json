@@ -56,6 +56,9 @@
 		"BlueSpiceFoundation": {
 			"JSConfigVars": {
 				"BlueSpiceUserLimit": "\\BlueSpice\\ProDistributionConnector\\JSConfigVariable\\UserLimit::factory"
+			},
+			"ConfigDefinitionRegistry": {
+				"LicenseKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\LicenseKey::getInstance"
 			}
 		}
 	},
@@ -153,9 +156,9 @@
 			],
 			"description": "Contains user names that do not count towards the user limit"
 		},
-		"UserLimit": {
-			"value": -1,
-			"description": "The limit of users"
+		"LicenseKey": {
+			"value": null,
+			"description": "License key for BlueSpice edition"
 		}
 	},
 	"ServiceWiringFiles": [

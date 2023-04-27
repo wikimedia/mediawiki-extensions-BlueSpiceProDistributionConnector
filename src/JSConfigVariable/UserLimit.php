@@ -1,6 +1,6 @@
 <?php
 
-namespace BlueSpice\ProDistributionConnector;
+namespace BlueSpice\ProDistributionConnector\JSConfigVariable;
 
 use BlueSpice\JSConfigVariable;
 use MediaWiki\MediaWikiServices;
