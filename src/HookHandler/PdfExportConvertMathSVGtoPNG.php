@@ -146,7 +146,7 @@ class PdfExportConvertMathSVGtoPNG implements IBSUEModulePDFFindFiles {
 			'',
 			$this->svgDOM->documentElement->getAttribute( $dimension )
 		);
-		$val = (int)$val * 30;
+		$val = (int)$val * 20;
 
 		return $val;
 	}
