@@ -114,8 +114,8 @@ class PdfExportConvertMathSVGtoPNG implements IBSUEModulePDFFindFiles {
 		$fileName = wfBaseName( $pngPathname );
 		$imgEl->setAttribute( 'src', 'images/' . $fileName );
 		$imgEl->setAttribute( 'style', '' );
-		$imgEl->setAttribute( 'width', ( $width / 300 ) . 'cm' );
-		$imgEl->setAttribute( 'height', ( $height / 300 ) . 'cm' );
+		$imgEl->setAttribute( 'width', ( $width / 150 ) . 'cm' );
+		$imgEl->setAttribute( 'height', ( $height / 150 ) . 'cm' );
 
 		return true;
 	}
@@ -146,7 +146,7 @@ class PdfExportConvertMathSVGtoPNG implements IBSUEModulePDFFindFiles {
 			'',
 			$this->svgDOM->documentElement->getAttribute( $dimension )
 		);
-		$val = (int)$val * 60;
+		$val = (int)$val * 20;
 
 		return $val;
 	}
