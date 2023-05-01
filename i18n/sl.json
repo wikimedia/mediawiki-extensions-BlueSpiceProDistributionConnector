@@ -30,5 +30,12 @@
 	"droplets-modal-dialog-title-label": "Naslov pogovornega okna",
 	"droplets-modal-dialog-body-label": "Vsebina za pogovorno okno",
 	"droplets-modal-dialog-footer-label": "Noga za pogovorno okno",
-	"droplets-decision-label": "Odločitev"
+	"droplets-decision-label": "Odločitev",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "Trenutno {{PLURAL:$1|je '''$1''' registriran aktivni uporabnik|sta '''$1''' registrirana aktivna uporabnika|so '''$1''' aktivni registrirani uporabniki|je '''$1''' registriranih uporabnikov}}. Ni znane nastavljene omejitve.",
+	"bs-pro-distribution-instance-status-number-of-users-unlimited": "Trenutno {{PLURAL:$1|je '''$1''' registriran aktivni uporabnik|sta '''$1''' registrirana aktivna uporabnika|so '''$1''' aktivni registrirani uporabniki|je '''$1''' registriranih uporabnikov}}. Število uporabnikov je neomejeno.",
+	"bs-pro-distribution-instance-status-number-of-users-limited": "Trenutno {{PLURAL:$1|je '''$1''' registriran aktivni uporabnik|sta '''$1''' registrirana aktivna uporabnika|so '''$1''' aktivni registrirani uporabniki|je '''$1''' registriranih uporabnikov}} ($3%). Število uporabnikov je oomejeno na $2.",
+	"bs-pro-distribution-instance-status-user-quota-label": "Kvota uporabnikov",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "Trenutno {{PLURAL:$1|je '''$1''' registriran aktivni uporabnik|sta '''$1''' registrirana aktivna uporabnika|so '''$1''' aktivni registrirani uporabniki|je '''$1''' registriranih uporabnikov}}. Doseženo je bilo največje število uporabnikov! Kontaktirajte ekipo BlueSpice, da povečate število dovoljenih uporabnikov, ali onemogočite nekatere obstoječe uporabnike, da lahko ustvarite nove uporabnike.",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "Preseženo je bilo največje število računov",
+	"bs-pro-distribution-config-license-key": "Licenčni ključ BlueSpice"
 }
