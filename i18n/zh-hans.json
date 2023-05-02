@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"850710247liu",
+			"GuoPC",
 			"Kishinsagi",
 			"StarrySky"
 		]
 	},
 	"bs-prodistributionconnector-desc": "将BlueSpice连接到各种MediaWiki的扩展",
-	"bs-pro-distribution-droplet-pro-con-list-name": "优点和缺点"
+	"bs-pro-distribution-droplet-pro-con-list-name": "优点和缺点",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "{{PLURAL:$1|已注册的活跃用户有'''$1'''个}}。未设置已知的限制。"
 }
