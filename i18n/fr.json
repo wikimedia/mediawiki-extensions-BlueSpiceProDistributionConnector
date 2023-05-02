@@ -16,13 +16,6 @@
 	"bs-pro-distribution-droplet-modal-dialog-desc": "Bouton configurable qui ouvre un dialogue modal personnalisable",
 	"bs-pro-distribution-droplet-decision-name": "Décision",
 	"bs-pro-distribution-droplet-decision-desc": "Met en évidence une décision en tant que propriété de page",
-	"bs-pro-distribution-droplet-smw-report-name": "Requête de données",
-	"bs-pro-distribution-droplet-smw-report-desc": "Active les requêtes sur le contenu du wiki",
-	"droplets-smw-report-count-label": "Nombre",
-	"droplets-smw-report-ns-label": "Espace de noms",
-	"droplets-smw-report-cat-label": "Catégorie",
-	"droplets-smw-report-modified-label": "Modification",
-	"droplets-smw-report-printouts-label": "Déclarations imprimées",
 	"droplets-pro-con-advantages-title-label": "Titre pour les avantages",
 	"droplets-pro-con-advantages-label": "Avantages",
 	"droplets-pro-con-disadvantages-title-label": "Titre pour les inconvénients",
@@ -31,5 +24,12 @@
 	"droplets-modal-dialog-title-label": "Titre pour la boîte de dialogue",
 	"droplets-modal-dialog-body-label": "Contenu de la boîte de dialogue",
 	"droplets-modal-dialog-footer-label": "Pied de la boîte de dialogue",
-	"droplets-decision-label": "Décision"
+	"droplets-decision-label": "Décision",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "Il y a '''$1''' utilisateur{{PLURAL:$1||s}} actif{{PLURAL:$1||s}} inscrit{{PLURAL:$1||s}}. Aucune limite connue n’est définie.",
+	"bs-pro-distribution-instance-status-number-of-users-unlimited": "Il y a '''$1''' utilisateur{{PLURAL:$1||s}} actif{{PLURAL:$1||s}} inscrit{{PLURAL:$1||s}}. Le nombre d’utilisateurs est illimité.",
+	"bs-pro-distribution-instance-status-number-of-users-limited": "Il y a '''$1''' utilisateur{{PLURAL:$1||s}} actif{{PLURAL:$1||s}} inscrit{{PLURAL:$1||s}} ($3 %). Le nombre d’utilisateurs est limité à $2.",
+	"bs-pro-distribution-instance-status-user-quota-label": "Quota d’utilisateurs",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "Il y a '''$1''' utilisateur{{PLURAL:$1||s}} actif{{PLURAL:$1||s}} inscrit{{PLURAL:$1||s}}. Le nombre maximum d’utilisateurs est atteint ! Veuillez contacter l’équipe de BlueSpice pour augmenter le nombre d’utilisateurs autorisés ou pour désactiver certains des utilisateurs existants, afin de pouvoir créer de nouveaux utilisateurs.",
+	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "Le nombre maximum d’utilisateurs a été dépassé.",
+	"bs-pro-distribution-config-license-key": "Clé de licence BlueSpice"
 }
