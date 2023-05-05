@@ -29,5 +29,16 @@
 	"droplets-modal-dialog-bg-color-label": "Button background color",
 	"droplets-modal-dialog-bg-color-blue": "blue",
 	"droplets-modal-dialog-bg-color-red": "red",
-	"droplets-modal-dialog-bg-color-neutral": "white"
+	"droplets-modal-dialog-bg-color-neutral": "white",
+	"bs-pro-distribution-pdfembed-inspector-input-label": "PDF file",
+	"bs-pro-distribution-pdfembed-inspector-input-help": "Select PDF file from the wiki to include it in the wikipage",
+	"bs-pro-distribution-pdfembed-inspector-width-label": "Width",
+	"bs-pro-distribution-pdfembed-inspector-width-help": "Set width of PDF preview. Leave empty for using the default size of 800px",
+	"bs-pro-distribution-pdfembed-inspector-height-label": "Height",
+	"bs-pro-distribution-pdfembed-inspector-height-help": "Set height of PDF preview. Leave empty for using the default size of 1090px",
+	"bs-pro-distribution-pdfembed-inspector-page-label": "Start with page",
+	"bs-pro-distribution-pdfembed-inspector-page-help": "Number of page which will be displayed after rendering of preview",
+	"bs-pro-distribution-pdfembed-inspector-title": "Embed PDF",
+	"bs-pro-distribution-pdfembed-droplet-name": "PDF preview",
+	"bs-pro-distribution-pdfembed-droplet-description": "Embed preview of PDF file in wikipage"
 }
