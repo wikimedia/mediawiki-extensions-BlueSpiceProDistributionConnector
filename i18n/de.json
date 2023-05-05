@@ -34,5 +34,16 @@
 	"droplets-modal-dialog-bg-color-label": "Hintergrundfarbe für Button",
 	"droplets-modal-dialog-bg-color-blue": "blau",
 	"droplets-modal-dialog-bg-color-red": "rot",
-	"droplets-modal-dialog-bg-color-neutral": "weiß"
+	"droplets-modal-dialog-bg-color-neutral": "weiß",
+	"bs-pro-distribution-pdfembed-inspector-input-label": "PDF-Datei",
+	"bs-pro-distribution-pdfembed-inspector-input-help": "Wähle eine PDF-Datei aus dem Wiki aus, um diese auf der Wikiseite anzuzeigen",
+	"bs-pro-distribution-pdfembed-inspector-width-label": "Breite",
+	"bs-pro-distribution-pdfembed-inspector-width-help": "Setze die Breite der PDF-Vorschau. Für die Verwendung des Standardwerts von 800px leer lassen",
+	"bs-pro-distribution-pdfembed-inspector-height-label": "Höhe",
+	"bs-pro-distribution-pdfembed-inspector-height-help": "Setze die Höhe der PDF-Vorschau. Für die Verwendung des Standardwerts von 1090px leer lassen",
+	"bs-pro-distribution-pdfembed-inspector-page-label": "Beginne mit Seite",
+	"bs-pro-distribution-pdfembed-inspector-page-help": "Nummer der Seite, die nach dem Laden der Vorschau angezeigt werden soll",
+	"bs-pro-distribution-pdfembed-inspector-title": "PDF einbinden",
+	"bs-pro-distribution-pdfembed-droplet-name": "PDF Vorschau",
+	"bs-pro-distribution-pdfembed-droplet-description": "Vorschau einer PDF-Datei auf der Wikiseite einbinden"
 }

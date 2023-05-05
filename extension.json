@@ -42,6 +42,9 @@
 				},
 				"decision": {
 					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\DecisionDroplet"
+				},
+				"pdf-embed": {
+					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\PDFEmbedDroplet"
 				}
 			}
 		},
@@ -60,6 +63,11 @@
 			"ConfigDefinitionRegistry": {
 				"LicenseKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\LicenseKey::getInstance"
 			}
+		},
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.prodistributionconnector.droplet.pdfembed"
+			]
 		}
 	},
 	"MessagesDirs": {
@@ -120,6 +128,29 @@
 			"dependencies": [
 				"ext.bluespice",
 				"oojs-ui"
+			]
+		},
+		"ext.prodistributionconnector.droplet.pdfembed": {
+			"scripts": [
+				"nodes/ext.prodistributionconnector.ce.PDFEmbedNode.js",
+				"nodes/ext.prodistributionconnector.dm.PDFEmbedNode.js",
+				"nodes/ext.prodistributionconnector.ui.PDFEmbedInspectorTool.js",
+				"nodes/ext.prodistributionconnector.ui.PDFEmbedInspector.js"
+			],
+			"messages": [
+				"bs-pro-distribution-pdfembed-inspector-input-label",
+				"bs-pro-distribution-pdfembed-inspector-input-help",
+				"bs-pro-distribution-pdfembed-inspector-width-label",
+				"bs-pro-distribution-pdfembed-inspector-width-help",
+				"bs-pro-distribution-pdfembed-inspector-height-label",
+				"bs-pro-distribution-pdfembed-inspector-height-help",
+				"bs-pro-distribution-pdfembed-inspector-page-label",
+				"bs-pro-distribution-pdfembed-inspector-page-help",
+				"bs-pro-distribution-pdfembed-inspector-title"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore",
+				"ext.oOJSPlus.widgets"
 			]
 		}
 	},
