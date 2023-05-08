@@ -8,5 +8,11 @@
 	"bs-pro-distribution-droplet-chem-name": "Քիմիական բանաձև",
 	"droplets-smw-report-ns-label": "Անվանատարածք",
 	"droplets-smw-report-cat-label": "Կատեգորիա",
-	"droplets-decision-label": "Որոշում"
+	"droplets-decision-label": "Որոշում",
+	"droplets-modal-dialog-bg-color-label": "Կոճակի ֆոնի գույնը",
+	"droplets-modal-dialog-bg-color-blue": "կապույտ",
+	"droplets-modal-dialog-bg-color-red": "կարմիր",
+	"droplets-modal-dialog-bg-color-neutral": "սպիտակ",
+	"bs-pro-distribution-pdfembed-inspector-width-label": "Լայնք",
+	"bs-pro-distribution-pdfembed-inspector-height-label": "Բարձրություն"
 }

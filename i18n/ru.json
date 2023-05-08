@@ -1,9 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kareyac"
+			"Coring"
 		]
 	},
 	"droplets-smw-report-ns-label": "Пространство имён",
-	"droplets-smw-report-cat-label": "Категория"
+	"droplets-smw-report-cat-label": "Категория",
+	"droplets-modal-dialog-bg-color-label": "Цвет фона кнопки",
+	"droplets-modal-dialog-bg-color-blue": "синий",
+	"droplets-modal-dialog-bg-color-red": "красный",
+	"droplets-modal-dialog-bg-color-neutral": "белый",
+	"bs-pro-distribution-pdfembed-inspector-input-label": "файл PDF",
+	"bs-pro-distribution-pdfembed-inspector-width-label": "Ширина",
+	"bs-pro-distribution-pdfembed-inspector-height-label": "Высота",
+	"bs-pro-distribution-pdfembed-droplet-name": "Предпросмотр PDF"
 }

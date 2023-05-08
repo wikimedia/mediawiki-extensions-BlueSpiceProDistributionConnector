@@ -13,5 +13,11 @@
 	"droplets-smw-report-ns-label": "ناں جاہ",
 	"droplets-pro-con-advantages-label": "خوبیاں",
 	"droplets-pro-con-disadvantages-title-label": "خامیاں کیتے عنوان",
-	"droplets-pro-con-disadvantages-label": "خامیاں"
+	"droplets-pro-con-disadvantages-label": "خامیاں",
+	"droplets-modal-dialog-bg-color-blue": "نیلا",
+	"droplets-modal-dialog-bg-color-red": "رتا",
+	"droplets-modal-dialog-bg-color-neutral": "بگّا",
+	"bs-pro-distribution-pdfembed-inspector-input-label": "پی ڈی ایف فائل",
+	"bs-pro-distribution-pdfembed-inspector-width-label": "چوڑائی",
+	"bs-pro-distribution-pdfembed-inspector-height-label": "اُچائی"
 }
