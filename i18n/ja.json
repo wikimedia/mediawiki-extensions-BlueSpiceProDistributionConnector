@@ -1,11 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
-			"MathXplore"
+			"MathXplore",
+			"Thibaut120094"
 		]
 	},
 	"bs-pro-distribution-droplet-chem-name": "化学式",
 	"droplets-smw-report-ns-label": "名前空間",
 	"droplets-smw-report-cat-label": "カテゴリ",
-	"droplets-smw-report-modified-label": "変更"
+	"droplets-smw-report-modified-label": "変更",
+	"droplets-modal-dialog-bg-color-blue": "青",
+	"droplets-modal-dialog-bg-color-red": "赤",
+	"droplets-modal-dialog-bg-color-neutral": "白",
+	"bs-pro-distribution-pdfembed-inspector-input-label": "PDFファイル",
+	"bs-pro-distribution-pdfembed-inspector-width-label": "幅",
+	"bs-pro-distribution-pdfembed-inspector-height-label": "高さ",
+	"bs-pro-distribution-pdfembed-inspector-title": "PDFを埋め込む",
+	"bs-pro-distribution-pdfembed-droplet-name": "PDFプレビュー"
 }
