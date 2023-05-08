@@ -9,5 +9,9 @@
 	"droplets-modal-dialog-btn-label": "Testo per pulsante",
 	"droplets-modal-dialog-title-label": "Titolo per dialogo",
 	"droplets-modal-dialog-footer-label": "Piè di pagina per la finestra di dialogo",
-	"droplets-decision-label": "Decisione"
+	"droplets-decision-label": "Decisione",
+	"droplets-modal-dialog-bg-color-label": "Colore di sfondo del pulsante",
+	"droplets-modal-dialog-bg-color-blue": "blu",
+	"droplets-modal-dialog-bg-color-red": "rosso",
+	"droplets-modal-dialog-bg-color-neutral": "bianco"
 }

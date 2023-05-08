@@ -30,5 +30,20 @@
 	"bs-pro-distribution-instance-status-user-quota-label": "Quota de usatores",
 	"bs-pro-distribution-instance-status-number-of-users-limited-full": "Il ha '''$1''' usator{{PLURAL:$1||es}} registrate active. Le numero maxime de usatores es attingite! Per favor contacta le equipa de BlueSpice pro augmentar le numero de usatores permittite, o disactiva alcunes del usatores existente pro poter crear nove usatores.",
 	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "Le numero maxime de contos ha essite excedite",
-	"bs-pro-distribution-config-license-key": "Clave de licentia BlueSpice"
+	"bs-pro-distribution-config-license-key": "Clave de licentia BlueSpice",
+	"droplets-modal-dialog-bg-color-label": "Color de fundo del button",
+	"droplets-modal-dialog-bg-color-blue": "blau",
+	"droplets-modal-dialog-bg-color-red": "rubie",
+	"droplets-modal-dialog-bg-color-neutral": "blanc",
+	"bs-pro-distribution-pdfembed-inspector-input-label": "File PDF",
+	"bs-pro-distribution-pdfembed-inspector-input-help": "Selige un file PDF del wiki pro includer lo in le pagina wiki",
+	"bs-pro-distribution-pdfembed-inspector-width-label": "Latitude",
+	"bs-pro-distribution-pdfembed-inspector-width-help": "Indica le largor del previsualisation PDF. Lassar vacue pro usar le grandor predefinite de 800px",
+	"bs-pro-distribution-pdfembed-inspector-height-label": "Altitude",
+	"bs-pro-distribution-pdfembed-inspector-height-help": "Indica le altitude del previsualisation PDF. Lassar vacue pro usar le grandor predefinite de 1090px",
+	"bs-pro-distribution-pdfembed-inspector-page-label": "Comenciar con pagina",
+	"bs-pro-distribution-pdfembed-inspector-page-help": "Numero de paginas que essera monstrate post render le previsualisation",
+	"bs-pro-distribution-pdfembed-inspector-title": "Incastrar PDF",
+	"bs-pro-distribution-pdfembed-droplet-name": "Previsualisation PDF",
+	"bs-pro-distribution-pdfembed-droplet-description": "Incastrar previsualisation de file PDF in pagina wiki"
 }
