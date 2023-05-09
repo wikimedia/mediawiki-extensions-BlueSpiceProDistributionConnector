@@ -137,6 +137,9 @@
 				"nodes/ext.prodistributionconnector.ui.PDFEmbedInspectorTool.js",
 				"nodes/ext.prodistributionconnector.ui.PDFEmbedInspector.js"
 			],
+			"styles": [
+				"stylesheets/bluespice.contentdroplets.pdfembed.css"
+			],
 			"messages": [
 				"bs-pro-distribution-pdfembed-inspector-input-label",
 				"bs-pro-distribution-pdfembed-inspector-input-help",
