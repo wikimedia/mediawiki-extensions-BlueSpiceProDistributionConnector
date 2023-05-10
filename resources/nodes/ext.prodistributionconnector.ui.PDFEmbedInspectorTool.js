@@ -11,7 +11,7 @@ OO.inheritClass( ext.prodistributionconnector.ui.PDFEmbedInspectorTool, ve.ui.Fr
 ext.prodistributionconnector.ui.PDFEmbedInspectorTool.static.name = 'pdfTool';
 ext.prodistributionconnector.ui.PDFEmbedInspectorTool.static.group = 'none';
 ext.prodistributionconnector.ui.PDFEmbedInspectorTool.static.autoAddToCatchall = false;
-ext.prodistributionconnector.ui.PDFEmbedInspectorTool.static.icon = 'filter';
+ext.prodistributionconnector.ui.PDFEmbedInspectorTool.static.icon = 'bluespice';
 ext.prodistributionconnector.ui.PDFEmbedInspectorTool.static.title = OO.ui.deferMsg(
 	'bs-pro-distribution-pdfembed-inspector-title'
 );
