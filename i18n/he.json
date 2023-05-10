@@ -1,11 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Shoko"
 		]
 	},
 	"bs-prodistributionconnector-desc": "חיבור BlueSpice להרחבות שונות של מדיה־ויקי",
 	"bs-pro-distribution-droplet-pro-con-list-name": "יתרונות וחסרונות",
 	"bs-pro-distribution-droplet-decision-name": "החלטה",
-	"droplets-decision-label": "החלטה"
+	"droplets-decision-label": "החלטה",
+	"bs-pro-distribution-pdfembed-inspector-input-label": "קובץ PDF",
+	"bs-pro-distribution-pdfembed-inspector-input-help": "בחר קובץ PDF מהוויקי כדי לכלול אותו ב-wikipage",
+	"bs-pro-distribution-pdfembed-inspector-width-label": "רוחב",
+	"bs-pro-distribution-pdfembed-inspector-width-help": "הגדר את רוחב התצוגה המקדימה של PDF. השאר ריק לשימוש בגודל ברירת המחדל של 800px",
+	"bs-pro-distribution-pdfembed-inspector-height-label": "גובה",
+	"bs-pro-distribution-pdfembed-inspector-height-help": "הגדר את גובה התצוגה המקדימה של PDF. השאר ריק לשימוש בגודל ברירת המחדל של 1090px",
+	"bs-pro-distribution-pdfembed-inspector-page-label": "התחל עם דף",
+	"bs-pro-distribution-pdfembed-inspector-page-help": "מספר העמוד שיוצג לאחר עיבוד התצוגה המקדימה",
+	"bs-pro-distribution-pdfembed-inspector-title": "הטמעת PDF",
+	"bs-pro-distribution-pdfembed-droplet-name": "תצוגה מקדימה של PDF",
+	"bs-pro-distribution-pdfembed-droplet-description": "הטמע תצוגה מקדימה של קובץ PDF ב-wikipage"
 }
