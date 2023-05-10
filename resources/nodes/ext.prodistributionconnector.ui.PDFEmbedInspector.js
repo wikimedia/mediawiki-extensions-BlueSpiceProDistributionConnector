@@ -59,7 +59,7 @@ ext.prodistributionconnector.ui.PDFEmbedInspector.prototype.initialize = functio
 
 ext.prodistributionconnector.ui.PDFEmbedInspector.prototype.createFields = function () {
 	this.inputPDF = new OOJSPlus.ui.widget.FileSearchWidget( {
-		extension: ['pdf']
+		extensions: ['pdf']
 	} );
 	this.inputPDF.on( 'change', function () {
 		let value = this.inputPDF.getValue();
