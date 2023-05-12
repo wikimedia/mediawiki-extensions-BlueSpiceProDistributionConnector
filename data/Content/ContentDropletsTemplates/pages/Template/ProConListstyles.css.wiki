@@ -7,7 +7,7 @@
 	padding: 8px;
 }
 .pro-con-list th:first-child {
-	color: #94c11f;
+	color: #5C7813;
 }
 .pro-con-list th:last-child {
 	color: #bd1d1d;
@@ -30,7 +30,7 @@
 	font-family: 'fontawesome' !important;
 	content: "\f067";
 	padding-right: 0.5em;
-	color: #94c11f;
+	color: #5C7813;
 	background-color: #eff6dd;
 }
 .pro-con-list .contra li:before {
