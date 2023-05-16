@@ -13,5 +13,12 @@
 	"droplets-modal-dialog-bg-color-label": "Colore di sfondo del pulsante",
 	"droplets-modal-dialog-bg-color-blue": "blu",
 	"droplets-modal-dialog-bg-color-red": "rosso",
-	"droplets-modal-dialog-bg-color-neutral": "bianco"
+	"droplets-modal-dialog-bg-color-neutral": "bianco",
+	"bs-pro-distribution-pdfembed-inspector-input-label": "File PDF",
+	"bs-pro-distribution-pdfembed-inspector-width-label": "Larghezza",
+	"bs-pro-distribution-pdfembed-inspector-height-label": "Altezza",
+	"bs-pro-distribution-pdfembed-inspector-page-label": "Inizia con la pagina",
+	"bs-pro-distribution-pdfembed-inspector-title": "Incorpora PDF",
+	"bs-pro-distribution-pdfembed-droplet-name": "Anteprima PDF",
+	"bs-pro-distribution-pdfembed-droplet-description": "Incorpora l'anteprima del file PDF nella pagina wiki"
 }
