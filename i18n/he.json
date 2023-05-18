@@ -21,5 +21,9 @@
 	"bs-pro-distribution-pdfembed-inspector-page-help": "מספר הדפים שיוצגו לאחר עיבוד התצוגה המקדימה",
 	"bs-pro-distribution-pdfembed-inspector-title": "הטבעת PDF",
 	"bs-pro-distribution-pdfembed-droplet-name": "תצוגה מקדימה של PDF",
-	"bs-pro-distribution-pdfembed-droplet-description": "הטבעת תצוגה מקדימה של קובץ PDF בדף ויקי"
+	"bs-pro-distribution-pdfembed-droplet-description": "הטבעת תצוגה מקדימה של קובץ PDF בדף ויקי",
+	"droplets-pro-con-advantages-label": "יתרונות",
+	"droplets-modal-dialog-bg-color-blue": "כחול",
+	"droplets-modal-dialog-bg-color-red": "אדום",
+	"droplets-modal-dialog-bg-color-neutral": "לבן"
 }
