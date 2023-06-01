@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"DiegoAmbrocio"
+			"DiegoAmbrocio",
+			"Fitoschido"
 		]
 	},
-	"bs-prodistributionconnector-desc": "Conecta BlueSpice con varias extensiones de MediaWiki"
+	"bs-prodistributionconnector-desc": "Conecta BlueSpice con varias extensiones de MediaWiki",
+	"bs-pro-distribution-pdfembed-inspector-height-label": "Altura"
 }
