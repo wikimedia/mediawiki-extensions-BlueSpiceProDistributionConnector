@@ -60,7 +60,7 @@ class PdfExportConvertMathSVGtoPNG implements IBSUEModulePDFFindFiles {
 	 * @return IBSUEModulePDFFindFiles
 	 */
 	public static function factory( $mediaHandlerFactory ) {
-		if ( !class_exists( 'MathRenderer' ) ) {
+		if ( !class_exists( 'MediaWiki\Extension\Math\MathRenderer' ) ) {
 			// Basically a NULL handler
 			return new BSUEModulePDFFindFilesStub();
 		}
