@@ -32,6 +32,10 @@ class UserCounter {
 	protected $lb;
 	/** @var BlockManager */
 	protected $blockManager;
+
+	/** @var EditionProvider */
+	private $editionProvider;
+
 	/** @var string[] */
 	private $warningLevels = [
 		70 => 'orange',
@@ -42,19 +46,26 @@ class UserCounter {
 	 * @param Config $config
 	 * @param ILoadBalancer $lb
 	 * @param BlockManager $blockManager
+	 * @param EditionProvider $editionProvider
 	 */
-	public function __construct( Config $config, ILoadBalancer $lb, BlockManager $blockManager ) {
+	public function __construct(
+		Config $config, ILoadBalancer $lb, BlockManager $blockManager, EditionProvider $editionProvider
+	) {
 		$this->config = $config;
 		$this->lb = $lb;
 		$this->blockManager = $blockManager;
+		$this->editionProvider = $editionProvider;
 	}
 
 	/**
-	 * Get the maximum allowed active user from CIMS
+	 * Get the maximum allowed active user from license
 	 *
 	 * @return int
 	 */
 	public function getUserLimit() {
+		if ( !$this->editionProvider->checkRequiresLicense() ) {
+			return -1;
+		}
 		$licenseKey = $this->normalizeLicenseKey( (string)$this->config->get( 'LicenseKey' ) );
 		if ( !$licenseKey || !isset( $this->userLimits[$licenseKey] ) ) {
 			return array_values( $this->userLimits )[0];

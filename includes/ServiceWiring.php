@@ -1,5 +1,6 @@
 <?php
 
+use BlueSpice\ProDistributionConnector\EditionProvider;
 use BlueSpice\ProDistributionConnector\UserCounter;
 use MediaWiki\MediaWikiServices;
 
@@ -8,7 +9,11 @@ return [
 		return new UserCounter(
 			$services->getConfigFactory()->makeConfig( 'bsg' ),
 			$services->getDBLoadBalancer(),
-			$services->getBlockManager()
+			$services->getBlockManager(),
+			$services->getService( 'BlueSpiceEditionProvider' )
 		);
-	}
+	},
+	'BlueSpiceEditionProvider' => static function ( MediaWikiServices $services ) {
+		return new EditionProvider();
+	},
 ];
