@@ -2,7 +2,7 @@
 
 namespace BlueSpice\ProDistributionConnector\Math;
 
-use MathRenderer;
+use MediaWiki\Extension\Math\MathRenderer;
 
 class SVGProvider {
 
