@@ -25,7 +25,9 @@ class NoOfNamespaces extends Base {
 					}
 		) );
 		$configWg  = new GlobalVarConfig( 'wg' );
-		$flaggedRevsEnabled = count( array_unique( $configWg->get( 'FlaggedRevsNamespaces' ) ?? [] ) );
+		$stabilizationEnabled = count(
+			array_unique( $configWg->get( 'ContentStabilizationEnabledNamespaces' ) ?? [] )
+		);
 		$readConfirmationEnabled = count( array_unique(
 			$configWg->get( 'NamespacesWithEnabledReadConfirmation' ) ?? []
 		) );
@@ -33,7 +35,7 @@ class NoOfNamespaces extends Base {
 		[
 			"PageTemplatesDisabled" => $pageTemplatesDisabled,
 			"SMWEnabled" => $SMWEnabled,
-			"FlaggedRevsEnabled" => $flaggedRevsEnabled,
+			"StabilizationEnabled" => $stabilizationEnabled,
 			"ReadConfirmationEnabled" => $readConfirmationEnabled
 
 		];
