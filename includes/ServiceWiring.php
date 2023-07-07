@@ -8,6 +8,7 @@ return [
 	'BlueSpiceUserCounter' => static function ( MediaWikiServices $services ) {
 		return new UserCounter(
 			$services->getConfigFactory()->makeConfig( 'bsg' ),
+			$services->getMainConfig(),
 			$services->getDBLoadBalancer(),
 			$services->getBlockManager(),
 			$services->getService( 'BlueSpiceEditionProvider' )
