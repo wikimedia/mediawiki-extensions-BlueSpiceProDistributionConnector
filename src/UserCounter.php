@@ -28,6 +28,8 @@ class UserCounter {
 
 	/** @var Config */
 	protected $config;
+	/** @var Config */
+	protected $mainConfig;
 	/** @var ILoadBalancer */
 	protected $lb;
 	/** @var BlockManager */
@@ -44,14 +46,17 @@ class UserCounter {
 
 	/**
 	 * @param Config $config
+	 * @param Config $mainConfig
 	 * @param ILoadBalancer $lb
 	 * @param BlockManager $blockManager
 	 * @param EditionProvider $editionProvider
 	 */
 	public function __construct(
-		Config $config, ILoadBalancer $lb, BlockManager $blockManager, EditionProvider $editionProvider
+		Config $config, Config $mainConfig, ILoadBalancer $lb,
+		BlockManager $blockManager, EditionProvider $editionProvider
 	) {
 		$this->config = $config;
+		$this->mainConfig = $mainConfig;
 		$this->lb = $lb;
 		$this->blockManager = $blockManager;
 		$this->editionProvider = $editionProvider;
@@ -204,7 +209,10 @@ class UserCounter {
 	 * @return array
 	 */
 	private function getUserNameWhitelist() {
-		return $this->config->get( 'UserLimitWhitelist' );
+		return array_merge(
+			$this->mainConfig->get( 'ReservedUsernames' ) ?? [],
+			$this->config->get( 'UserLimitWhitelist' ) ?? []
+		);
 	}
 
 	/**
