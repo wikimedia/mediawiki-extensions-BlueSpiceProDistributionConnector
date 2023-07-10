@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"TheSkull28870"
+			"Piano1forte2"
 		]
 	},
-	"bs-prodistributionconnector-desc": "Connects BlueSpice to various MediaWiki extensions"
+	"bs-prodistributionconnector-desc": "Connects BlueSpice to various MediaWiki extensions",
+	"droplets-modal-dialog-bg-color-label": "Button background colour"
 }
