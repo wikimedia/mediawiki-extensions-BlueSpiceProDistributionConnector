@@ -190,7 +190,7 @@
 		"UserLimitWhitelist": {
 			"value": [
 				"BSMaintenance", "WikiSysop", "MediaWiki default", "DynamicPageList3 extension",
-				"Mediawiki default", "Maintenance script"
+				"Mediawiki default", "Maintenance script", "BlueSpice default"
 			],
 			"description": "Contains user names that do not count towards the user limit"
 		},
