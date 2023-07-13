@@ -4,7 +4,8 @@
 		"authors": [
 			"Brettchenweber",
 			"DraconicDark",
-			"MGChecker"
+			"MGChecker",
+			"Mschlindwein"
 		]
 	},
 	"bs-pro-distribution-droplet-pro-con-list-name": "Pro und Kontra",
@@ -51,5 +52,5 @@
 	"bs-pro-distribution-pdfembed-inspector-title": "PDF einbinden",
 	"bs-pro-distribution-pdfembed-droplet-name": "PDF-Vorschau",
 	"bs-pro-distribution-pdfembed-droplet-description": "Vorschau einer PDF-Datei auf der Wikiseite einbinden",
-	"bs-pro-distribution-config-license-key": "BlueSpice-Lizenzschlüssel"
+	"bs-pro-distribution-config-license-key": "BlueSpice-Subskriptionsschlüssel"
 }
