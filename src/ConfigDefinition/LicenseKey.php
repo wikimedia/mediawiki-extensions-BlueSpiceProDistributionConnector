@@ -53,6 +53,6 @@ class LicenseKey extends ConfigDefinition\StringSetting {
 	 * @return bool
 	 */
 	public function isHidden() {
-		return !$this->editionProvider->checkRequiresLicense();
+		return !$this->editionProvider->checkIsLicenseConfigurable();
 	}
 }

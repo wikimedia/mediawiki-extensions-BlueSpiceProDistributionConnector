@@ -13,6 +13,7 @@ class UserCounter {
 
 	/** @var array */
 	private $userLimits = [
+		'4cb76833e743e9313ec7f0adb371c0fdbacf57ed' => 25,
 		'9d3cc888b83410c13b1406f784fb55129c36b520' => 50,
 		'a416fa165396d208d806b63ba409b86e23c2cb10' => 100,
 		'9d30f6794f1ee6bc3d8d4e7495aff9e6ffb12d75' => 250,
