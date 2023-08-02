@@ -28,4 +28,11 @@ class EditionProvider {
 		$licensableEditions = [ 'pro', 'cloud', ];
 		return in_array( $edition, $licensableEditions );
 	}
+
+	/**
+	 * @return bool
+	 */
+	public function checkIsLicenseConfigurable(): bool {
+		return $this->checkRequiresLicense() && $this->getEdition() !== 'cloud';
+	}
 }
