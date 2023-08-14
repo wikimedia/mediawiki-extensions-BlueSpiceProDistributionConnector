@@ -9,5 +9,9 @@
 	"droplets-smw-report-ns-label": "命名空間",
 	"droplets-smw-report-cat-label": "分類",
 	"droplets-smw-report-modified-label": "修改",
-	"droplets-modal-dialog-btn-label": "按鈕文字"
+	"droplets-modal-dialog-btn-label": "按鈕文字",
+	"bs-pro-distribution-pdfembed-inspector-input-label": "PDF檔案",
+	"bs-pro-distribution-pdfembed-inspector-width-label": "寬度",
+	"bs-pro-distribution-pdfembed-inspector-height-label": "高度",
+	"bs-pro-distribution-pdfembed-inspector-title": "嵌入PDF"
 }
