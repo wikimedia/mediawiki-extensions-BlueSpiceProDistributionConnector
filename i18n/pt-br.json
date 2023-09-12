@@ -3,15 +3,12 @@
 		"authors": [
 			"Juan90264",
 			"Re demz",
-			"Eduardoaddad"
+			"Eduardoaddad",
+			"VasbXBR"
 		]
 	},
 	"bs-prodistributionconnector-desc": "Conecta o BlueSpice a várias extensões do MediaWiki",
 	"bs-pro-distribution-droplet-decision-name": "Decisão",
-	"droplets-smw-report-count-label": "Número",
-	"droplets-smw-report-ns-label": "Espaço nominal",
-	"droplets-smw-report-cat-label": "Categoria",
-	"droplets-smw-report-modified-label": "Modificação",
 	"droplets-pro-con-advantages-title-label": "Título para vantagens",
 	"droplets-pro-con-advantages-label": "Vantagens",
 	"droplets-pro-con-disadvantages-title-label": "Título para disavantagens",
@@ -19,5 +16,9 @@
 	"droplets-modal-dialog-btn-label": "Texto para botão",
 	"droplets-modal-dialog-title-label": "Título para diálogo",
 	"droplets-modal-dialog-body-label": "Conteúdo para diálogo",
-	"droplets-decision-label": "Decisão"
+	"droplets-decision-label": "Decisão",
+	"droplets-modal-dialog-bg-color-blue": "azul",
+	"droplets-modal-dialog-bg-color-red": "vermelho",
+	"droplets-modal-dialog-bg-color-neutral": "branco",
+	"bs-pro-distribution-pdfembed-inspector-input-label": "Arquivo PDF"
 }
