@@ -5,7 +5,8 @@
 			"GuoPC",
 			"Kishinsagi",
 			"StarrySky",
-			"Vikarna"
+			"Vikarna",
+			"Xyb"
 		]
 	},
 	"bs-prodistributionconnector-desc": "将BlueSpice连接到各种MediaWiki的扩展",
@@ -25,5 +26,6 @@
 	"bs-pro-distribution-pdfembed-inspector-page-help": "渲染预览后将显示的页数",
 	"bs-pro-distribution-pdfembed-inspector-title": "嵌入PDF",
 	"bs-pro-distribution-pdfembed-droplet-name": "PDF预览",
-	"bs-pro-distribution-pdfembed-droplet-description": "在wiki页面中嵌入PDF文件的预览"
+	"bs-pro-distribution-pdfembed-droplet-description": "在wiki页面中嵌入PDF文件的预览",
+	"bs-pro-distribution-instance-status-user-quota-label": "用户配额"
 }
