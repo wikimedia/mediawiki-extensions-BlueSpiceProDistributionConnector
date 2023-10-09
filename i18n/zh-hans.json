@@ -27,5 +27,9 @@
 	"bs-pro-distribution-pdfembed-inspector-title": "嵌入PDF",
 	"bs-pro-distribution-pdfembed-droplet-name": "PDF预览",
 	"bs-pro-distribution-pdfembed-droplet-description": "在wiki页面中嵌入PDF文件的预览",
-	"bs-pro-distribution-instance-status-user-quota-label": "用户配额"
+	"bs-pro-distribution-instance-status-user-quota-label": "用户配额",
+	"bs-pro-distribution-droplet-math-name": "数学公式",
+	"bs-pro-distribution-droplet-chem-name": "化学式",
+	"bs-pro-distribution-droplet-chem-desc": "化学式显示",
+	"bs-pro-distribution-droplet-modal-dialog-name": "模态按钮"
 }
