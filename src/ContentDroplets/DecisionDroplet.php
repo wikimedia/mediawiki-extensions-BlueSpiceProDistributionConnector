@@ -57,6 +57,6 @@ class DecisionDroplet extends TemplateDroplet {
 	 * @inheritDoc
 	 */
 	public function getCategories(): array {
-		return [ 'content' ];
+		return [ 'content', 'featured' ];
 	}
 }
