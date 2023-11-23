@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"AnupamM",
 			"DiegoAmbrocio",
-			"Fitoschido",
-			"AnupamM"
+			"Fitoschido"
 		]
 	},
 	"bs-prodistributionconnector-desc": "Conecta BlueSpice con varias extensiones de MediaWiki",

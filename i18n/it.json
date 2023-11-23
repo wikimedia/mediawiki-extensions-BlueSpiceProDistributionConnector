@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"GpieroMW",
-			"Beta16"
+			"Beta16",
+			"GpieroMW"
 		]
 	},
 	"bs-prodistributionconnector-desc": "Connette BlueSpice a diverse estensioni MediaWiki",
