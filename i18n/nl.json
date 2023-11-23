@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rots61",
+			"HanV",
 			"McDutchie",
-			"HanV"
+			"Rots61"
 		]
 	},
 	"bs-prodistributionconnector-desc": "Verbindt BlueSpice met verscheidene MediaWiki-uitbreidingen",
@@ -44,7 +44,7 @@
 	"bs-pro-distribution-pdfembed-inspector-height-label": "Hoogte",
 	"bs-pro-distribution-pdfembed-inspector-height-help": "Stel de hoogte van het PDF-voorbeeld in. Laat leeg voor gebruik van de standaardgrootte van 1090px",
 	"bs-pro-distribution-pdfembed-inspector-page-label": "Begin met pagina",
-	"bs-pro-distribution-pdfembed-inspector-page-help": "Aantal pagina's dat wordt weergegeven na opbouw van het voorvertonen",
+	"bs-pro-distribution-pdfembed-inspector-page-help": "Aantal pagina’s dat wordt getoond na het weergeven van de voorvertoning",
 	"bs-pro-distribution-pdfembed-inspector-title": "PDF insluiten",
 	"bs-pro-distribution-pdfembed-droplet-name": "PDF-voorbeeld",
 	"bs-pro-distribution-pdfembed-droplet-description": "Voorbeeld van PDF-bestand insluiten in wikipagina"
