@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"MathXplore",
-			"Thibaut120094"
+			"Thibaut120094",
+			"もなー(偽物)"
 		]
 	},
 	"bs-pro-distribution-droplet-chem-name": "化学式",
@@ -16,5 +17,8 @@
 	"bs-pro-distribution-pdfembed-inspector-width-label": "幅",
 	"bs-pro-distribution-pdfembed-inspector-height-label": "高さ",
 	"bs-pro-distribution-pdfembed-inspector-title": "PDFを埋め込む",
-	"bs-pro-distribution-pdfembed-droplet-name": "PDFプレビュー"
+	"bs-pro-distribution-pdfembed-droplet-name": "PDFプレビュー",
+	"droplets-modal-dialog-title-label": "ダイアログのタイトル",
+	"droplets-modal-dialog-body-label": "ダイアログの内容",
+	"droplets-modal-dialog-footer-label": "ダイアログのフッター"
 }
