@@ -2,10 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"MathXplore",
-			"Thibaut120094"
+			"Thibaut120094",
+			"もなー(偽物)"
 		]
 	},
 	"bs-pro-distribution-droplet-chem-name": "化学式",
+	"droplets-modal-dialog-title-label": "ダイアログのタイトル",
+	"droplets-modal-dialog-body-label": "ダイアログの内容",
+	"droplets-modal-dialog-footer-label": "ダイアログのフッター",
 	"droplets-modal-dialog-bg-color-blue": "青",
 	"droplets-modal-dialog-bg-color-red": "赤",
 	"droplets-modal-dialog-bg-color-neutral": "白",
