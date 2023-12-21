@@ -3,7 +3,8 @@
 		"authors": [
 			"AnupamM",
 			"DiegoAmbrocio",
-			"Fitoschido"
+			"Fitoschido",
+			"Jmabel"
 		]
 	},
 	"bs-prodistributionconnector-desc": "Conecta BlueSpice con varias extensiones de MediaWiki",
@@ -14,5 +15,12 @@
 	"droplets-modal-dialog-bg-color-neutral": "blanco",
 	"bs-pro-distribution-pdfembed-inspector-input-label": "archivo PDF",
 	"bs-pro-distribution-pdfembed-inspector-width-label": "Anchura",
-	"bs-pro-distribution-pdfembed-inspector-page-label": "Empezar con la página"
+	"bs-pro-distribution-pdfembed-inspector-page-label": "Empezar con la página",
+	"bs-pro-distribution-droplet-math-name": "Fórmula matemática",
+	"bs-pro-distribution-droplet-chem-name": "Fórmula química",
+	"bs-pro-distribution-droplet-decision-name": "Decisión",
+	"droplets-pro-con-advantages-title-label": "Título para ventajas",
+	"droplets-pro-con-advantages-label": "Las ventajas",
+	"droplets-pro-con-disadvantages-label": "Las desventajas",
+	"droplets-decision-label": "Decisión"
 }
