@@ -22,5 +22,10 @@
 	"droplets-pro-con-advantages-title-label": "Título para ventajas",
 	"droplets-pro-con-advantages-label": "Las ventajas",
 	"droplets-pro-con-disadvantages-label": "Las desventajas",
-	"droplets-decision-label": "Decisión"
+	"droplets-decision-label": "Decisión",
+	"droplets-pro-con-disadvantages-title-label": "Título para desventajas.",
+	"droplets-modal-dialog-btn-label": "Texto del botón",
+	"droplets-modal-dialog-title-label": "Título del diálogo",
+	"droplets-modal-dialog-body-label": "Contenido para el diálogo",
+	"bs-pro-distribution-instance-status-user-quota-label": "Cuota de usario"
 }
