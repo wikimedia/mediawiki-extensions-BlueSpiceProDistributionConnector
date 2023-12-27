@@ -3,11 +3,24 @@
 		"authors": [
 			"AnupamM",
 			"DiegoAmbrocio",
-			"Fitoschido"
+			"Fitoschido",
+			"Jmabel"
 		]
 	},
 	"bs-prodistributionconnector-desc": "Conecta BlueSpice con varias extensiones de MediaWiki",
 	"bs-pro-distribution-droplet-pro-con-list-name": "Pros y contras",
+	"bs-pro-distribution-droplet-math-name": "Fórmula matemática",
+	"bs-pro-distribution-droplet-chem-name": "Fórmula química",
+	"bs-pro-distribution-droplet-decision-name": "Decisión",
+	"droplets-pro-con-advantages-title-label": "Título para ventajas",
+	"droplets-pro-con-advantages-label": "Las ventajas",
+	"droplets-pro-con-disadvantages-title-label": "Título para desventajas.",
+	"droplets-pro-con-disadvantages-label": "Las desventajas",
+	"droplets-modal-dialog-btn-label": "Texto del botón",
+	"droplets-modal-dialog-title-label": "Título del diálogo",
+	"droplets-modal-dialog-body-label": "Contenido para el diálogo",
+	"droplets-decision-label": "Decisión",
+	"bs-pro-distribution-instance-status-user-quota-label": "Cuota de usario",
 	"droplets-modal-dialog-bg-color-blue": "azul",
 	"droplets-modal-dialog-bg-color-red": "rojo",
 	"droplets-modal-dialog-bg-color-neutral": "blanco",
