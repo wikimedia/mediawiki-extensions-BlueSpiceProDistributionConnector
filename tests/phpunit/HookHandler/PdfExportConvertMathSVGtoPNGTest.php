@@ -22,17 +22,15 @@ class PdfExportConvertMathSVGtoPNGTest extends TestCase {
 			->expects( $this->once() )
 			->method( 'getSvg' )
 			->with( 'THEHASH' )
-			->will( $this->returnValue( '<svg></svg>' ) );
+			->willReturn( '<svg></svg>' );
 		$handler = new PdfExportConvertMathSVGtoPNG( $svgHandler, $svgProvider, wfTempDir() );
 
 		$sender = $this->createMock( BsPDFServlet::class );
 		$imgEl = $this->createMock( DOMElement::class );
-		$imgEl->method( 'getAttribute' )->will(
-			$this->returnValueMap( [
+		$imgEl->method( 'getAttribute' )->willReturnMap( [
 				[ 'class', 'mwe-math-fallback-image' ],
 				[ 'data-orig-src', 'https://wikiserver/wiki/Special:Math?hash=THEHASH' ],
-			] )
-		);
+			] );
 		$absFSpath = 'doesnt/matter';
 		$fileName = 'same.here';
 		$type = 'images';
@@ -71,9 +69,7 @@ class PdfExportConvertMathSVGtoPNGTest extends TestCase {
 
 		$sender = $this->createMock( BsPDFServlet::class );
 		$imgEl = $this->createMock( DOMElement::class );
-		$imgEl->method( 'getAttribute' )->will(
-			$this->returnValue( 'mwe-NOT-math-fallback-image' )
-		);
+		$imgEl->method( 'getAttribute' )->willReturn( 'mwe-NOT-math-fallback-image' );
 		$absFSpath = 'doesnt/matter';
 		$fileName = 'same.here';
 		$type = 'images';
