@@ -22,7 +22,7 @@ class ApplyUserQuota implements UnblockUserHook, BeforePageDisplayHook {
 	 * @inheritDoc
 	 */
 	public function onBeforePageDisplay( $out, $skin ): void {
-		if ( $out->getTitle()->isSpecial( 'UserManager' ) ) {
+		if ( $out->getTitle() && $out->getTitle()->isSpecial( 'UserManager' ) ) {
 			$out->addModules( [ 'ext.prodistributionconnector.usermanager.quota' ] );
 		}
 	}
