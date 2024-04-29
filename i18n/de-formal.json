@@ -1,5 +1,5 @@
 {
-	"bs-pro-distribution-instance-status-number-of-users-limited-full": "Es {{PLURAL:$1|ist '''$1''' aktiver|sind '''$1''' aktive}} Nutzer registriert. Die maximale Anzahl wurde erreicht! Bitte kontaktieren Sie das Team von Bluespice, um das Nutzerlimit zu erhöhen oder deaktivieren Sie einige Nutzer, um neue Nutzer hinzufügen zu können",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "Es {{PLURAL:$1|ist '''$1''' aktiver|sind '''$1''' aktive}} Nutzer registriert. Die maximale Anzahl wurde erreicht! Bitte kontaktieren Sie das Team von Bluespice, um das Nutzerlimit zu erh\u00f6hen oder deaktivieren Sie einige Nutzer, um neue Nutzer hinzuf\u00fcgen zu k\u00f6nnen",
 	"@metadata": {
 		"authors": []
 	}
