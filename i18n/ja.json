@@ -3,19 +3,19 @@
 		"authors": [
 			"MathXplore",
 			"Thibaut120094",
-			"\u3082\u306a\u30fc(\u507d\u7269)"
+			"もなー(偽物)"
 		]
 	},
-	"bs-pro-distribution-droplet-chem-name": "\u5316\u5b66\u5f0f",
-	"droplets-modal-dialog-bg-color-blue": "\u9752",
-	"droplets-modal-dialog-bg-color-red": "\u8d64",
-	"droplets-modal-dialog-bg-color-neutral": "\u767d",
-	"bs-pro-distribution-pdfembed-inspector-input-label": "PDF\u30d5\u30a1\u30a4\u30eb",
-	"bs-pro-distribution-pdfembed-inspector-width-label": "\u5e45",
-	"bs-pro-distribution-pdfembed-inspector-height-label": "\u9ad8\u3055",
-	"bs-pro-distribution-pdfembed-inspector-title": "PDF\u3092\u57cb\u3081\u8fbc\u3080",
-	"bs-pro-distribution-pdfembed-droplet-name": "PDF\u30d7\u30ec\u30d3\u30e5\u30fc",
-	"droplets-modal-dialog-title-label": "\u30c0\u30a4\u30a2\u30ed\u30b0\u306e\u30bf\u30a4\u30c8\u30eb",
-	"droplets-modal-dialog-body-label": "\u30c0\u30a4\u30a2\u30ed\u30b0\u306e\u5185\u5bb9",
-	"droplets-modal-dialog-footer-label": "\u30c0\u30a4\u30a2\u30ed\u30b0\u306e\u30d5\u30c3\u30bf\u30fc"
+	"bs-pro-distribution-droplet-chem-name": "化学式",
+	"droplets-modal-dialog-bg-color-blue": "青",
+	"droplets-modal-dialog-bg-color-red": "赤",
+	"droplets-modal-dialog-bg-color-neutral": "白",
+	"bs-pro-distribution-pdfembed-inspector-input-label": "PDFファイル",
+	"bs-pro-distribution-pdfembed-inspector-width-label": "幅",
+	"bs-pro-distribution-pdfembed-inspector-height-label": "高さ",
+	"bs-pro-distribution-pdfembed-inspector-title": "PDFを埋め込む",
+	"bs-pro-distribution-pdfembed-droplet-name": "PDFプレビュー",
+	"droplets-modal-dialog-title-label": "ダイアログのタイトル",
+	"droplets-modal-dialog-body-label": "ダイアログの内容",
+	"droplets-modal-dialog-footer-label": "ダイアログのフッター"
 }
