@@ -43,5 +43,7 @@
 	"bs-pro-distribution-pdfembed-inspector-page-help": "Help message for input widget to set page number",
 	"bs-pro-distribution-pdfembed-inspector-title": "Title of inspector for embed pdf",
 	"bs-pro-distribution-pdfembed-droplet-name": "Text for droplet pdf embed",
-	"bs-pro-distribution-pdfembed-droplet-description": "Description of droplet pdf embed"
+	"bs-pro-distribution-pdfembed-droplet-description": "Description of droplet pdf embed",
+	"bs-pro-distribution-config-outh-public-key": "Label for configuration variable",
+	"bs-pro-distribution-config-outh-private-key": "Label for configuration variable"
 }

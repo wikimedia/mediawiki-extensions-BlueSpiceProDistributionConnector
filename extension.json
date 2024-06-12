@@ -52,7 +52,9 @@
 				"BlueSpiceUserLimit": "\\BlueSpice\\ProDistributionConnector\\JSConfigVariable\\UserLimit::factory"
 			},
 			"ConfigDefinitionRegistry": {
-				"LicenseKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\LicenseKey::getInstance"
+				"LicenseKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\LicenseKey::getInstance",
+				"OAuth2PublicKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\OAuth2PublicKey::getInstance",
+				"OAuth2PrivateKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\OAuth2PrivateKey::getInstance"
 			}
 		},
 		"VisualEditor": {
