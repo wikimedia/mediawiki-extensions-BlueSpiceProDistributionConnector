@@ -46,5 +46,7 @@
 	"bs-pro-distribution-pdfembed-inspector-page-help": "מספר הדף שיוצג לאחר עיבוד התצוגה המקדימה",
 	"bs-pro-distribution-pdfembed-inspector-title": "הטבעת PDF",
 	"bs-pro-distribution-pdfembed-droplet-name": "תצוגה מקדימה של PDF",
-	"bs-pro-distribution-pdfembed-droplet-description": "הטבעת תצוגה מקדימה של קובץ PDF בדף ויקי"
+	"bs-pro-distribution-pdfembed-droplet-description": "הטבעת תצוגה מקדימה של קובץ PDF בדף ויקי",
+	"bs-pro-distribution-config-outh-public-key": "מפתח OAuth2 ציבורי",
+	"bs-pro-distribution-config-outh-private-key": "מפתח OAuth2 פרטי"
 }
