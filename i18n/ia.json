@@ -45,5 +45,7 @@
 	"bs-pro-distribution-pdfembed-inspector-page-help": "Numero de paginas que essera monstrate post render le previsualisation",
 	"bs-pro-distribution-pdfembed-inspector-title": "Incastrar PDF",
 	"bs-pro-distribution-pdfembed-droplet-name": "Previsualisation PDF",
-	"bs-pro-distribution-pdfembed-droplet-description": "Incastrar previsualisation de file PDF in pagina wiki"
+	"bs-pro-distribution-pdfembed-droplet-description": "Incastrar previsualisation de file PDF in pagina wiki",
+	"bs-pro-distribution-config-outh-public-key": "Clave OAuth2 public",
+	"bs-pro-distribution-config-outh-private-key": "Clave OAuth2 private"
 }
