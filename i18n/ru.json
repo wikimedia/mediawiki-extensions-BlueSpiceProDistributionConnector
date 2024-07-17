@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Coring"
+			"Coring",
+			"Yurina Tatiana"
 		]
 	},
 	"droplets-modal-dialog-bg-color-label": "Цвет фона кнопки",
@@ -11,5 +12,7 @@
 	"bs-pro-distribution-pdfembed-inspector-input-label": "файл PDF",
 	"bs-pro-distribution-pdfembed-inspector-width-label": "Ширина",
 	"bs-pro-distribution-pdfembed-inspector-height-label": "Высота",
-	"bs-pro-distribution-pdfembed-droplet-name": "Предпросмотр PDF"
+	"bs-pro-distribution-pdfembed-droplet-name": "Предпросмотр PDF",
+	"bs-pro-distribution-droplet-modal-dialog-name": "Модальная кнопка",
+	"bs-pro-distribution-pdfembed-inspector-title": "Вставить PDF"
 }
