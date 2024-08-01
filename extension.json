@@ -92,6 +92,11 @@
 				"droplets-pro-con-disadvantages-label"
 			]
 		},
+		"ext.prodistributionconnector.droplet.modalDialog.execution.script": {
+			"scripts": [
+				"droplets/ModalDialogDroplet.js"
+			]
+		},
 		"ext.prodistributionconnector.droplet.modalDialog": {
 			"scripts": [
 				"objects/ModalDialogDroplet.js"
@@ -163,6 +168,9 @@
 		"applyUserQuota": {
 			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\ApplyUserQuota",
 			"services": [ "BlueSpiceUserCounter" ]
+		},
+		"addResources": {
+			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\AddResources"
 		}
 	},
 	"AuthManagerAutoConfig": {
@@ -176,7 +184,10 @@
 	"Hooks": {
 		"BSUEModulePDFFindFiles": "pdfexport-convert-math-svg-to-png",
 		"BSUsageTrackerRegisterCollectors": "BlueSpice\\ProDistributionConnector\\Hook\\BSUsageTrackerRegisterCollectors\\NumberOfNamespaces::callback",
-		"BeforePageDisplay": "applyUserQuota",
+		"BeforePageDisplay": [
+			"applyUserQuota",
+			"addResources"
+		],
 		"UnblockUser":  "applyUserQuota"
 	},
 	"config_prefix": "bsg",
