@@ -8,6 +8,7 @@ use BlueSpice\UEModulePDF\HookHandler\BSUEModulePDFFindFilesStub;
 use DOMDocument;
 use DOMElement;
 use MediaHandlerFactory;
+use MediaWiki\MediaWikiServices;
 use SvgHandler;
 
 class PdfExportConvertMathSVGtoPNG implements IBSUEModulePDFFindFiles {
@@ -126,9 +127,10 @@ class PdfExportConvertMathSVGtoPNG implements IBSUEModulePDFFindFiles {
 	 * @return string
 	 */
 	private function getHashFromImgElement( $imgEl ) {
+		$urlUtils = MediaWikiServices::getInstance()->getUrlUtils();
 		$origUrl = $imgEl->getAttribute( 'data-orig-src' );
-		$origUrl = wfExpandUrl( $origUrl );
-		$parseUrl = wfParseUrl( $origUrl );
+		$origUrl = $urlUtils->expand( $origUrl );
+		$parseUrl = $urlUtils->parse( $origUrl );
 		$parsedQueyString = wfCgiToArray( $parseUrl['query'] );
 		$hash = $parsedQueyString['hash'];
 
