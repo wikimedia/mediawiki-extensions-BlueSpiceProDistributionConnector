@@ -4,7 +4,6 @@ namespace BlueSpice\ProDistributionConnector;
 
 use Config;
 use Html;
-use MediaWiki\Block\BlockManager;
 use Message;
 use User;
 use Wikimedia\Rdbms\ILoadBalancer;
@@ -101,8 +100,6 @@ class UserCounter {
 	protected $mainConfig;
 	/** @var ILoadBalancer */
 	protected $lb;
-	/** @var BlockManager */
-	protected $blockManager;
 
 	/** @var EditionProvider */
 	private $editionProvider;
@@ -117,17 +114,14 @@ class UserCounter {
 	 * @param Config $config
 	 * @param Config $mainConfig
 	 * @param ILoadBalancer $lb
-	 * @param BlockManager $blockManager
 	 * @param EditionProvider $editionProvider
 	 */
 	public function __construct(
-		Config $config, Config $mainConfig, ILoadBalancer $lb,
-		BlockManager $blockManager, EditionProvider $editionProvider
+		Config $config, Config $mainConfig, ILoadBalancer $lb, EditionProvider $editionProvider
 	) {
 		$this->config = $config;
 		$this->mainConfig = $mainConfig;
 		$this->lb = $lb;
-		$this->blockManager = $blockManager;
 		$this->editionProvider = $editionProvider;
 	}
 
@@ -171,9 +165,9 @@ class UserCounter {
 
 		foreach ( $result as $row ) {
 			$user = User::newFromRow( $row );
-			$blockStatus = $this->blockManager->getUserBlock( $user, null, true );
+			$block = $user->getBlock();
 
-			if ( $blockStatus === null ) {
+			if ( $block === null ) {
 				$userCount++;
 			}
 		}
