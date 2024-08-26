@@ -10,7 +10,6 @@ return [
 			$services->getConfigFactory()->makeConfig( 'bsg' ),
 			$services->getMainConfig(),
 			$services->getDBLoadBalancer(),
-			$services->getBlockManager(),
 			$services->getService( 'BlueSpiceEditionProvider' )
 		);
 	},
