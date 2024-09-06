@@ -3,6 +3,7 @@
 		"authors": [
 			"Brettchenweber",
 			"DraconicDark",
+			"Justman10000",
 			"MGChecker",
 			"Mschlindwein"
 		]
@@ -27,7 +28,7 @@
 	"droplets-modal-dialog-body-label": "Inhalt für Dialog",
 	"droplets-modal-dialog-footer-label": "Footer des Dialogs",
 	"droplets-decision-label": "Entscheidung",
-	"bs-pro-distribution-instance-status-number-of-users-unknown": "Es {{PLURAL:$1|ist '''$1''' aktiver|sind '''$1''' aktive}} Nutzer registriert. Es gibt kein bekanntes Limit.",
+	"bs-pro-distribution-instance-status-number-of-users-unknown": "Es {{PLURAL:$1|ist '''$1''' aktiver|sind '''$1''' aktive}} Nutzer registriert. Es existiert kein bekanntes Limit.",
 	"bs-pro-distribution-instance-status-number-of-users-unlimited": "Es {{PLURAL:$1|ist '''$1''' aktiver|sind '''$1''' aktive}} Nutzer registriert. Die Anzahl der Nutzer ist unbegrenzt.",
 	"bs-pro-distribution-instance-status-number-of-users-limited": "Es {{PLURAL:$1|ist '''$1''' aktiver|sind '''$1''' aktive}} Nutzer registriert ($3%). Die Anzahl der Nutzer ist auf $2 begrenzt.",
 	"bs-pro-distribution-instance-status-user-quota-label": "Nutzerkontingent",
@@ -48,5 +49,7 @@
 	"bs-pro-distribution-pdfembed-inspector-page-help": "Nummer der Seite, die nach dem Laden der Vorschau angezeigt werden soll",
 	"bs-pro-distribution-pdfembed-inspector-title": "PDF einbinden",
 	"bs-pro-distribution-pdfembed-droplet-name": "PDF-Vorschau",
-	"bs-pro-distribution-pdfembed-droplet-description": "Vorschau einer PDF-Datei auf der Wikiseite einbinden"
+	"bs-pro-distribution-pdfembed-droplet-description": "Vorschau einer PDF-Datei auf der Wikiseite einbinden",
+	"bs-pro-distribution-config-outh-public-key": "Öffentlicher OAuth2-Schlüssel",
+	"bs-pro-distribution-config-outh-private-key": "Privater OAuth2-Schlüssel"
 }
