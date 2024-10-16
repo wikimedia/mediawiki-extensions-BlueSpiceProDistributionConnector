@@ -17,10 +17,11 @@
 		"lang": "en",
 		"target_title": "Template:ModalDialog",
 		"content_path": "/pages/Template/ModalDialog.wiki",
-		"sha1": "1795ba79c6d51fa427a965b9fcd0cbdc4a8a1725",
+		"sha1": "b9b8450a094d368882c13fa132df041b5ac8052e",
 		"old_sha1": [
 			"5ceed40b0f55388c9231b3435c5ea8dd64891169",
-			"8a04e4d08a43a9fa51817638fdb2ad739f9fa508"
+			"8a04e4d08a43a9fa51817638fdb2ad739f9fa508",
+			"1795ba79c6d51fa427a965b9fcd0cbdc4a8a1725"
 		]
 	},
 	"Template:ProConList": {
