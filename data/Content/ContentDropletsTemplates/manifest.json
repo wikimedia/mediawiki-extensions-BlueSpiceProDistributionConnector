@@ -3,8 +3,10 @@
 		"lang": "en",
 		"target_title": "Template:Decision",
 		"content_path": "/pages/Template/Decision.wiki",
-		"sha1": "b8cb87f838928090f23e903499cf6ff0af1b3232",
-		"old_sha1": []
+		"sha1": "aec79acd9ed2248c01d833edfc3b1a480395ad9e",
+		"old_sha1": [
+			"b8cb87f838928090f23e903499cf6ff0af1b3232"
+		]
 	},
 	"Template:Decision/styles.css": {
 		"lang": "en",
