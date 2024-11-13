@@ -47,5 +47,7 @@
 	"bs-pro-distribution-pdfembed-inspector-page-help": "Aantal pagina’s dat wordt getoond na het weergeven van de voorvertoning",
 	"bs-pro-distribution-pdfembed-inspector-title": "PDF insluiten",
 	"bs-pro-distribution-pdfembed-droplet-name": "PDF-voorbeeld",
-	"bs-pro-distribution-pdfembed-droplet-description": "Voorbeeld van PDF-bestand insluiten in wikipagina"
+	"bs-pro-distribution-pdfembed-droplet-description": "Voorbeeld van PDF-bestand insluiten in wikipagina",
+	"bs-pro-distribution-config-outh-public-key": "Openbare OAuth2-sleutel",
+	"bs-pro-distribution-config-outh-private-key": "OAuth2-privésleutel"
 }
