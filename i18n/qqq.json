@@ -45,5 +45,6 @@
 	"bs-pro-distribution-pdfembed-droplet-name": "Text for droplet pdf embed",
 	"bs-pro-distribution-pdfembed-droplet-description": "Description of droplet pdf embed",
 	"bs-pro-distribution-config-outh-public-key": "Label for configuration variable",
-	"bs-pro-distribution-config-outh-private-key": "Label for configuration variable"
+	"bs-pro-distribution-config-outh-private-key": "Label for configuration variable",
+	"bs-pro-distribution-config-comment-streams-enabled": "Label for configuration variable"
 }
