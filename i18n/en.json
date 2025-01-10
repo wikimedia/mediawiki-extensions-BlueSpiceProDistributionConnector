@@ -42,5 +42,6 @@
 	"bs-pro-distribution-pdfembed-droplet-name": "PDF preview",
 	"bs-pro-distribution-pdfembed-droplet-description": "Embed preview of PDF file in wikipage",
 	"bs-pro-distribution-config-outh-public-key": "OAuth2 public key",
-	"bs-pro-distribution-config-outh-private-key": "OAuth2 private key"
+	"bs-pro-distribution-config-outh-private-key": "OAuth2 private key",
+	"bs-pro-distribution-config-comment-streams-enabled": "Comments"
 }
