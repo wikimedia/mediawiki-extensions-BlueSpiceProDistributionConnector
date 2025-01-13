@@ -12,6 +12,7 @@
 	"bs-pro-distribution-droplet-math-desc": "عرض الصيغ الرياضية",
 	"bs-pro-distribution-droplet-chem-name": "معادلة كيميائية",
 	"bs-pro-distribution-droplet-chem-desc": "عرض الصيغ الكيميائية",
+	"bs-pro-distribution-droplet-modal-dialog-name": "زر النموذج",
 	"bs-pro-distribution-droplet-modal-dialog-desc": "زر قابل للتكوين يفتح حوارًا معياريًا قابلًا للتخصيص",
 	"bs-pro-distribution-droplet-decision-name": "قرار",
 	"bs-pro-distribution-droplet-decision-desc": "يبرز القرار كخاصية صفحة",
@@ -45,5 +46,7 @@
 	"bs-pro-distribution-pdfembed-inspector-page-help": "عدد الصفحات التي سيتم عرضها بعد تقديم المعاينة",
 	"bs-pro-distribution-pdfembed-inspector-title": "تضمين PDF",
 	"bs-pro-distribution-pdfembed-droplet-name": "معاينة ملف PDF",
-	"bs-pro-distribution-pdfembed-droplet-description": "تضمين معاينة لملف PDF في صفحة الويكي"
+	"bs-pro-distribution-pdfembed-droplet-description": "تضمين معاينة لملف PDF في صفحة الويكي",
+	"bs-pro-distribution-config-outh-public-key": "مفتاح عام OAuth2",
+	"bs-pro-distribution-config-outh-private-key": "مفتاح خاص OAuth2"
 }
