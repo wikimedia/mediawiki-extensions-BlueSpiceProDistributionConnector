@@ -48,5 +48,6 @@
 	"bs-pro-distribution-pdfembed-droplet-name": "معاينة ملف PDF",
 	"bs-pro-distribution-pdfembed-droplet-description": "تضمين معاينة لملف PDF في صفحة الويكي",
 	"bs-pro-distribution-config-outh-public-key": "مفتاح عام OAuth2",
-	"bs-pro-distribution-config-outh-private-key": "مفتاح خاص OAuth2"
+	"bs-pro-distribution-config-outh-private-key": "مفتاح خاص OAuth2",
+	"bs-pro-distribution-config-comment-streams-enabled": "تعليقات"
 }
