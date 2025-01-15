@@ -48,5 +48,6 @@
 	"bs-pro-distribution-pdfembed-droplet-name": "תצוגה מקדימה של PDF",
 	"bs-pro-distribution-pdfembed-droplet-description": "הטבעת תצוגה מקדימה של קובץ PDF בדף ויקי",
 	"bs-pro-distribution-config-outh-public-key": "מפתח OAuth2 ציבורי",
-	"bs-pro-distribution-config-outh-private-key": "מפתח OAuth2 פרטי"
+	"bs-pro-distribution-config-outh-private-key": "מפתח OAuth2 פרטי",
+	"bs-pro-distribution-config-comment-streams-enabled": "תגובות"
 }

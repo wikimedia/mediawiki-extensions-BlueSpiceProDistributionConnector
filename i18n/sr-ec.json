@@ -16,5 +16,6 @@
 	"bs-pro-distribution-pdfembed-inspector-input-label": "PDF датотека",
 	"bs-pro-distribution-pdfembed-inspector-width-label": "Ширина",
 	"bs-pro-distribution-pdfembed-inspector-height-label": "Висина",
-	"bs-pro-distribution-pdfembed-inspector-title": "Угради PDF"
+	"bs-pro-distribution-pdfembed-inspector-title": "Угради PDF",
+	"bs-pro-distribution-config-comment-streams-enabled": "Коментари"
 }
