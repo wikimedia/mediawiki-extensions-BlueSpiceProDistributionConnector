@@ -46,5 +46,14 @@
 	"bs-pro-distribution-pdfembed-droplet-description": "Description of droplet pdf embed",
 	"bs-pro-distribution-config-outh-public-key": "Label for configuration variable",
 	"bs-pro-distribution-config-outh-private-key": "Label for configuration variable",
-	"bs-pro-distribution-config-comment-streams-enabled": "Label for configuration variable"
+	"bs-pro-distribution-config-comment-streams-enabled": "Label for configuration variable",
+	"bs-pro-distribution-config-link-titles-parse-on-edit": "Label for configuration variable",
+	"bs-pro-distribution-config-link-titles-parse-on-edit-help": "Help message for configuration variable",
+	"bs-pro-distribution-config-link-titles-parse-on-render": "Label for configuration variable",
+	"bs-pro-distribution-config-link-titles-parse-on-render-help": "Help message for configuration variable",
+	"bs-pro-distribution-config-link-titles-source-ns": "Label for configuration variable",
+	"bs-pro-distribution-config-link-titles-source-ns-help": "Help message for configuration variable",
+	"bs-pro-distribution-config-link-titles-target-ns": "Label for configuration variable",
+	"bs-pro-distribution-config-link-titles-target-ns-help": "Help message for configuration variable",
+	"bs-pro-distribution-config-link-titles-same-ns": "Label for configuration variable"
 }
