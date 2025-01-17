@@ -180,6 +180,9 @@
 		"namespaceManagerCommentStreams": {
 			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\NamespaceManagerCommentStreams",
 			"services": [ "MainConfig", "NamespaceInfo" ]
+		},
+		"runDatabaseUpdates": {
+			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\RunDatabaseUpdates"
 		}
 	},
 	"AuthManagerAutoConfig": {
@@ -201,7 +204,8 @@
 		"NamespaceManager::getMetaFields": "namespaceManagerCommentStreams",
 		"BSApiNamespaceStoreMakeData": "namespaceManagerCommentStreams",
 		"NamespaceManager::editNamespace": "namespaceManagerCommentStreams",
-		"NamespaceManagerBeforePersistSettings": "namespaceManagerCommentStreams"
+		"NamespaceManagerBeforePersistSettings": "namespaceManagerCommentStreams",
+		"LoadExtensionSchemaUpdates": "runDatabaseUpdates"
 	},
 	"config_prefix": "bsg",
 	"config": {
