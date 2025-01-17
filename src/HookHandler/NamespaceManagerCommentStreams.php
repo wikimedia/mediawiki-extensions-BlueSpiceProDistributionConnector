@@ -111,7 +111,7 @@ class NamespaceManagerCommentStreams implements NamespaceManagerBeforePersistSet
 	}
 
 	/**
-	 * @param mixed $raw
+	 * @param array|null $raw
 	 * @return array
 	 */
 	private function getCurrentValue( $raw ): array {
