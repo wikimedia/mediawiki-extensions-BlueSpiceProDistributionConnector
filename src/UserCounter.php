@@ -4,8 +4,8 @@ namespace BlueSpice\ProDistributionConnector;
 
 use Config;
 use Html;
+use MediaWiki\User\User;
 use Message;
-use User;
 use Wikimedia\Rdbms\ILoadBalancer;
 
 class UserCounter {

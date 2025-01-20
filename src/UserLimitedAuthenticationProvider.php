@@ -5,8 +5,8 @@ namespace BlueSpice\ProDistributionConnector;
 use MediaWiki\Auth\AbstractPreAuthenticationProvider;
 use MediaWiki\Auth\AuthenticationRequest;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\User\User;
 use StatusValue;
-use User;
 
 class UserLimitedAuthenticationProvider extends AbstractPreAuthenticationProvider {
 	/**
