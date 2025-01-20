@@ -49,5 +49,14 @@
 	"bs-pro-distribution-droplet-modal-dialog-name": "زر النموذج",
 	"bs-pro-distribution-config-outh-public-key": "مفتاح عام OAuth2",
 	"bs-pro-distribution-config-outh-private-key": "مفتاح خاص OAuth2",
-	"bs-pro-distribution-config-comment-streams-enabled": "تعليقات"
+	"bs-pro-distribution-config-comment-streams-enabled": "تعليقات",
+	"bs-pro-distribution-config-link-titles-parse-on-edit": "تحليل الروابط عند التحرير",
+	"bs-pro-distribution-config-link-titles-parse-on-edit-help": "عند الحفظ، قم بتحليل محتوى الصفحة والارتباط بالصفحات المذكورة في المحتوى",
+	"bs-pro-distribution-config-link-titles-parse-on-render": "إضافة الروابط عند عرض الصفحة",
+	"bs-pro-distribution-config-link-titles-parse-on-render-help": "عند عرض صفحة، قم بتحليل المحتوى والارتباط بالصفحات المذكورة في المحتوى. لن يؤدي هذا إلى تغيير محتوى الصفحة",
+	"bs-pro-distribution-config-link-titles-source-ns": "مساحات الأسماء المصدرية",
+	"bs-pro-distribution-config-link-titles-source-ns-help": "تحليل الصفحات الموجودة في هذه المساحات فقط",
+	"bs-pro-distribution-config-link-titles-target-ns": "مساحات الأسماء المستهدفة",
+	"bs-pro-distribution-config-link-titles-target-ns-help": "الارتباط فقط بالصفحات الموجودة في هذه المساحات",
+	"bs-pro-distribution-config-link-titles-same-ns": "قم فقط بالربط إلى الصفحات الموجودة في نفس مساحة اسم الصفحة المصدر"
 }
