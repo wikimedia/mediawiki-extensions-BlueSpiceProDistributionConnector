@@ -49,5 +49,6 @@
 	"bs-pro-distribution-pdfembed-droplet-name": "PDF-voorbeeld",
 	"bs-pro-distribution-pdfembed-droplet-description": "Voorbeeld van PDF-bestand insluiten in wikipagina",
 	"bs-pro-distribution-config-outh-public-key": "Openbare OAuth2-sleutel",
-	"bs-pro-distribution-config-outh-private-key": "OAuth2-privésleutel"
+	"bs-pro-distribution-config-outh-private-key": "OAuth2-privésleutel",
+	"bs-pro-distribution-config-comment-streams-enabled": "Opmerkingen"
 }
