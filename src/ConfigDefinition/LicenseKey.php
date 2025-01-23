@@ -4,8 +4,8 @@ namespace BlueSpice\ProDistributionConnector\ConfigDefinition;
 
 use BlueSpice\ConfigDefinition;
 use BlueSpice\ProDistributionConnector\EditionProvider;
-use IContextSource;
 use MediaWiki\Config\Config;
+use MediaWiki\Context\IContextSource;
 use MediaWiki\MediaWikiServices;
 
 class LicenseKey extends ConfigDefinition\StringSetting {
