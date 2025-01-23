@@ -5,7 +5,7 @@
 namespace BlueSpice\ProDistributionConnector\HookHandler;
 
 use BlueSpice\NamespaceManager\Hook\NamespaceManagerBeforePersistSettingsHook;
-use Config;
+use MediaWiki\Config\Config;
 use MediaWiki\Message\Message;
 use NamespaceInfo;
 
