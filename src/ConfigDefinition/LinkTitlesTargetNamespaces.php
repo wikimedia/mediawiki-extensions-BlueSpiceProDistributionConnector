@@ -3,7 +3,6 @@
 namespace BlueSpice\ProDistributionConnector\ConfigDefinition;
 
 use BlueSpice\ConfigDefinition;
-use IContextSource;
 use MediaWiki\Language\Language;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\NamespaceInfo;

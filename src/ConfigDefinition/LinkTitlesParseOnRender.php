@@ -4,7 +4,6 @@ namespace BlueSpice\ProDistributionConnector\ConfigDefinition;
 
 use BlueSpice\ConfigDefinition;
 use BlueSpice\ProDistributionConnector\EditionProvider;
-use IContextSource;
 use MediaWiki\MediaWikiServices;
 
 class LinkTitlesParseOnRender extends ConfigDefinition\BooleanSetting implements ConfigDefinition\IOverwriteGlobal {
