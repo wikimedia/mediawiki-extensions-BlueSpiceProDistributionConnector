@@ -4,7 +4,8 @@
 			"Gomoko",
 			"Thibaut120094",
 			"Verdy p",
-			"Mahabarata"
+			"Mahabarata",
+			"Wladek92"
 		]
 	},
 	"bs-prodistributionconnector-desc": "Connecte BlueSpice à diverses extensions de MediaWiki",
@@ -50,5 +51,8 @@
 	"bs-pro-distribution-pdfembed-droplet-name": "Aperçu du PDF",
 	"bs-pro-distribution-pdfembed-droplet-description": "Intégrer l’aperçu du fichier PDF dans la page wiki",
 	"bs-pro-distribution-config-outh-public-key": "Clé publique OAuth2",
-	"bs-pro-distribution-config-outh-private-key": "Clé privée OAuth2"
+	"bs-pro-distribution-config-outh-private-key": "Clé privée OAuth2",
+	"bs-pro-distribution-config-comment-streams-enabled": "Commentaires",
+	"bs-pro-distribution-config-link-titles-source-ns": "Espaces de noms source",
+	"bs-pro-distribution-config-link-titles-target-ns": "Espaces de noms cible"
 }
