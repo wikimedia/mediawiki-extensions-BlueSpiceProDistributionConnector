@@ -2,8 +2,8 @@
 
 namespace BlueSpice\ProDistributionConnector;
 
-use Html;
 use MediaWiki\Config\Config;
+use MediaWiki\Html\Html;
 use MediaWiki\Message\Message;
 use MediaWiki\User\User;
 use Wikimedia\Rdbms\ILoadBalancer;
