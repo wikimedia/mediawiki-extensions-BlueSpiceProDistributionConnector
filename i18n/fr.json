@@ -53,6 +53,11 @@
 	"bs-pro-distribution-config-outh-public-key": "Clé publique OAuth2",
 	"bs-pro-distribution-config-outh-private-key": "Clé privée OAuth2",
 	"bs-pro-distribution-config-comment-streams-enabled": "Commentaires",
+	"bs-pro-distribution-config-link-titles-parse-on-edit": "Analyser les liens lors de l'édition",
+	"bs-pro-distribution-config-link-titles-parse-on-render": "Ajouter les liens lors du rendu de la page",
 	"bs-pro-distribution-config-link-titles-source-ns": "Espaces de noms source",
-	"bs-pro-distribution-config-link-titles-target-ns": "Espaces de noms cible"
+	"bs-pro-distribution-config-link-titles-source-ns-help": "Analyser uniquement les pages dans ces espaces de noms",
+	"bs-pro-distribution-config-link-titles-target-ns": "Espaces de noms cible",
+	"bs-pro-distribution-config-link-titles-target-ns-help": "Ne pointer que vers les pages de ces espaces de noms.",
+	"bs-pro-distribution-config-link-titles-same-ns": "Ne pointer que vers les pages du même espace de noms en tant que pages source"
 }

@@ -50,5 +50,14 @@
 	"bs-pro-distribution-pdfembed-droplet-description": "Voorbeeld van PDF-bestand insluiten in wikipagina",
 	"bs-pro-distribution-config-outh-public-key": "Openbare OAuth2-sleutel",
 	"bs-pro-distribution-config-outh-private-key": "OAuth2-privésleutel",
-	"bs-pro-distribution-config-comment-streams-enabled": "Opmerkingen"
+	"bs-pro-distribution-config-comment-streams-enabled": "Opmerkingen",
+	"bs-pro-distribution-config-link-titles-parse-on-edit": "Koppelingen analyseren bij het bewerken",
+	"bs-pro-distribution-config-link-titles-parse-on-edit-help": "Bij het opslaan wordt de inhoud van de pagina geanalyseerd en worden koppelingen aangelegd naar de erin vermelde pagina’s",
+	"bs-pro-distribution-config-link-titles-parse-on-render": "Koppelingen toevoegen bij het weergeven van de pagina",
+	"bs-pro-distribution-config-link-titles-parse-on-render-help": "Bij het weergeven van een pagina wordt de inhoud geanalyseerd en worden koppelingen aangelegd naar de in de inhoud vermelde pagina’s. Hierdoor wordt de inhoud van de pagina niet gewijzigd.",
+	"bs-pro-distribution-config-link-titles-source-ns": "Bron-naamruimten",
+	"bs-pro-distribution-config-link-titles-source-ns-help": "Alleen pagina’s in deze naamruimten analyseren",
+	"bs-pro-distribution-config-link-titles-target-ns": "Doel-naamruimten",
+	"bs-pro-distribution-config-link-titles-target-ns-help": "Alleen koppelingen aanleggen naar pagina’s in deze naamruimten",
+	"bs-pro-distribution-config-link-titles-same-ns": "Alleen koppelingen aanleggen naar pagina’s in de naamruimte van de bronpagina"
 }
