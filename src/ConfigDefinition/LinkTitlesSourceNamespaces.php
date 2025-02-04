@@ -51,6 +51,13 @@ class LinkTitlesSourceNamespaces extends ConfigDefinition\ArraySetting implement
 	}
 
 	/**
+	 * @return array|mixed
+	 */
+	public function getValue() {
+		return parent::getValue() ?: [ NS_MAIN ];
+	}
+
+	/**
 	 * @return array
 	 */
 	protected function getOptions() {
@@ -67,7 +74,6 @@ class LinkTitlesSourceNamespaces extends ConfigDefinition\ArraySetting implement
 			$nsOptions[NS_MAIN] = $this->context->msg( 'bs-ns_main' )->text();
 		}
 		return $nsOptions;
-
 	}
 
 	/**
@@ -88,6 +94,6 @@ class LinkTitlesSourceNamespaces extends ConfigDefinition\ArraySetting implement
 	 * @return string
 	 */
 	public function getGlobalName() {
-		return 'LinkTitlesSourceNamespaces';
+		return 'wgLinkTitlesSourceNamespaces';
 	}
 }
