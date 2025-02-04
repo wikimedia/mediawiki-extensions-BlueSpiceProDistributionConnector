@@ -2,11 +2,6 @@
 
 namespace BlueSpice\ProDistributionConnector\ConfigDefinition;
 
-use BlueSpice\ConfigDefinition;
-use MediaWiki\Language\Language;
-use MediaWiki\MediaWikiServices;
-use MediaWiki\Title\NamespaceInfo;
-
 class LinkTitlesTargetNamespaces extends LinkTitlesSourceNamespaces {
 
 	/**
@@ -27,6 +22,13 @@ class LinkTitlesTargetNamespaces extends LinkTitlesSourceNamespaces {
 	 * @return string
 	 */
 	public function getGlobalName() {
-		return 'LinkTitlesTargetNamespaces';
+		return 'wgLinkTitlesTargetNamespaces';
+	}
+
+	/**
+	 * @return array|mixed
+	 */
+	public function getValue() {
+		return $this->getConfig()->get( $this->getName() );
 	}
 }

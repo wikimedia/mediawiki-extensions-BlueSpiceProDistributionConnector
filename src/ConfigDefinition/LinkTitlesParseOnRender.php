@@ -3,8 +3,6 @@
 namespace BlueSpice\ProDistributionConnector\ConfigDefinition;
 
 use BlueSpice\ConfigDefinition;
-use BlueSpice\ProDistributionConnector\EditionProvider;
-use MediaWiki\MediaWikiServices;
 
 class LinkTitlesParseOnRender extends ConfigDefinition\BooleanSetting implements ConfigDefinition\IOverwriteGlobal {
 
@@ -37,6 +35,6 @@ class LinkTitlesParseOnRender extends ConfigDefinition\BooleanSetting implements
 	 * @return string
 	 */
 	public function getGlobalName() {
-		return 'LinkTitlesParseOnRender';
+		return 'wgLinkTitlesParseOnRender';
 	}
 }
