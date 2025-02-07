@@ -7,7 +7,7 @@ namespace BlueSpice\ProDistributionConnector\HookHandler;
 use BlueSpice\NamespaceManager\Hook\NamespaceManagerBeforePersistSettingsHook;
 use MediaWiki\Config\Config;
 use MediaWiki\Message\Message;
-use NamespaceInfo;
+use MediaWiki\Title\NamespaceInfo;
 
 class NamespaceManagerCommentStreams implements NamespaceManagerBeforePersistSettingsHook {
 
