@@ -12,7 +12,6 @@ use MediaWiki\Maintenance\LoggedUpdateMaintenance;
 use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\Revision\SlotRecord;
 use MediaWiki\User\User;
-use MediaWiki\Utils\MWTimestamp;
 
 require_once dirname( __DIR__, 4 ) . '/maintenance/Maintenance.php';
 
