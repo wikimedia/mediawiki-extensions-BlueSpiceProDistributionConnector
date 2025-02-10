@@ -2,7 +2,7 @@
 
 namespace BlueSpice\ProDistributionConnector;
 
-use ExtensionRegistry;
+use MediaWiki\Registration\ExtensionRegistry;
 
 class Extension extends \BlueSpice\Extension {
 
