@@ -3,7 +3,7 @@
 namespace BlueSpice\ProDistributionConnector\Collector;
 
 use BS\UsageTracker\Collectors\Base;
-use GlobalVarConfig;
+use MediaWiki\Config\GlobalVarConfig;
 
 class NoOfNamespaces extends Base {
 
