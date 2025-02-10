@@ -3,8 +3,8 @@
 namespace BlueSpice\ProDistributionConnector\Maintenance;
 
 use Exception;
-use JsonContent;
 use MediaWiki\Content\FallbackContent;
+use MediaWiki\Content\JsonContent;
 use MediaWiki\Extension\CommentStreams\Comment;
 use MediaWiki\Extension\CommentStreams\Reply;
 use MediaWiki\Extension\CommentStreams\Store\TalkPageStore;
