@@ -3,7 +3,7 @@
 namespace BlueSpice\ProDistributionConnector\ConfigDefinition;
 
 use BlueSpice\ConfigDefinition;
-use HTMLTextAreaField;
+use MediaWiki\HTMLForm\Field\HTMLTextAreaField;
 use MediaWiki\Registration\ExtensionRegistry;
 
 class OAuth2PublicKey extends ConfigDefinition\StringSetting implements ConfigDefinition\IOverwriteGlobal {
