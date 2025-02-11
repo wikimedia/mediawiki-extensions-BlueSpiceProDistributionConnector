@@ -66,6 +66,14 @@
 			"PluginModules": [
 				"ext.prodistributionconnector.droplet.pdfembed"
 			]
+		},
+		"PDFCreator": {
+			"Processors": {
+				"math": {
+					"class": "BlueSpice\\ProDistributionConnector\\PDFCreator\\Processor\\Math",
+					"services": [ "UrlUtils", "Math.RendererFactory" ]
+				}
+			}
 		}
 	},
 	"callback": "\\BlueSpice\\ProDistributionConnector\\Extension::onRegistration",
@@ -166,10 +174,6 @@
 		"remoteExtPath": "BlueSpiceProDistributionConnector/resources"
 	},
 	"HookHandlers": {
-		"pdfexport-convert-math-svg-to-png": {
-			"factory": "BlueSpice\\ProDistributionConnector\\HookHandler\\PdfExportConvertMathSVGtoPNG::factory",
-			"services": [ "MediaHandlerFactory" ]
-		},
 		"applyUserQuota": {
 			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\ApplyUserQuota",
 			"services": [ "BlueSpiceUserCounter" ]
@@ -194,7 +198,6 @@
 		}
 	},
 	"Hooks": {
-		"BSUEModulePDFFindFiles": "pdfexport-convert-math-svg-to-png",
 		"BSUsageTrackerRegisterCollectors": "BlueSpice\\ProDistributionConnector\\Hook\\BSUsageTrackerRegisterCollectors\\NumberOfNamespaces::callback",
 		"BeforePageDisplay": [
 			"applyUserQuota",
