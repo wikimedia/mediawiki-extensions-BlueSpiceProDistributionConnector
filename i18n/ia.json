@@ -47,5 +47,15 @@
 	"bs-pro-distribution-pdfembed-droplet-name": "Previsualisation PDF",
 	"bs-pro-distribution-pdfembed-droplet-description": "Incastrar previsualisation de file PDF in pagina wiki",
 	"bs-pro-distribution-config-outh-public-key": "Clave OAuth2 public",
-	"bs-pro-distribution-config-outh-private-key": "Clave OAuth2 private"
+	"bs-pro-distribution-config-outh-private-key": "Clave OAuth2 private",
+	"bs-pro-distribution-config-comment-streams-enabled": "Commentos",
+	"bs-pro-distribution-config-link-titles-parse-on-edit": "Processar ligamines al momento de modification",
+	"bs-pro-distribution-config-link-titles-parse-on-edit-help": "Al momento de salveguardar, analysar le contento del pagina e ligar al paginas mentionate in le contento",
+	"bs-pro-distribution-config-link-titles-parse-on-render": "Adder ligamines al momento de visualisation del pagina",
+	"bs-pro-distribution-config-link-titles-parse-on-render-help": "Quando se visualisa un pagina, analysar le contento e ligar al paginas mentionate in le contento. Isto non alterara le contento del pagina",
+	"bs-pro-distribution-config-link-titles-source-ns": "Spatios de nomines de origine",
+	"bs-pro-distribution-config-link-titles-source-ns-help": "Solmente analysar paginas in iste spatios de nomines",
+	"bs-pro-distribution-config-link-titles-target-ns": "Spatio de nomines de destination",
+	"bs-pro-distribution-config-link-titles-target-ns-help": "Solmente ligar a paginas in iste spatios de nomines",
+	"bs-pro-distribution-config-link-titles-same-ns": "Solmente ligar a paginas in le mesme spatio de nomines que illo del pagina de origine"
 }
