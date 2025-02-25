@@ -36,6 +36,24 @@
 				},
 				"decision": {
 					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\DecisionDroplet"
+				},
+				"pdf-embed": {
+					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\PDFEmbedDroplet",
+					"requires": {
+						"PDFEmbed": "*"
+					}
+				},
+				"math-form": {
+					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\MathFormDroplet",
+					"requires": {
+						"Math": "*"
+					}
+				},
+				"chem-form": {
+					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\ChemFormDroplet",
+					"requires": {
+						"Math": "*"
+					}
 				}
 			}
 		},
@@ -76,7 +94,6 @@
 			}
 		}
 	},
-	"callback": "\\BlueSpice\\ProDistributionConnector\\Extension::onRegistration",
 	"MessagesDirs": {
 		"BlueSpiceProDistributionConnector": "i18n"
 	},
