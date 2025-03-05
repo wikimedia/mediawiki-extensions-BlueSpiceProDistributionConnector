@@ -12,8 +12,10 @@
 		"lang": "en",
 		"target_title": "Template:Decision/styles.css",
 		"content_path": "/pages/Template/Decisionstyles.css.wiki",
-		"sha1": "1a88e7cd426ca084a799dbc353cddb5715bb3e4a",
-		"old_sha1": []
+		"sha1": "4c0a8c15bbc1a2faed01cb38e339c8b9c05844fc",
+		"old_sha1": [
+			"1a88e7cd426ca084a799dbc353cddb5715bb3e4a"
+		]
 	},
 	"Template:ModalDialog": {
 		"lang": "en",
