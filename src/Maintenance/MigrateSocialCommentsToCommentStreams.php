@@ -74,6 +74,9 @@ class MigrateSocialCommentsToCommentStreams extends LoggedUpdateMaintenance {
 		foreach ( $pages as $page ) {
 			$title = $this->getServiceContainer()->getTitleFactory()->newFromRow( $page );
 			$revision = $this->getServiceContainer()->getRevisionStore()->getRevisionByTitle( $title );
+			if ( !$revision ) {
+				continue;
+			}
 			$firstRevision = $this->getServiceContainer()->getRevisionStore()->getFirstRevision( $title );
 			/** @var FallbackContent $content */
 			$content = $revision->getContent( SlotRecord::MAIN );
