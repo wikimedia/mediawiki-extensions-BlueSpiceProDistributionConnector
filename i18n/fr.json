@@ -5,7 +5,8 @@
 			"Mahabarata",
 			"Thibaut120094",
 			"Verdy p",
-			"Wladek92"
+			"Wladek92",
+			"JLTRY"
 		]
 	},
 	"bs-prodistributionconnector-desc": "Connecte BlueSpice à diverses extensions de MediaWiki",
@@ -54,7 +55,9 @@
 	"bs-pro-distribution-config-outh-private-key": "Clé privée OAuth2",
 	"bs-pro-distribution-config-comment-streams-enabled": "Commentaires",
 	"bs-pro-distribution-config-link-titles-parse-on-edit": "Analyser les liens lors de l'édition",
+	"bs-pro-distribution-config-link-titles-parse-on-edit-help": "Lors de l'enregistrement, analysez le contenu de la page et créez un lien vers les pages mentionnées dans le contenu",
 	"bs-pro-distribution-config-link-titles-parse-on-render": "Ajouter les liens lors du rendu de la page",
+	"bs-pro-distribution-config-link-titles-parse-on-render-help": "Lors du rendu d'une page, analysez le contenu et créez un lien vers les pages mentionnées dans le contenu. Cela ne modifiera pas le contenu de la page",
 	"bs-pro-distribution-config-link-titles-source-ns": "Espaces de noms source",
 	"bs-pro-distribution-config-link-titles-source-ns-help": "Analyser uniquement les pages dans ces espaces de noms",
 	"bs-pro-distribution-config-link-titles-target-ns": "Espaces de noms cible",
