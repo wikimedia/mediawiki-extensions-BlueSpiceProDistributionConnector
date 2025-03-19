@@ -57,6 +57,7 @@ class MigrateSocialCommentsToCommentStreams extends LoggedUpdateMaintenance {
 			->select( [ 'page_id' ] )
 			->from( 'page' )
 			->where( [ 'page_namespace' => 1506 ] )
+			->caller( __METHOD__ )
 			->fetchRowCount() > 0;
 	}
 
@@ -68,6 +69,7 @@ class MigrateSocialCommentsToCommentStreams extends LoggedUpdateMaintenance {
 			->select( [ 'page_title', 'page_id', 'page_namespace', 'page_touched' ] )
 			->from( 'page' )
 			->where( [ 'page_namespace' => 1506 ] )
+			->caller( __METHOD__ )
 			->fetchResultSet();
 		$comments = [];
 		$replies = [];
