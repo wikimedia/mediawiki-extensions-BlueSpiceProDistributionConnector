@@ -92,6 +92,35 @@
 					"services": [ "UrlUtils", "Math.RendererFactory" ]
 				}
 			}
+		},
+		"BlueSpiceDistributionConnector": {
+			"EchoEventsCompatibilityMapping": {
+				"login-success": "login-notify-success",
+				"login-fail-known": "login-notify-fail-known",
+				"login-fail-new": "login-notify-fail-new"
+			}
+		},
+		"NotifyMe": {
+			"Events": {
+				"login-notify-success": {
+					"spec": {
+						"class": "\\BlueSpice\\ProDistributionConnector\\Event\\LoginNotifySuccess"
+					},
+					"buckets": [ "personal" ]
+				},
+				"login-notify-fail-known": {
+					"spec": {
+						"class": "\\BlueSpice\\ProDistributionConnector\\Event\\LoginNotifyFailKnown"
+					},
+					"buckets": [ "personal" ]
+				},
+				"login-notify-fail-new": {
+					"spec": {
+						"class": "\\BlueSpice\\ProDistributionConnector\\Event\\LoginNotifyFailNew"
+					},
+					"buckets": [ "personal" ]
+				}
+			}
 		}
 	},
 	"MessagesDirs": {
