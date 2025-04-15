@@ -90,6 +90,10 @@
 				"math": {
 					"class": "BlueSpice\\ProDistributionConnector\\PDFCreator\\Processor\\Math",
 					"services": [ "UrlUtils", "Math.RendererFactory" ]
+				},
+				"pdfembed": {
+					"class": "BlueSpice\\ProDistributionConnector\\PDFCreator\\Processor\\PDFEmbed",
+					"services": [ "TitleFactory", "MainConfig", "RepoGroup" ]
 				}
 			}
 		},
