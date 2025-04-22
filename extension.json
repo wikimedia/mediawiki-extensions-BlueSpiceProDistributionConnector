@@ -131,7 +131,9 @@
 		"BlueSpiceProDistributionConnector": "i18n"
 	},
 	"AutoloadNamespaces": {
-		"BlueSpice\\ProDistributionConnector\\": "src/",
+		"BlueSpice\\ProDistributionConnector\\": "src/"
+	},
+	"TestAutoloadNamespaces": {
 		"BlueSpice\\ProDistributionConnector\\Tests\\": "tests/phpunit"
 	},
 	"ResourceModules": {
