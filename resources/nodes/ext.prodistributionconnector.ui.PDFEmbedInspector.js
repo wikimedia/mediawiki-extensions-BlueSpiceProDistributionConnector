@@ -1,6 +1,4 @@
-ext = ext || {};
-ext.prodistributionconnector = ext.prodistributionconnector || {};
-ext.prodistributionconnector.ui = ext.prodistributionconnector.ui || {};
+bs.util.registerNamespace( 'ext.prodistributionconnector.ui' );
 
 ext.prodistributionconnector.ui.PDFEmbedInspector = function ( config ) {
 	// Parent constructor
@@ -59,15 +57,15 @@ ext.prodistributionconnector.ui.PDFEmbedInspector.prototype.initialize = functio
 
 ext.prodistributionconnector.ui.PDFEmbedInspector.prototype.createFields = function () {
 	this.inputPDF = new OOJSPlus.ui.widget.FileSearchWidget( {
-		extensions: ['pdf']
+		extensions: [ 'pdf' ]
 	} );
-	this.inputPDF.on( 'change', function () {
+	this.inputPDF.on( 'change', () => {
 		let value = this.inputPDF.getValue();
-		if ( value.indexOf( 'File:') === -1 ) {
+		if ( value.indexOf( 'File:' ) === -1 ) {
 			value = 'File:' + value;
 		}
 		this.input.setValue( value );
-	}.bind( this) );
+	} );
 
 	this.widthInput = new OO.ui.TextInputWidget( {
 		placeholder: '500'
@@ -110,7 +108,7 @@ ext.prodistributionconnector.ui.PDFEmbedInspector.prototype.getSetupProcess = fu
 	this.updateSize();
 	return ext.prodistributionconnector.ui.PDFEmbedInspector.super.prototype.getSetupProcess.call( this, data )
 		.next( function () {
-			var attributes = this.selectedNode.getAttribute( 'mw' ).attrs;
+			const attributes = this.selectedNode.getAttribute( 'mw' ).attrs;
 			if ( this.input.getValue() !== '' ) {
 				this.inputPDF.setValue( this.input.getValue() );
 			}
