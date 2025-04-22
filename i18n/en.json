@@ -1,4 +1,7 @@
 {
+	"@metadata": {
+		"authors": []
+	},
 	"bs-prodistributionconnector-desc": "Connects BlueSpice to various MediaWiki extensions",
 	"bs-pro-distribution-droplet-pro-con-list-name": "Pros and cons",
 	"bs-pro-distribution-droplet-pro-con-list-desc": "Table for comparing pros and cons",

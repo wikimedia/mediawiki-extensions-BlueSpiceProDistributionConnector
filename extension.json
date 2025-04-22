@@ -253,7 +253,7 @@
 			"applyUserQuota",
 			"addResources"
 		],
-		"UnblockUser":  "applyUserQuota",
+		"UnblockUser": "applyUserQuota",
 		"NamespaceManager::getMetaFields": "namespaceManagerCommentStreams",
 		"BSApiNamespaceStoreMakeData": "namespaceManagerCommentStreams",
 		"NamespaceManager::editNamespace": "namespaceManagerCommentStreams",
