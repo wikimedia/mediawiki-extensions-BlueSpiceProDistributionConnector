@@ -52,5 +52,8 @@
 	"bs-pro-distribution-config-link-titles-source-ns-help": "Only analyze pages in these namespaces",
 	"bs-pro-distribution-config-link-titles-target-ns": "Target namespaces",
 	"bs-pro-distribution-config-link-titles-target-ns-help": "Only link to pages in these namespaces",
-	"bs-pro-distribution-config-link-titles-same-ns": "Only link to pages in the same namespace as the source page"
+	"bs-pro-distribution-config-link-titles-same-ns": "Only link to pages in the same namespace as the source page",
+	"@metadata": {
+		"authors": []
+	}
 }
