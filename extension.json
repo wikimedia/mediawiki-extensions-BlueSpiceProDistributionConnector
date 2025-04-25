@@ -72,12 +72,7 @@
 			"ConfigDefinitionRegistry": {
 				"LicenseKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\LicenseKey::getInstance",
 				"OAuth2PublicKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\OAuth2PublicKey::getInstance",
-				"OAuth2PrivateKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\OAuth2PrivateKey::getInstance",
-				"LinkTitlesParseOnEdit": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\LinkTitlesParseOnEdit::getInstance",
-				"LinkTitlesParseOnRender": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\LinkTitlesParseOnRender::getInstance",
-				"LinkTitlesSameNamespace": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\LinkTitlesSameNamespace::getInstance",
-				"LinkTitlesSourceNamespaces": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\LinkTitlesSourceNamespaces::getInstance",
-				"LinkTitlesTargetNamespaces": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\LinkTitlesTargetNamespaces::getInstance"
+				"OAuth2PrivateKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\OAuth2PrivateKey::getInstance"
 			}
 		},
 		"VisualEditor": {
