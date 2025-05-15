@@ -70,6 +70,12 @@
 					"class": "BlueSpice\\ProDistributionConnector\\InstanceStatusProvider\\NumberOfUsers",
 					"services": [ "BlueSpiceUserCounter" ]
 				}
+			},
+			"ApiInstanceStatusProvider": {
+				"numberofusers": {
+					"class": "BlueSpice\\ProDistributionConnector\\InstanceStatusProvider\\NumberOfUsers",
+					"services": [ "BlueSpiceUserCounter" ]
+				}
 			}
 		},
 		"BlueSpiceFoundation": {
