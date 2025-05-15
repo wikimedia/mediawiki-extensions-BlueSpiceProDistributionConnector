@@ -2,11 +2,12 @@
 
 namespace BlueSpice\ProDistributionConnector\InstanceStatusProvider;
 
+use BlueSpice\InstanceStatus\IApiStatusProvider;
 use BlueSpice\InstanceStatus\IStatusProvider;
 use BlueSpice\ProDistributionConnector\UserCounter;
 use MediaWiki\Message\Message;
 
-class NumberOfUsers implements IStatusProvider {
+class NumberOfUsers implements IStatusProvider, IApiStatusProvider {
 	/** @var UserCounter */
 	private $counter;
 
@@ -45,4 +46,17 @@ class NumberOfUsers implements IStatusProvider {
 		return 10;
 	}
 
+	/**
+	 * @inheritDoc
+	 */
+	public function getKeyForApi(): string {
+		return 'bs-usercount';
+	}
+
+	/**
+	 * @inheritDoc
+	 */
+	public function getValueForApi() {
+		return $this->counter->getCurrentNumberOfUser();
+	}
 }
