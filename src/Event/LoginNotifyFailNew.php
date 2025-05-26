@@ -2,7 +2,7 @@
 
 namespace BlueSpice\ProDistributionConnector\Event;
 
-use Message;
+use MediaWiki\Message\Message;
 use MWStake\MediaWiki\Component\Events\Delivery\IChannel;
 
 class LoginNotifyFailNew extends LoginNotifySuccess {
