@@ -2,8 +2,8 @@
 
 namespace BlueSpice\ProDistributionConnector\Event;
 
+use MediaWiki\Message\Message;
 use MediaWiki\User\UserIdentity;
-use Message;
 use MWStake\MediaWiki\Component\Events\BotAgent;
 use MWStake\MediaWiki\Component\Events\Delivery\IChannel;
 use MWStake\MediaWiki\Component\Events\NotificationEvent;
