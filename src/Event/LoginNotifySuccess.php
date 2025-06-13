@@ -42,7 +42,7 @@ class LoginNotifySuccess extends NotificationEvent {
 	 * @return Message
 	 */
 	public function getMessage( IChannel $forChannel ): Message {
-		return Message::newFromKey( 'notification-header-login-success', $this->getAgent() );
+		return Message::newFromKey( 'notification-header-login-success', $this->getAgent()->getName() );
 	}
 
 	/**
