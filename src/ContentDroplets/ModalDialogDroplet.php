@@ -24,7 +24,7 @@ class ModalDialogDroplet extends TemplateDroplet {
 			'title' => 'Modal',
 			'btnLabel' => 'label',
 			'body' => 'Content modal body',
-			'bgcolor' => 'blue',
+			'bg-color' => 'blue',
 			'footer' => ''
 		];
 	}
