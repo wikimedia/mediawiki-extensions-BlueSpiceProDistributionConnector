@@ -129,7 +129,7 @@
 		"BlueSpice\\ProDistributionConnector\\": "src/"
 	},
 	"TestAutoloadNamespaces": {
-		"BlueSpice\\ProDistributionConnector\\Tests\\": "tests/phpunit"
+		"BlueSpice\\ProDistributionConnector\\Tests\\": "tests/phpunit/"
 	},
 	"ResourceModules": {
 		"ext.prodistributionconnector.droplet.math": {
