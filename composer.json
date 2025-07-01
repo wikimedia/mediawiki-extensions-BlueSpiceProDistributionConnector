@@ -1,8 +1,15 @@
 {
 	"name": "bluespice/prodistributionconnector",
 	"type": "mediawiki-extension",
-	"license": "GPL-3.0-only",
 	"description": "Connect BlueSpice Pro with some extensions",
+	"license": "GPL-3.0-only",
+	"authors": [
+		{
+			"name": "Hallo Welt! GmbH",
+			"email": "info@hallowelt.com",
+			"homepage": "https://www.hallowelt.com"
+		}
+	],
 	"extra": {
 		"installer-name": "BlueSpiceProDistributionConnector"
 	},
