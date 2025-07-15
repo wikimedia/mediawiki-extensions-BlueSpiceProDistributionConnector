@@ -84,7 +84,7 @@
 			"Processors": {
 				"math": {
 					"class": "BlueSpice\\ProDistributionConnector\\PDFCreator\\Processor\\Math",
-					"services": [ "UrlUtils", "Math.RendererFactory" ]
+					"services": [ "UrlUtils", "Math.RendererFactory", "MainConfig" ]
 				},
 				"pdfembed": {
 					"class": "BlueSpice\\ProDistributionConnector\\PDFCreator\\Processor\\PDFEmbed",
