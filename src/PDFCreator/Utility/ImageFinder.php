@@ -5,6 +5,7 @@ namespace BlueSpice\ProDistributionConnector\PDFCreator\Utility;
 use BlueSpice\ProDistributionConnector\Math\SVGProvider;
 use DOMDocument;
 use DOMXPath;
+use MediaWiki\Config\Config;
 use MediaWiki\Extension\Math\Render\RendererFactory;
 use MediaWiki\Extension\PDFCreator\Utility\WikiFileResource;
 use MediaWiki\Utils\UrlUtils;
@@ -17,12 +18,16 @@ class ImageFinder {
 	/** @var RendererFactory */
 	private $rendererFactory;
 
+	/** @var Config */
+	private $config;
+
 	/** @var array */
 	protected $data = [];
 
-	public function __construct( UrlUtils $urlUtils, RendererFactory $rendererFactory ) {
+	public function __construct( UrlUtils $urlUtils, RendererFactory $rendererFactory, Config $config ) {
 		$this->urlUtils = $urlUtils;
 		$this->rendererFactory = $rendererFactory;
+		$this->config = $config;
 	}
 
 	/**
@@ -67,6 +72,7 @@ class ImageFinder {
 			'//img',
 			$dom
 		);
+		$uploadDir = $this->config->get( 'UploadDirectory' );
 
 		/** @var DOMElement */
 		foreach ( $images as $image ) {
@@ -87,7 +93,7 @@ class ImageFinder {
 			$parseUrl = $this->urlUtils->parse( $origUrl );
 			$params = wfCgiToArray( $parseUrl['query'] );
 			$hash = $params['hash'];
-			$svgPathname = "images/$hash.svg";
+			$svgPathname = "$uploadDir/$hash.svg";
 			$svgProvider = new SVGProvider( $this->rendererFactory );
 			$svgXML = $svgProvider->getSvg( $hash );
 
