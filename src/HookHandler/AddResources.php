@@ -12,5 +12,6 @@ class AddResources {
 	 */
 	public function onBeforePageDisplay( $out, $skin ): void {
 		$out->addModules( "ext.prodistributionconnector.droplet.modalDialog.execution.script" );
+		$out->addModuleStyles( [ "ext.prodistributionconnector.externalcontent" ] );
 	}
 }
