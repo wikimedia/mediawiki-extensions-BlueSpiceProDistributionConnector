@@ -54,6 +54,12 @@
 					"requires": {
 						"Math": "*"
 					}
+				},
+				"ec-embed": {
+					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\EmbedDroplet"
+				},
+				"ec-bitbucket": {
+					"class": "\\BlueSpice\\ProDistributionConnector\\ContentDroplets\\BitbucketDroplet"
 				}
 			}
 		},
@@ -72,12 +78,15 @@
 			"ConfigDefinitionRegistry": {
 				"LicenseKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\LicenseKey::getInstance",
 				"OAuth2PublicKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\OAuth2PublicKey::getInstance",
-				"OAuth2PrivateKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\OAuth2PrivateKey::getInstance"
+				"OAuth2PrivateKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\OAuth2PrivateKey::getInstance",
+				"ExternalContentDomainWhitelist": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\ExternalContentDomainWhitelist::getInstance",
+				"ExternalContentFileExtensionWhitelist": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\ExternalContentFileExtensionWhitelist::getInstance"
 			}
 		},
 		"VisualEditor": {
 			"PluginModules": [
-				"ext.prodistributionconnector.droplet.pdfembed"
+				"ext.prodistributionconnector.droplet.pdfembed",
+				"ext.prodistributionconnector.externalcontent.vePlugin"
 			]
 		},
 		"PDFCreator": {
@@ -213,6 +222,42 @@
 			"dependencies": [
 				"ext.visualEditor.mwcore",
 				"ext.oOJSPlus.widgets"
+			]
+		},
+		"ext.prodistributionconnector.externalcontent": {
+			"styles": [
+				"stylesheets/externalcontent.css"
+			]
+		},
+		"ext.prodistributionconnector.droplet.extenalcontent.embed": {
+			"scripts": [
+				"objects/EmbedDroplet.js"
+			],
+			"messages": [
+				"bs-pro-distribution-droplet-ec-embed-url-label",
+				"bs-pro-distribution-droplets-ec-embed-render-label",
+				"bs-pro-distribution-droplets-ec-embed-lang-label",
+				"bs-pro-distribution-droplets-ec-embed-lang-help",
+				"bs-pro-distribution-droplets-ec-embed-show-lines-label",
+				"bs-pro-distribution-droplets-ec-embed-show-lines-help",
+				"bs-pro-distribution-droplets-ec-embed-show-line-numbers-label"
+			]
+		},
+		"ext.prodistributionconnector.droplet.extenalcontent.bitbucket": {
+			"scripts": [
+				"objects/BitbucketDroplet.js"
+			],
+			"dependencies": [
+				"ext.prodistributionconnector.droplet.extenalcontent.embed"
+			]
+		},
+		"ext.prodistributionconnector.externalcontent.vePlugin": {
+			"packageFiles": [
+				{
+					"name": "ve/datatransferhandler/supportedUrls.json",
+					"callback": "BlueSpice\\ProDistributionConnector\\ExternalContentClientConfig::getSupportedDomainsForPaste"
+				},
+				"ve/datatransferhandler/ExternalContentUrl.js"
 			]
 		}
 	},
