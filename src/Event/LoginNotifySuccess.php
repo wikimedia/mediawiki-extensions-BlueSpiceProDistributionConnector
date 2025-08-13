@@ -2,6 +2,7 @@
 
 namespace BlueSpice\ProDistributionConnector\Event;
 
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Message\Message;
 use MediaWiki\User\UserIdentity;
 use MWStake\MediaWiki\Component\Events\BotAgent;
@@ -51,5 +52,15 @@ class LoginNotifySuccess extends NotificationEvent {
 	 */
 	public function getLinks( IChannel $forChannel ): array {
 		return [];
+	}
+
+	/**
+	 * @inheritDoc
+	 */
+	public static function getArgsForTesting(
+		UserIdentity $agent, MediaWikiServices $services, array $extra = []
+	): array {
+		$targetUser = $extra['targetUser'] ?? $agent;
+		return [ [ 'agent' => $targetUser ] ];
 	}
 }
