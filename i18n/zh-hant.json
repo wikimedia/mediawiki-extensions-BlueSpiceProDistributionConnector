@@ -39,7 +39,7 @@
 	"bs-pro-distribution-instance-status-number-of-users-unknown": "有 {{PLURAL:$1|'''$1'''}} 位已註冊的活躍使用者。沒有設定已知的限制。",
 	"bs-pro-distribution-instance-status-number-of-users-unlimited": "有 {{PLURAL:$1|'''$1'''}} 位已註冊的活躍使用者。使用者數量不受限制。",
 	"bs-pro-distribution-instance-status-number-of-users-limited": "有 {{PLURAL:$1|'''$1'''}} 位已註冊的活躍使用者（$3）。使用者數量限制為 $2。",
-	"bs-pro-distribution-instance-status-number-of-users-limited-full": "有 {{PLURAL:$1|'''$1'''}} 位已註冊的活躍使用者。已達到最多使用者數量！請聯絡 BlueSpice 團隊來增加允許的使用者數量，或是停用一些現有使用者，以便建立新的使用者",
+	"bs-pro-distribution-instance-status-number-of-users-limited-full": "有 {{PLURAL:$1|'''$1'''}} 位已註冊的活躍使用者。已達到最多使用者數量！請聯絡 BlueSpice 團隊來增加允許的使用者數量，或是停用一些現有使用者，以便建立新的使用者。",
 	"bs-pro-distribution-createaccount-fail-max-accounts-exceed": "已超過最多帳號數量",
 	"bs-pro-distribution-config-license-key": "BlueSpice 訂閱金鑰",
 	"bs-pro-distribution-pdfembed-inspector-input-help": "從 wiki 選擇 PDF 檔案將其包含在 wiki 頁面裡",
@@ -49,5 +49,15 @@
 	"bs-pro-distribution-pdfembed-inspector-page-help": "呈現預覽後所顯示的頁數",
 	"bs-pro-distribution-pdfembed-droplet-description": "在 wiki 頁面嵌入 PDF 檔案的預覽",
 	"bs-pro-distribution-config-outh-public-key": "OAuth2 公鑰",
-	"bs-pro-distribution-config-outh-private-key": "OAuth2 私鑰"
+	"bs-pro-distribution-config-outh-private-key": "OAuth2 私鑰",
+	"bs-pro-distribution-config-comment-streams-enabled": "註解",
+	"bs-pro-distribution-config-link-titles-parse-on-edit": "編輯時解析連結",
+	"bs-pro-distribution-config-link-titles-parse-on-edit-help": "儲存時，分析頁面內容並連結到內容中提及的頁面",
+	"bs-pro-distribution-config-link-titles-parse-on-render": "呈現頁面時添加連結",
+	"bs-pro-distribution-config-link-titles-parse-on-render-help": "呈現頁面時，分析內容並連結到內容中提及的頁面。（這不會改變頁面內容）",
+	"bs-pro-distribution-config-link-titles-source-ns": "來源命名空間",
+	"bs-pro-distribution-config-link-titles-source-ns-help": "僅分析在這些命名空間的頁面",
+	"bs-pro-distribution-config-link-titles-target-ns": "目標命名空間",
+	"bs-pro-distribution-config-link-titles-target-ns-help": "僅連結到這些命名空間的頁面",
+	"bs-pro-distribution-config-link-titles-same-ns": "僅連結到與來源頁面相同命名空間的頁面"
 }
