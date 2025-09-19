@@ -120,6 +120,22 @@
 					"buckets": [ "personal" ]
 				}
 			}
+		},
+		"WikiRAG": {
+			"ContextProviders": {
+				"terminology": {
+					"class": "\\BlueSpice\\ProDistributionConnector\\WikiRAG\\TerminologyContextProvider"
+				}
+			},
+			"ChangeObservers": {
+				"terminology-observer": {
+					"class": "\\BlueSpice\\ProDistributionConnector\\WikiRAG\\TerminologyChangeObserver",
+					"services": [
+						"HookContainer",
+						"TitleFactory"
+					]
+				}
+			}
 		}
 	},
 	"MessagesDirs": {
