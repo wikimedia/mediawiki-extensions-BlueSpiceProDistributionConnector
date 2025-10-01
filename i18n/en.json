@@ -55,5 +55,20 @@
 	"bs-pro-distribution-config-link-titles-same-ns": "Only link to pages in the same namespace as the source page",
 	"@metadata": {
 		"authors": []
-	}
+	},
+	"bs-pro-distribution-droplet-embed-name": "External content",
+	"bs-pro-distribution-droplet-embed-desc": "Embed external content from Git repositories, eg. markdown files",
+	"bs-pro-distribution-droplet-bitbucket-name": "BitBucket file",
+	"bs-pro-distribution-droplet-bitbucket-desc": "Embed file from BitBucket repository",
+	"bs-pro-distribution-droplet-ec-embed-url-label": "URL",
+	"bs-pro-distribution-droplets-ec-embed-render-label": "Render markdown",
+	"bs-pro-distribution-droplets-ec-embed-lang-label": "Language of embedded content",
+	"bs-pro-distribution-droplets-ec-embed-lang-help": "One of the [https://prismjs.com/#supported-languages supported languages]. Only necessary if the language is not detected from the file extension.",
+	"bs-pro-distribution-droplets-ec-embed-show-lines-label": "Lines to show",
+	"bs-pro-distribution-droplets-ec-embed-show-lines-help": "Show only specific lines. It can be a single line number or a range separated with a hyphen (-). Multiple line numbers or ranges can be separated by commas.",
+	"bs-pro-distribution-droplets-ec-embed-show-line-numbers-label": "Show line numbers",
+	"bs-pro-distribution-ec-config-domain-whitelist": "Domain whitelist",
+	"bs-pro-distribution-ec-config-file-whitelist": "File extension whitelist",
+	"bs-pro-distribution-ec-config-file-whitelist-help": "List of allowed file extensions. Leave empty to have no restriction.",
+	"bs-pro-distribution-ec-config-domain-whitelist-help": "List of allowed domains to embed content from. Do not include the protocol, just the domain. Eg. `github.com`. Leave empty to have no restriction."
 }
