@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Alshamiri1",
-			"Meno25"
+			"Meno25",
+			"Mohammed Qays"
 		]
 	},
 	"bs-prodistributionconnector-desc": "يربط BlueSpice بامتدادات ميدياويكي المختلفة",
@@ -58,5 +59,7 @@
 	"bs-pro-distribution-config-link-titles-source-ns-help": "تحليل الصفحات الموجودة في هذه المساحات فقط",
 	"bs-pro-distribution-config-link-titles-target-ns": "مساحات الأسماء المستهدفة",
 	"bs-pro-distribution-config-link-titles-target-ns-help": "الارتباط فقط بالصفحات الموجودة في هذه المساحات",
-	"bs-pro-distribution-config-link-titles-same-ns": "قم فقط بالربط إلى الصفحات الموجودة في نفس مساحة اسم الصفحة المصدر"
+	"bs-pro-distribution-config-link-titles-same-ns": "قم فقط بالربط إلى الصفحات الموجودة في نفس مساحة اسم الصفحة المصدر",
+	"bs-pro-distribution-droplet-ec-embed-url-label": "مسار",
+	"bs-pro-distribution-droplets-ec-embed-show-line-numbers-label": "إظهار أرقام الأسطر"
 }
