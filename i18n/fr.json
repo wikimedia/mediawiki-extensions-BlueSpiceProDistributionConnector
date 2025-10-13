@@ -4,6 +4,7 @@
 			"Gomoko",
 			"JLTRY",
 			"Mahabarata",
+			"SleaY",
 			"Thibaut120094",
 			"Verdy p",
 			"Wladek92"
@@ -62,5 +63,6 @@
 	"bs-pro-distribution-config-link-titles-target-ns-help": "Ne pointer que vers les pages de ces espaces de noms.",
 	"bs-pro-distribution-config-link-titles-same-ns": "Ne pointer que vers les pages du même espace de noms en tant que pages source",
 	"bs-pro-distribution-config-link-titles-parse-on-edit-help": "Lors de l'enregistrement, analysez le contenu de la page et créez un lien vers les pages mentionnées dans le contenu",
-	"bs-pro-distribution-config-link-titles-parse-on-render-help": "Lors du rendu d'une page, analysez le contenu et créez un lien vers les pages mentionnées dans le contenu. Cela ne modifiera pas le contenu de la page"
+	"bs-pro-distribution-config-link-titles-parse-on-render-help": "Lors du rendu d'une page, analysez le contenu et créez un lien vers les pages mentionnées dans le contenu. Cela ne modifiera pas le contenu de la page",
+	"bs-pro-distribution-droplet-ec-embed-url-label": "URL"
 }
