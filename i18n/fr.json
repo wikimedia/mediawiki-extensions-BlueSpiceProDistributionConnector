@@ -6,7 +6,8 @@
 			"Mahabarata",
 			"Thibaut120094",
 			"Verdy p",
-			"Wladek92"
+			"Wladek92",
+			"SleaY"
 		]
 	},
 	"bs-prodistributionconnector-desc": "Connecte BlueSpice à diverses extensions de MediaWiki",
@@ -62,5 +63,6 @@
 	"bs-pro-distribution-config-link-titles-source-ns-help": "Analyser uniquement les pages dans ces espaces de noms",
 	"bs-pro-distribution-config-link-titles-target-ns": "Espaces de noms cible",
 	"bs-pro-distribution-config-link-titles-target-ns-help": "Ne pointer que vers les pages de ces espaces de noms.",
-	"bs-pro-distribution-config-link-titles-same-ns": "Ne pointer que vers les pages du même espace de noms en tant que pages source"
+	"bs-pro-distribution-config-link-titles-same-ns": "Ne pointer que vers les pages du même espace de noms en tant que pages source",
+	"bs-pro-distribution-droplet-ec-embed-url-label": "URL"
 }
