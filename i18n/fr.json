@@ -65,5 +65,13 @@
 	"bs-pro-distribution-config-link-titles-parse-on-edit-help": "Lors de l'enregistrement, analysez le contenu de la page et créez un lien vers les pages mentionnées dans le contenu",
 	"bs-pro-distribution-config-link-titles-parse-on-render-help": "Lors du rendu d'une page, analysez le contenu et créez un lien vers les pages mentionnées dans le contenu. Cela ne modifiera pas le contenu de la page",
 	"bs-pro-distribution-droplet-ec-embed-url-label": "URL",
-	"bs-pro-distribution-droplet-embed-name": "Contenu externe"
+	"bs-pro-distribution-droplet-embed-name": "Contenu externe",
+	"bs-pro-distribution-droplets-ec-embed-render-label": "Rendu Markdown",
+	"bs-pro-distribution-droplets-ec-embed-lang-label": "Langue du contenu intégré",
+	"bs-pro-distribution-droplets-ec-embed-show-lines-label": "Lignes à afficher",
+	"bs-pro-distribution-droplets-ec-embed-show-line-numbers-label": "Afficher les numéros de ligne",
+	"bs-pro-distribution-ec-config-domain-whitelist": "Liste blanche de domaines",
+	"bs-pro-distribution-ec-config-file-whitelist": "Liste blanche des extensions de fichiers",
+	"bs-pro-distribution-ec-config-file-whitelist-help": "Liste des extensions de fichiers autorisées. Laissez ce champ vide pour ne pas avoir de restriction.",
+	"bs-pro-distribution-ec-config-domain-whitelist-help": "Liste des domaines autorisés pour l'intégration de contenu. N'indiquez pas le protocole, mais uniquement le domaine. Par exemple : « github.com ». Laissez ce champ vide pour ne pas avoir de restriction."
 }
