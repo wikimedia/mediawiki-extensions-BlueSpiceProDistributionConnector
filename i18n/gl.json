@@ -57,5 +57,20 @@
 	"bs-pro-distribution-config-link-titles-source-ns-help": "Só analizar as páxinas nestes espazos de nomes",
 	"bs-pro-distribution-config-link-titles-target-ns": "Espazos de nomes obxectivo",
 	"bs-pro-distribution-config-link-titles-target-ns-help": "Só engadir ligazóns a páxinas nestes espazos de nomes",
-	"bs-pro-distribution-config-link-titles-same-ns": "Só engadir ligazóns a páxinas no mesmo espazo de nomes que a páxina de orixe"
+	"bs-pro-distribution-config-link-titles-same-ns": "Só engadir ligazóns a páxinas no mesmo espazo de nomes que a páxina de orixe",
+	"bs-pro-distribution-droplet-embed-name": "Contido externo",
+	"bs-pro-distribution-droplet-embed-desc": "Incrustar contido externo de repositorios de Git; por exemplo, ficheiros con sintaxe Markdown",
+	"bs-pro-distribution-droplet-bitbucket-name": "Ficheiro de BitBucket",
+	"bs-pro-distribution-droplet-bitbucket-desc": "Incrustar un ficheiro desde un repositorio de BitBucket",
+	"bs-pro-distribution-droplet-ec-embed-url-label": "URL",
+	"bs-pro-distribution-droplets-ec-embed-render-label": "Sintaxe Markdown de renderización",
+	"bs-pro-distribution-droplets-ec-embed-lang-label": "Lingua do contido incrustado",
+	"bs-pro-distribution-droplets-ec-embed-lang-help": "Unha das [https://prismjs.com/#supported-languages linguas admitidas]. Só é necesario se a lingua non se detecta a partir da extensión do ficheiro.",
+	"bs-pro-distribution-droplets-ec-embed-show-lines-label": "Liñas a mostrar",
+	"bs-pro-distribution-droplets-ec-embed-show-lines-help": "Mostrar só liñas específicas. Pode ser un único número de liña ou un rango separado por un guión (-). En caso de especificar varios números de liña ou rangos, cómpre separalos por comas.",
+	"bs-pro-distribution-droplets-ec-embed-show-line-numbers-label": "Mostrar os números de liña",
+	"bs-pro-distribution-ec-config-domain-whitelist": "Lista branca de dominios",
+	"bs-pro-distribution-ec-config-file-whitelist": "Lista branca de extensións de ficheiros",
+	"bs-pro-distribution-ec-config-file-whitelist-help": "Lista de extensións de ficheiro permitidas. Déixao en branco para non ter ningunha restrición.",
+	"bs-pro-distribution-ec-config-domain-whitelist-help": "Lista de dominios permitidos desde os que inserir contido. Non inclúas o protocolo, só o dominio. Por exemplo: `github.com`. Déixao en branco para non ter ningunha restrición."
 }
