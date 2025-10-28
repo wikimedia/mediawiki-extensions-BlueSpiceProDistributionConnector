@@ -28,7 +28,8 @@ ext.proDistribution.objects.EmbedDroplet.prototype.getFormItems = function () {
 		{
 			name: 'render',
 			label: mw.message( 'bs-pro-distribution-droplets-ec-embed-render-label' ).text(),
-			type: 'checkbox'
+			type: 'checkbox',
+			labelAlign: 'inline'
 		},
 		{
 			name: 'lang',
@@ -48,7 +49,8 @@ ext.proDistribution.objects.EmbedDroplet.prototype.getFormItems = function () {
 			name: 'lineNumbers',
 			label: mw.message( 'bs-pro-distribution-droplets-ec-embed-show-line-numbers-label' ).text(),
 			type: 'checkbox',
-			value: false
+			value: false,
+			labelAlign: 'inline'
 		}
 	];
 };
