@@ -81,22 +81,26 @@ ext.prodistributionconnector.ui.PDFEmbedInspector.prototype.createFields = funct
 ext.prodistributionconnector.ui.PDFEmbedInspector.prototype.setLayouts = function () {
 	this.inputLayout = new OO.ui.FieldLayout( this.inputPDF, {
 		label: mw.message( 'bs-pro-distribution-pdfembed-inspector-input-label' ).text(),
-		help: mw.message( 'bs-pro-distribution-pdfembed-inspector-input-help' ).text()
+		help: mw.message( 'bs-pro-distribution-pdfembed-inspector-input-help' ).text(),
+		align: 'top'
 	} );
 
 	this.widthLayout = new OO.ui.FieldLayout( this.widthInput, {
 		label: mw.message( 'bs-pro-distribution-pdfembed-inspector-width-label' ).text(),
-		help: mw.message( 'bs-pro-distribution-pdfembed-inspector-width-help' ).text()
+		help: mw.message( 'bs-pro-distribution-pdfembed-inspector-width-help' ).text(),
+		align: 'top'
 	} );
 
 	this.heightLayout = new OO.ui.FieldLayout( this.heightInput, {
 		label: mw.message( 'bs-pro-distribution-pdfembed-inspector-height-label' ).text(),
-		help: mw.message( 'bs-pro-distribution-pdfembed-inspector-height-help' ).text()
+		help: mw.message( 'bs-pro-distribution-pdfembed-inspector-height-help' ).text(),
+		align: 'top'
 	} );
 
 	this.pageLayout = new OO.ui.FieldLayout( this.pageInput, {
 		label: mw.message( 'bs-pro-distribution-pdfembed-inspector-page-label' ).text(),
-		help: mw.message( 'bs-pro-distribution-pdfembed-inspector-page-help' ).text()
+		help: mw.message( 'bs-pro-distribution-pdfembed-inspector-page-help' ).text(),
+		align: 'top'
 	} );
 
 };
