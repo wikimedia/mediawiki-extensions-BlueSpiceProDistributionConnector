@@ -21,18 +21,18 @@ ext.proDistribution.objects.EmbedDroplet.prototype.getFormItems = function () {
 	return [
 		{
 			name: 'url',
-			label: mw.message( 'bs-pro-distribution-droplet-ec-embed-url-label' ).plain(),
+			label: mw.message( 'bs-pro-distribution-droplet-ec-embed-url-label' ).text(),
 			type: 'text',
 			required: true
 		},
 		{
 			name: 'render',
-			label: mw.message( 'bs-pro-distribution-droplets-ec-embed-render-label' ).plain(),
+			label: mw.message( 'bs-pro-distribution-droplets-ec-embed-render-label' ).text(),
 			type: 'checkbox'
 		},
 		{
 			name: 'lang',
-			label: mw.message( 'bs-pro-distribution-droplets-ec-embed-lang-label' ).plain(),
+			label: mw.message( 'bs-pro-distribution-droplets-ec-embed-lang-label' ).text(),
 			help: new OO.ui.HtmlSnippet(
 				mw.message( 'bs-pro-distribution-droplets-ec-embed-lang-help' ).parse()
 			),
@@ -40,13 +40,13 @@ ext.proDistribution.objects.EmbedDroplet.prototype.getFormItems = function () {
 		},
 		{
 			name: 'showLines',
-			label: mw.message( 'bs-pro-distribution-droplets-ec-embed-show-lines-label' ).plain(),
+			label: mw.message( 'bs-pro-distribution-droplets-ec-embed-show-lines-label' ).text(),
 			help: mw.message( 'bs-pro-distribution-droplets-ec-embed-show-lines-help' ).text(),
 			type: 'text'
 		},
 		{
 			name: 'lineNumbers',
-			label: mw.message( 'bs-pro-distribution-droplets-ec-embed-show-line-numbers-label' ).plain(),
+			label: mw.message( 'bs-pro-distribution-droplets-ec-embed-show-line-numbers-label' ).text(),
 			type: 'checkbox',
 			value: false
 		}
