@@ -22,7 +22,7 @@ ext.proDistribution.objects.DecisionDroplet.prototype.getFormItems = function ()
 	return [
 		{
 			name: 'decision',
-			label: mw.message( 'droplets-decision-label' ).plain(),
+			label: mw.message( 'droplets-decision-label' ).text(),
 			type: 'textarea',
 			row: 2
 		}

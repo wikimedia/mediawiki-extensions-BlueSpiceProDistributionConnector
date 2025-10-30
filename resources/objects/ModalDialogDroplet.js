@@ -18,42 +18,42 @@ ext.proDistribution.objects.ModalDialogDroplet.prototype.getFormItems = function
 	return [
 		{
 			name: 'btnLabel',
-			label: mw.message( 'droplets-modal-dialog-btn-label' ).plain(),
+			label: mw.message( 'droplets-modal-dialog-btn-label' ).text(),
 			type: 'text'
 		},
 		{
 			name: 'bg-color',
-			label: mw.message( 'droplets-modal-dialog-bg-color-label' ).plain(),
+			label: mw.message( 'droplets-modal-dialog-bg-color-label' ).text(),
 			type: 'dropdown',
 			options: [
 				{
 					data: 'blue',
-					label: mw.message( 'droplets-modal-dialog-bg-color-blue' ).plain()
+					label: mw.message( 'droplets-modal-dialog-bg-color-blue' ).text()
 				},
 				{
 					data: 'neutral',
-					label: mw.message( 'droplets-modal-dialog-bg-color-neutral' ).plain()
+					label: mw.message( 'droplets-modal-dialog-bg-color-neutral' ).text()
 				},
 				{
 					data: 'red',
-					label: mw.message( 'droplets-modal-dialog-bg-color-red' ).plain()
+					label: mw.message( 'droplets-modal-dialog-bg-color-red' ).text()
 				}
 			]
 		},
 		{
 			name: 'title',
-			label: mw.message( 'droplets-modal-dialog-title-label' ).plain(),
+			label: mw.message( 'droplets-modal-dialog-title-label' ).text(),
 			type: 'text'
 		},
 		{
 			name: 'body',
-			label: mw.message( 'droplets-modal-dialog-body-label' ).plain(),
+			label: mw.message( 'droplets-modal-dialog-body-label' ).text(),
 			type: 'textarea',
 			row: 5
 		},
 		{
 			name: 'footer',
-			label: mw.message( 'droplets-modal-dialog-footer-label' ).plain(),
+			label: mw.message( 'droplets-modal-dialog-footer-label' ).text(),
 			type: 'textarea',
 			row: 2
 		}

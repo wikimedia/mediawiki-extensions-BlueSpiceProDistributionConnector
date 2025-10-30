@@ -22,23 +22,23 @@ ext.proDistribution.objects.ProConListDroplet.prototype.getFormItems = function 
 	return [
 		{
 			name: 'title-advantages',
-			label: mw.message( 'droplets-pro-con-advantages-title-label' ).plain(),
+			label: mw.message( 'droplets-pro-con-advantages-title-label' ).text(),
 			type: 'text'
 		},
 		{
 			name: 'title-disadvantages',
-			label: mw.message( 'droplets-pro-con-disadvantages-title-label' ).plain(),
+			label: mw.message( 'droplets-pro-con-disadvantages-title-label' ).text(),
 			type: 'text'
 		},
 		{
 			name: 'advantages',
-			label: mw.message( 'droplets-pro-con-advantages-label' ).plain(),
+			label: mw.message( 'droplets-pro-con-advantages-label' ).text(),
 			type: 'textarea',
 			row: 5
 		},
 		{
 			name: 'disadvantages',
-			label: mw.message( 'droplets-pro-con-disadvantages-label' ).plain(),
+			label: mw.message( 'droplets-pro-con-disadvantages-label' ).text(),
 			type: 'textarea',
 			row: 5
 		}
