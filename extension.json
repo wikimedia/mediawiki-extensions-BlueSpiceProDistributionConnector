@@ -249,6 +249,9 @@
 			"scripts": [
 				"objects/EmbedDroplet.js"
 			],
+			"styles": [
+				"stylesheets/droplet.embed.css"
+			],
 			"messages": [
 				"bs-pro-distribution-droplet-ec-embed-url-label",
 				"bs-pro-distribution-droplets-ec-embed-render-label",
@@ -262,6 +265,9 @@
 		"ext.prodistributionconnector.droplet.extenalcontent.bitbucket": {
 			"scripts": [
 				"objects/BitbucketDroplet.js"
+			],
+			"styles": [
+				"stylesheets/droplet.bitbucket.css"
 			],
 			"dependencies": [
 				"ext.prodistributionconnector.droplet.extenalcontent.embed"
