@@ -240,6 +240,7 @@
 		"preauth": {
 			"UserLimitedAuthenticationProvider": {
 				"class": "BlueSpice\\ProDistributionConnector\\UserLimitedAuthenticationProvider",
+				"services": [ "BlueSpiceUserCounter" ],
 				"sort": 25
 			}
 		}
