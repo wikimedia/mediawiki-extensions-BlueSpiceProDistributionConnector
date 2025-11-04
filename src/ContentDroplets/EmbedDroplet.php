@@ -21,7 +21,6 @@ class EmbedDroplet extends ParserFunctionDroplet {
 	 */
 	protected function getParams(): array {
 		return [
-			'render' => '',
 			'lang' => '',
 			'showLines' => '',
 			'lineNumbers' => '',

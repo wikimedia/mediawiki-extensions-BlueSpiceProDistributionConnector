@@ -26,12 +26,6 @@ ext.proDistribution.objects.EmbedDroplet.prototype.getFormItems = function () {
 			required: true
 		},
 		{
-			name: 'render',
-			label: mw.message( 'bs-pro-distribution-droplets-ec-embed-render-label' ).text(),
-			type: 'checkbox',
-			labelAlign: 'inline'
-		},
-		{
 			name: 'lang',
 			label: mw.message( 'bs-pro-distribution-droplets-ec-embed-lang-label' ).text(),
 			help: new OO.ui.HtmlSnippet(
