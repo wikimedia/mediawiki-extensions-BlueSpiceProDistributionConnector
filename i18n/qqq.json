@@ -61,7 +61,6 @@
 	"bs-pro-distribution-droplet-bitbucket-name": "Droplet name for \"bitbucket\" parser function",
 	"bs-pro-distribution-droplet-bitbucket-desc": "Droplet description",
 	"bs-pro-distribution-droplet-ec-embed-url-label": "Field label",
-	"bs-pro-distribution-droplets-ec-embed-render-label": "Field label",
 	"bs-pro-distribution-droplets-ec-embed-lang-label": "Field label",
 	"bs-pro-distribution-droplets-ec-embed-lang-help": "Field help",
 	"bs-pro-distribution-droplets-ec-embed-show-lines-label": "Field label",
