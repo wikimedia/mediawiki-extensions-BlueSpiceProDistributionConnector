@@ -61,7 +61,6 @@
 	"bs-pro-distribution-droplet-bitbucket-name": "BitBucket file",
 	"bs-pro-distribution-droplet-bitbucket-desc": "Embed file from BitBucket repository",
 	"bs-pro-distribution-droplet-ec-embed-url-label": "URL",
-	"bs-pro-distribution-droplets-ec-embed-render-label": "Render markdown",
 	"bs-pro-distribution-droplets-ec-embed-lang-label": "Language of embedded content",
 	"bs-pro-distribution-droplets-ec-embed-lang-help": "One of the [https://prismjs.com/#supported-languages supported languages]. Only necessary if the language is not detected from the file extension.",
 	"bs-pro-distribution-droplets-ec-embed-show-lines-label": "Lines to show",

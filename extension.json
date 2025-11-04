@@ -254,7 +254,6 @@
 			],
 			"messages": [
 				"bs-pro-distribution-droplet-ec-embed-url-label",
-				"bs-pro-distribution-droplets-ec-embed-render-label",
 				"bs-pro-distribution-droplets-ec-embed-lang-label",
 				"bs-pro-distribution-droplets-ec-embed-lang-help",
 				"bs-pro-distribution-droplets-ec-embed-show-lines-label",
