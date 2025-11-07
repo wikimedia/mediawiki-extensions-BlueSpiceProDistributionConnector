@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Coring",
+			"EneshTranslates",
 			"Yurina Tatiana"
 		]
 	},
@@ -14,5 +15,6 @@
 	"bs-pro-distribution-pdfembed-inspector-width-label": "Ширина",
 	"bs-pro-distribution-pdfembed-inspector-height-label": "Высота",
 	"bs-pro-distribution-pdfembed-inspector-title": "Вставить PDF",
-	"bs-pro-distribution-pdfembed-droplet-name": "Предпросмотр PDF"
+	"bs-pro-distribution-pdfembed-droplet-name": "Предпросмотр PDF",
+	"bs-pro-distribution-droplet-modal-dialog-desc": "Настраиваемая кнопка, которая открывает модальное окно с возможностью настройки"
 }
