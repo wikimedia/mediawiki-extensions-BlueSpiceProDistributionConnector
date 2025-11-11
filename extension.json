@@ -280,6 +280,9 @@
 					"callback": "BlueSpice\\ProDistributionConnector\\ExternalContentClientConfig::getSupportedDomainsForPaste"
 				},
 				"ve/datatransferhandler/ExternalContentUrl.js"
+			],
+			"dependencies": [
+				"ext.visualEditor.core"
 			]
 		}
 	},
