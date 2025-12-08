@@ -34,7 +34,8 @@ ext.proDistribution.ve.datatransferhandler.ExternalContentUrl.prototype.process 
 	const bitbucketUrls = ext.proDistribution.ve.datatransferhandler.ExternalContentUrl.static.supportedUrls.bitbucket;
 	const text = this.item.getAsString().trim();
 	let functionKeyword = 'embed';
-	for ( const pattern in bitbucketUrls ) {
+	for ( let i = 0; i < bitbucketUrls.length; i++ ) {
+		const pattern = bitbucketUrls[ i ];
 		if ( new RegExp( pattern ).test( text ) ) {
 			functionKeyword = 'bitbucket';
 			break;
