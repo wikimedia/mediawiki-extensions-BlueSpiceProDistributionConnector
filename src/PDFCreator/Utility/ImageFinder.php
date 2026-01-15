@@ -9,6 +9,7 @@ use MediaWiki\Config\Config;
 use MediaWiki\Extension\Math\Render\RendererFactory;
 use MediaWiki\Extension\PDFCreator\Utility\WikiFileResource;
 use MediaWiki\Utils\UrlUtils;
+use MWStake\MediaWiki\Component\FileStorageUtilities\StorageHandler;
 
 class ImageFinder {
 
@@ -21,13 +22,19 @@ class ImageFinder {
 	/** @var Config */
 	private $config;
 
+	/** @var StorageHandler */
+	private StorageHandler $storageHandler;
+
 	/** @var array */
 	protected $data = [];
 
-	public function __construct( UrlUtils $urlUtils, RendererFactory $rendererFactory, Config $config ) {
+	public function __construct(
+		UrlUtils $urlUtils, RendererFactory $rendererFactory, Config $config, StorageHandler $storageHandler
+	) {
 		$this->urlUtils = $urlUtils;
 		$this->rendererFactory = $rendererFactory;
 		$this->config = $config;
+		$this->storageHandler = $storageHandler;
 	}
 
 	/**
@@ -72,7 +79,6 @@ class ImageFinder {
 			'//img',
 			$dom
 		);
-		$uploadDir = $this->config->get( 'UploadDirectory' );
 
 		/** @var DOMElement */
 		foreach ( $images as $image ) {
@@ -93,7 +99,7 @@ class ImageFinder {
 			$parseUrl = $this->urlUtils->parse( $origUrl );
 			$params = wfCgiToArray( $parseUrl['query'] );
 			$hash = $params['hash'];
-			$svgPathname = "$uploadDir/$hash.svg";
+			$svgPathname = $this->storageHandler->getTempFilePath( "$hash.svg", "Math" );
 			$svgProvider = new SVGProvider( $this->rendererFactory );
 			$svgXML = $svgProvider->getSvg( $hash );
 
