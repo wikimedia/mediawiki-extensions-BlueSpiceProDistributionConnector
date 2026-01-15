@@ -101,7 +101,7 @@
 			"Processors": {
 				"math": {
 					"class": "BlueSpice\\ProDistributionConnector\\PDFCreator\\Processor\\Math",
-					"services": [ "UrlUtils", "Math.RendererFactory", "MainConfig" ]
+					"services": [ "UrlUtils", "Math.RendererFactory", "MainConfig", "MWStake.StorageUtilities" ]
 				},
 				"pdfembed": {
 					"class": "BlueSpice\\ProDistributionConnector\\PDFCreator\\Processor\\PDFEmbed",
