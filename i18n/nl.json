@@ -65,7 +65,6 @@
 	"bs-pro-distribution-droplet-bitbucket-name": "BitBucket-bestand",
 	"bs-pro-distribution-droplet-bitbucket-desc": "Bestand insluiten vanuit de BitBucket-repository",
 	"bs-pro-distribution-droplet-ec-embed-url-label": "URL",
-	"bs-pro-distribution-droplets-ec-embed-render-label": "Markdown weergeven",
 	"bs-pro-distribution-droplets-ec-embed-lang-label": "Taal van ingebedde inhoud",
 	"bs-pro-distribution-droplets-ec-embed-lang-help": "Een van de [https://prismjs.com/#supported-languages ondersteunde talen]. Alleen nodig als de taal niet kan worden afgeleid van de bestandsnaamextensie.",
 	"bs-pro-distribution-droplets-ec-embed-show-lines-label": "Te tonen regels",

@@ -65,7 +65,6 @@
 	"bs-pro-distribution-droplet-bitbucket-name": "ملف BitBucket",
 	"bs-pro-distribution-droplet-bitbucket-desc": "تضمين الملف من مستودع BitBucket",
 	"bs-pro-distribution-droplet-ec-embed-url-label": "مسار",
-	"bs-pro-distribution-droplets-ec-embed-render-label": "عرض لغة Markdown",
 	"bs-pro-distribution-droplets-ec-embed-lang-label": "لغة المحتوى المضمن",
 	"bs-pro-distribution-droplets-ec-embed-lang-help": "إحدى اللغات المدعومة [https://prismjs.com/#supported-languages]. هذا ضروري فقط في حال عدم اكتشاف اللغة من امتداد الملف.",
 	"bs-pro-distribution-droplets-ec-embed-show-lines-label": "خطوط للعرض",

@@ -66,7 +66,6 @@
 	"bs-pro-distribution-droplet-bitbucket-name": "BitBucket檔案",
 	"bs-pro-distribution-droplet-bitbucket-desc": "嵌入來自BitBucket倉儲的檔案",
 	"bs-pro-distribution-droplet-ec-embed-url-label": "URL",
-	"bs-pro-distribution-droplets-ec-embed-render-label": "呈現Markdown",
 	"bs-pro-distribution-droplets-ec-embed-lang-label": "嵌入內容的語言",
 	"bs-pro-distribution-droplets-ec-embed-lang-help": "[https://prismjs.com/#supported-languages 支援的語言]之一。僅在無法從副檔名中偵測到語言時才需要。",
 	"bs-pro-distribution-droplets-ec-embed-show-lines-label": "行列顯示",

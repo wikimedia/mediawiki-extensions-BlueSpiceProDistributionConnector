@@ -63,7 +63,6 @@
 	"bs-pro-distribution-droplet-bitbucket-name": "Ficheiro de BitBucket",
 	"bs-pro-distribution-droplet-bitbucket-desc": "Incrustar un ficheiro desde un repositorio de BitBucket",
 	"bs-pro-distribution-droplet-ec-embed-url-label": "URL",
-	"bs-pro-distribution-droplets-ec-embed-render-label": "Sintaxe Markdown de renderización",
 	"bs-pro-distribution-droplets-ec-embed-lang-label": "Lingua do contido incrustado",
 	"bs-pro-distribution-droplets-ec-embed-lang-help": "Unha das [https://prismjs.com/#supported-languages linguas admitidas]. Só é necesario se a lingua non se detecta a partir da extensión do ficheiro.",
 	"bs-pro-distribution-droplets-ec-embed-show-lines-label": "Liñas a mostrar",
