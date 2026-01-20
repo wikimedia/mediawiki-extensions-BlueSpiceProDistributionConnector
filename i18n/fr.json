@@ -66,7 +66,6 @@
 	"bs-pro-distribution-config-link-titles-same-ns": "Ne pointer que vers les pages du même espace de noms en tant que pages source",
 	"bs-pro-distribution-droplet-embed-name": "Contenu externe",
 	"bs-pro-distribution-droplet-ec-embed-url-label": "URL",
-	"bs-pro-distribution-droplets-ec-embed-render-label": "Rendu Markdown",
 	"bs-pro-distribution-droplets-ec-embed-lang-label": "Langue du contenu intégré",
 	"bs-pro-distribution-droplets-ec-embed-show-lines-label": "Lignes à afficher",
 	"bs-pro-distribution-droplets-ec-embed-show-line-numbers-label": "Afficher les numéros de ligne",
