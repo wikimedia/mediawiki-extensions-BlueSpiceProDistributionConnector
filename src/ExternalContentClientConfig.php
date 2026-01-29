@@ -10,10 +10,6 @@ class ExternalContentClientConfig {
 	 * @return array
 	 */
 	public static function getSupportedDomainsForPaste(): array {
-		if ( defined( 'MW_QUIBBLE_CI' ) ) {
-			return [ 'whitelist' => [], 'bitbucket' => [] ];
-		}
-
 		$whitelist = $GLOBALS['wgExternalContentDomainWhitelist'];
 		if ( empty( $whitelist ) ) {
 			$whitelist = [
