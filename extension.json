@@ -271,18 +271,6 @@
 			"dependencies": [
 				"ext.prodistributionconnector.droplet.extenalcontent.embed"
 			]
-		},
-		"ext.prodistributionconnector.externalcontent.vePlugin": {
-			"packageFiles": [
-				{
-					"name": "ve/datatransferhandler/supportedUrls.json",
-					"callback": "BlueSpice\\ProDistributionConnector\\ExternalContentClientConfig::getSupportedDomainsForPaste"
-				},
-				"ve/datatransferhandler/ExternalContentUrl.js"
-			],
-			"dependencies": [
-				"ext.visualEditor.core"
-			]
 		}
 	},
 	"ResourceFileModulePaths": {
@@ -303,6 +291,10 @@
 		},
 		"runDatabaseUpdates": {
 			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\RunDatabaseUpdates"
+		},
+		"ResourceLoaderRegisterModules": {
+			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\ResourceLoaderRegisterModules",
+			"services": [ "ExtensionRegistry" ]
 		}
 	},
 	"AuthManagerAutoConfig": {
@@ -325,7 +317,8 @@
 		"BSApiNamespaceStoreMakeData": "namespaceManagerCommentStreams",
 		"NamespaceManager::editNamespace": "namespaceManagerCommentStreams",
 		"NamespaceManagerBeforePersistSettings": "namespaceManagerCommentStreams",
-		"LoadExtensionSchemaUpdates": "runDatabaseUpdates"
+		"LoadExtensionSchemaUpdates": "runDatabaseUpdates",
+		"ResourceLoaderRegisterModules": "ResourceLoaderRegisterModules"
 	},
 	"config_prefix": "bsg",
 	"config": {
