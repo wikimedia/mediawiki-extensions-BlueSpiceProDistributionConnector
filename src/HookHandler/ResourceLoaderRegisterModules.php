@@ -21,11 +21,13 @@ class ResourceLoaderRegisterModules implements ResourceLoaderRegisterModulesHook
 	 */
 	public function onResourceLoaderRegisterModules( ResourceLoader $rl ): void {
 		$localBasePath = dirname( __DIR__, 2 ) . '/resources';
-		$remoteExtPath = 'BlueSpiceDistributionConnector/resources';
+		$remoteExtPath = 'BlueSpiceProDistributionConnector/resources';
 
 		if ( $this->extensionRegistry->isLoaded( 'External Content' ) ) {
 			$rl->register( [
 				'ext.prodistributionconnector.externalcontent.vePlugin' => [
+					'localBasePath' => $localBasePath,
+					'remoteExtPath' => $remoteExtPath,
 					'packageFiles' => [
 						[
 							'name' => 've/datatransferhandler/supportedUrls.json',
