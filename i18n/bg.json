@@ -7,5 +7,6 @@
 	},
 	"droplets-modal-dialog-bg-color-blue": "син",
 	"droplets-modal-dialog-bg-color-red": "червен",
-	"droplets-modal-dialog-bg-color-neutral": "бял"
+	"droplets-modal-dialog-bg-color-neutral": "бял",
+	"bs-pro-distribution-config-outh-private-key": "OAuth2 частен ключ"
 }

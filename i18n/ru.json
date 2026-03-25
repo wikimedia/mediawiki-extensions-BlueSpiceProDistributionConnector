@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Coring"
+			"Coring",
+			"EneshTranslates",
+			"Yurina Tatiana"
 		]
 	},
 	"droplets-smw-report-ns-label": "Пространство имён",
@@ -13,5 +15,8 @@
 	"bs-pro-distribution-pdfembed-inspector-input-label": "файл PDF",
 	"bs-pro-distribution-pdfembed-inspector-width-label": "Ширина",
 	"bs-pro-distribution-pdfembed-inspector-height-label": "Высота",
-	"bs-pro-distribution-pdfembed-droplet-name": "Предпросмотр PDF"
+	"bs-pro-distribution-pdfembed-droplet-name": "Предпросмотр PDF",
+	"bs-pro-distribution-droplet-modal-dialog-name": "Модальная кнопка",
+	"bs-pro-distribution-droplet-modal-dialog-desc": "Настраиваемая кнопка, которая открывает модальное окно с возможностью настройки",
+	"bs-pro-distribution-pdfembed-inspector-title": "Вставить PDF"
 }
