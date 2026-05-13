@@ -17,7 +17,8 @@ class NoOfNamespaces extends Base {
 		$configBsg  = new GlobalVarConfig( 'bsg' );
 		$pageTemplatesDisabled = count( $configBsg->get( 'PageTemplatesExcludeNs' ) ?? [] );
 		$configSmwg  = new GlobalVarConfig( 'smwg' );
-		$linksArray = $configSmwg->get( 'NamespacesWithSemanticLinks' );
+		$linksArray = $configSmwg->has( 'NamespacesWithSemanticLinks' ) ?
+			$configSmwg->get( 'NamespacesWithSemanticLinks' ) : [];
 		$SMWEnabled = count( array_filter(
 					$linksArray,
 					static function ( $value ) {
@@ -25,12 +26,13 @@ class NoOfNamespaces extends Base {
 					}
 		) );
 		$configWg  = new GlobalVarConfig( 'wg' );
-		$stabilizationEnabled = count(
-			array_unique( $configWg->get( 'ContentStabilizationEnabledNamespaces' ) ?? [] )
-		);
-		$readConfirmationEnabled = count( array_unique(
-			$configWg->get( 'NamespacesWithEnabledReadConfirmation' ) ?? []
-		) );
+		$stabilizedNamespaces = $configWg->has( 'ContentStabilizationEnabledNamespaces' ) ?
+			$configWg->get( 'ContentStabilizationEnabledNamespaces' ) : [];
+		$stabilizationEnabled = count( array_unique( $stabilizedNamespaces ) );
+
+		$readConfirmationNamespaces = $configWg->has( 'NamespacesWithEnabledReadConfirmation' ) ?
+			$configWg->get( 'NamespacesWithEnabledReadConfirmation' ) : [];
+		$readConfirmationEnabled = count( array_unique( $readConfirmationNamespaces ) );
 		$count =
 		[
 			"PageTemplatesDisabled" => $pageTemplatesDisabled,
