@@ -21,5 +21,7 @@
 	"droplets-modal-dialog-bg-color-neutral": "흰색",
 	"bs-pro-distribution-droplet-ec-embed-url-label": "URL",
 	"bs-pro-distribution-ec-config-domain-whitelist": "도메인 허용 목록",
-	"bs-pro-distribution-ec-config-file-whitelist": "파일 확장 기능 허용 목록"
+	"bs-pro-distribution-ec-config-file-whitelist": "파일 확장 기능 허용 목록",
+	"bs-pro-distribution-config-outh-public-key": "OAuth2 공개 키",
+	"bs-pro-distribution-config-outh-private-key": "OAuth2 개인 키"
 }
