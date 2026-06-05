@@ -11,7 +11,8 @@
 	"requires": {
 		"MediaWiki": ">= 1.43.0",
 		"extensions": {
-			"BlueSpiceFoundation": ">= 5.0.0"
+			"BlueSpiceFoundation": ">= 5.0.0",
+			"BlueSpiceDistributionConnector": ">= 5.0.0"
 		}
 	},
 	"attributes": {
