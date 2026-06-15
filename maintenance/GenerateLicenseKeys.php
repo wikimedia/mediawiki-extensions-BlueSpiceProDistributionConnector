@@ -15,8 +15,8 @@ if ( $count < 1 ) {
 
 for ( $i = 0; $i < $count; $i++ ) {
 	$key = generateKey();
-	$normalized = strtolower( str_replace( '-', '', $key ) );
-	$hash = sha1( $key );
+	$normalized = trim( strtolower( str_replace( '-', '', $key ) ) );
+	$hash = sha1( $normalized );
 	echo "$key\t$normalized\t$hash\n";
 }
 
