@@ -296,6 +296,9 @@
 		"ResourceLoaderRegisterModules": {
 			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\ResourceLoaderRegisterModules",
 			"services": [ "ExtensionRegistry" ]
+		},
+		"unregisterCommentStreamsNotifyMeSubscriberProvider": {
+			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\RemoveCommentStreamsSubscriptionProvider"
 		}
 	},
 	"AuthManagerAutoConfig": {
@@ -319,7 +322,8 @@
 		"NamespaceManager::editNamespace": "namespaceManagerCommentStreams",
 		"NamespaceManagerBeforePersistSettings": "namespaceManagerCommentStreams",
 		"LoadExtensionSchemaUpdates": "runDatabaseUpdates",
-		"ResourceLoaderRegisterModules": "ResourceLoaderRegisterModules"
+		"ResourceLoaderRegisterModules": "ResourceLoaderRegisterModules",
+		"NotifyMeSubscriberProviderFactory": "unregisterCommentStreamsNotifyMeSubscriberProvider"
 	},
 	"config_prefix": "bsg",
 	"config": {
