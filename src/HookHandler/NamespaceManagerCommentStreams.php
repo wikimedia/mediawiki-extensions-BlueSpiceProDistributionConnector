@@ -33,11 +33,22 @@ class NamespaceManagerCommentStreams implements NamespaceManagerBeforePersistSet
 	}
 
 	/**
+	 * @return bool
+	 */
+	protected function shouldSkip(): bool {
+		$reg = \MediaWiki\MediaWikiServices::getInstance()->getExtensionRegistry();
+		return !$reg->isLoaded( 'CommentStreams' );
+	}
+
+	/**
 	 * @param array &$aMetaFields
 	 *
 	 * @return bool
 	 */
 	public function onNamespaceManager__getMetaFields( &$aMetaFields ) {
+		if ( $this->shouldSkip() ) {
+			return true;
+		}
 		$aMetaFields[] = [
 			'name' => 'commentstreams',
 			'type' => 'boolean',
@@ -55,7 +66,12 @@ class NamespaceManagerCommentStreams implements NamespaceManagerBeforePersistSet
 	 * @return bool
 	 */
 	public function onBSApiNamespaceStoreMakeData( &$aResults ) {
-		$current = $this->getCurrentValue( $this->config->get( 'CommentStreamsAllowedNamespaces' ) );
+		if ( $this->shouldSkip() ) {
+			return true;
+		}
+		$namespaces = $this->config->has( 'CommentStreamsAllowedNamespaces' ) ?
+			$this->config->get( 'CommentStreamsAllowedNamespaces' ) : null;
+		$current = $this->getCurrentValue( $namespaces );
 		$iResults = count( $aResults );
 		for ( $i = 0; $i < $iResults; $i++ ) {
 			$aResults[ $i ][ 'commentstreams' ] = [
@@ -77,6 +93,9 @@ class NamespaceManagerCommentStreams implements NamespaceManagerBeforePersistSet
 	public function onNamespaceManager__editNamespace(
 		&$namespaceDefinitions, &$ns, $additionalSettings, $useInternalDefaults = false
 	) {
+		if ( $this->shouldSkip() ) {
+			return true;
+		}
 		if ( !$useInternalDefaults && isset( $additionalSettings['commentstreams'] ) ) {
 			$namespaceDefinitions[$ns][ 'commentstreams' ] = $additionalSettings['commentstreams'];
 		} else {
@@ -91,6 +110,9 @@ class NamespaceManagerCommentStreams implements NamespaceManagerBeforePersistSet
 	public function onNamespaceManagerBeforePersistSettings(
 		array &$configuration, int $id, array $definition, array $mwGlobals
 	): void {
+		if ( $this->shouldSkip() ) {
+			return;
+		}
 		$configuration['wgCommentStreamsAllowedNamespaces'] = $configuration['wgCommentStreamsAllowedNamespaces'] ?? [];
 		$enabledNamespaces = $this->getCurrentValue( $mwGlobals['wgCommentStreamsAllowedNamespaces'] );
 		$currentlyActivated = in_array( $id, $enabledNamespaces );
