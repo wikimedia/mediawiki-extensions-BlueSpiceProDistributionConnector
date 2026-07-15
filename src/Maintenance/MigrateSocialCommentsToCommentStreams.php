@@ -17,6 +17,9 @@ require_once dirname( __DIR__, 4 ) . '/maintenance/Maintenance.php';
 
 class MigrateSocialCommentsToCommentStreams extends LoggedUpdateMaintenance {
 
+	/**
+	 * @inheritDoc
+	 */
 	protected function doDBUpdates() {
 		if ( !ExtensionRegistry::getInstance()->isLoaded( 'CommentStreams' ) ) {
 			$this->error( 'CommentStreams extension is not installed. Skipping migration.' );
