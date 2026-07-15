@@ -9,8 +9,6 @@ use MediaWiki\Message\Message;
 
 class ChemFormDroplet extends GenericDroplet {
 
-	/**
-	 */
 	public function __construct() {
 	}
 
