@@ -9,8 +9,6 @@ use MediaWiki\Message\Message;
 
 class MathFormDroplet extends GenericDroplet {
 
-	/**
-	 */
 	public function __construct() {
 	}
 
