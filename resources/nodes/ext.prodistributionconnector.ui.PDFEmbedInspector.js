@@ -61,7 +61,7 @@ ext.prodistributionconnector.ui.PDFEmbedInspector.prototype.createFields = funct
 	} );
 	this.inputPDF.on( 'change', () => {
 		let value = this.inputPDF.getValue();
-		if ( value.indexOf( 'File:' ) === -1 ) {
+		if ( value.indexOf( 'File:' ) === -1 ) { // eslint-disable-line unicorn/prefer-includes
 			value = 'File:' + value;
 		}
 		this.input.setValue( value );

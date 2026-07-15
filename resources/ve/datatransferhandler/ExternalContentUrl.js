@@ -25,7 +25,7 @@ ext.proDistribution.ve.datatransferhandler.ExternalContentUrl.static.getAnchorHr
 ext.proDistribution.ve.datatransferhandler.ExternalContentUrl.static.matchFunction = function ( item ) {
 	// Supports only pasting the URL directly (not as part of a text or HTML string)
 	// This is because we are *including* the content here, not just transforming the lin
-	if ( ext.proDistribution.ve.datatransferhandler.ExternalContentUrl.static.types.indexOf( item.type ) >= 0 ) {
+	if ( ext.proDistribution.ve.datatransferhandler.ExternalContentUrl.static.types.indexOf( item.type ) >= 0 ) { // eslint-disable-line unicorn/prefer-includes
 		let subject = item.getAsString();
 		subject = ext.proDistribution.ve.datatransferhandler.ExternalContentUrl.static.getAnchorHref( subject ).trim();
 		const supported = ext.proDistribution.ve.datatransferhandler.ExternalContentUrl.static.supportedUrls.whitelist;
