@@ -52,7 +52,6 @@ class ExternalContentFileExtensionWhitelist
 	}
 
 	/**
-	 *
 	 * @return HTMLMultiSelectPlusAdd
 	 */
 	public function getHtmlFormField() {

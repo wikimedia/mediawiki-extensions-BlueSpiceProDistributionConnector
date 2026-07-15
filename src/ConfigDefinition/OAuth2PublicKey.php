@@ -9,7 +9,6 @@ use MediaWiki\Registration\ExtensionRegistry;
 class OAuth2PublicKey extends ConfigDefinition\StringSetting implements ConfigDefinition\IOverwriteGlobal {
 
 	/**
-	 *
 	 * @return HTMLTextAreaField
 	 */
 	public function getHtmlFormField() {
