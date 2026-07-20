@@ -102,7 +102,7 @@ class MigrateSocialCommentsToCommentStreams extends LoggedUpdateMaintenance {
 			}
 			$owner = $this->getServiceContainer()->getUserFactory()->newFromId( $json['ownerid'] );
 			if ( !$owner->isRegistered() ) {
-				$owner = User::newSystemUser( 'MediaWiki default', [ 'steal' => true ] );
+				$owner = User::newSystemUser( User::MAINTENANCE_SCRIPT_USER, [ 'steal' => true ] );
 			}
 			if ( $json['type'] === 'topic' ) {
 				$relatedTalk = $this->getServiceContainer()->getTitleFactory()->newFromID( $json['discussiontitleid'] );
@@ -168,7 +168,7 @@ class MigrateSocialCommentsToCommentStreams extends LoggedUpdateMaintenance {
 				'created' => $comment['created'],
 				'modified' => $comment['modified'],
 			],
-			User::newSystemUser( 'MediaWiki default', [ 'steal' => true ] )
+			User::newSystemUser( User::MAINTENANCE_SCRIPT_USER, [ 'steal' => true ] )
 		);
 
 		if ( isset( $comment['children'] ) ) {
@@ -185,7 +185,7 @@ class MigrateSocialCommentsToCommentStreams extends LoggedUpdateMaintenance {
 						'created' => $child['created'],
 						'modified' => $child['modified'],
 					],
-					User::newSystemUser( 'MediaWiki default', [ 'steal' => true ] )
+					User::newSystemUser( User::MAINTENANCE_SCRIPT_USER, [ 'steal' => true ] )
 				);
 			}
 		}

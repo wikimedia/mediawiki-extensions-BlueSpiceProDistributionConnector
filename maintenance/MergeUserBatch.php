@@ -22,7 +22,7 @@ class MergeUserBatch extends Maintenance {
 	 */
 	public function execute() {
 		$userFactory = MediaWikiServices::getInstance()->getUserFactory();
-		$mergeUser = User::newSystemUser( 'Maintenance script', [ 'steal' => true ] );
+		$mergeUser = User::newSystemUser( User::MAINTENANCE_SCRIPT_USER, [ 'steal' => true ] );
 		$sourceFile = $this->getOption( 'src' );
 		$source = file_get_contents( $sourceFile );
 		$lines = explode( "\n", $source );
