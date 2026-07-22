@@ -81,7 +81,8 @@
 				"OAuth2PublicKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\OAuth2PublicKey::getInstance",
 				"OAuth2PrivateKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\OAuth2PrivateKey::getInstance",
 				"ExternalContentDomainWhitelist": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\ExternalContentDomainWhitelist::getInstance",
-				"ExternalContentFileExtensionWhitelist": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\ExternalContentFileExtensionWhitelist::getInstance"
+				"ExternalContentFileExtensionWhitelist": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\ExternalContentFileExtensionWhitelist::getInstance",
+				"ExternalContentDomainTypes": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\ExternalContentDomainTypes::getInstance"
 			}
 		},
 		"VisualEditor": {
@@ -333,6 +334,10 @@
 		"LicenseKey": {
 			"value": null,
 			"description": "License key for BlueSpice edition"
+		},
+		"ExternalContentDomainTypes": {
+			"value": [],
+			"description": "Maps self-hosted domains to their platform type for paste detection. Entries in the format 'domain:type', e.g. 'gitlab.mycompany.com:gitlab'. Supported types: github, gitlab, bitbucket."
 		}
 	},
 	"ServiceWiringFiles": [
