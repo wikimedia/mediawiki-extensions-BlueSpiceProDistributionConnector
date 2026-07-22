@@ -33,6 +33,17 @@ ext.proDistribution.ve.datatransferhandler.ExternalContentUrl.static.matchFuncti
 		// Each this.supportedUrls entry is a RegExp
 		for ( const pattern of supported ) {
 			if ( new RegExp( pattern ).test( subject ) ) {
+				// Defense in depth: ensure URL has enough path segments to be embeddable content
+				// (at least /owner/repo for GitHub-like hosts, /projects/X for Bitbucket, etc.)
+				try {
+					const urlObj = new URL( subject );
+					const pathSegments = urlObj.pathname.split( '/' ).filter( ( s ) => s.length > 0 );
+					if ( pathSegments.length < 2 ) {
+						return false;
+					}
+				} catch ( e ) {
+					return false;
+				}
 				return true;
 			}
 		}
