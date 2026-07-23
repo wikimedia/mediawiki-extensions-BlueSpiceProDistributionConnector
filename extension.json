@@ -155,6 +155,14 @@
 	"AutoloadNamespaces": {
 		"BlueSpice\\ProDistributionConnector\\": "src/"
 	},
+	"RestRoutes": [
+		{
+			"method": "GET",
+			"path": "/bluespice/prodistributionconnector/v1/file-auth/{title}",
+			"class": "\\BlueSpice\\ProDistributionConnector\\Rest\\FileAuthHandler",
+			"services": [ "RepoGroup", "PermissionManager", "GroupPermissionsLookup", "HookContainer" ]
+		}
+	],
 	"TestAutoloadNamespaces": {
 		"BlueSpice\\ProDistributionConnector\\Tests\\": "tests/phpunit"
 	},
