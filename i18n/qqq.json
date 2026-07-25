@@ -70,5 +70,7 @@
 	"bs-pro-distribution-ec-config-domain-whitelist": "Configuration variable name",
 	"bs-pro-distribution-ec-config-file-whitelist": "Configuration variable name",
 	"bs-pro-distribution-ec-config-file-whitelist-help": "Description of global variable",
-	"bs-pro-distribution-ec-config-domain-whitelist-help": "Description of global variable"
+	"bs-pro-distribution-ec-config-domain-whitelist-help": "Description of global variable",
+	"bs-pro-distribution-ec-config-domain-types": "Configuration variable name",
+	"bs-pro-distribution-ec-config-domain-types-help": "Description of configuration variable for mapping domains to platform types"
 }

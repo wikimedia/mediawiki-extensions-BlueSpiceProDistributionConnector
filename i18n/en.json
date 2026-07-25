@@ -70,5 +70,7 @@
 	"bs-pro-distribution-ec-config-domain-whitelist": "Domain whitelist",
 	"bs-pro-distribution-ec-config-file-whitelist": "File extension whitelist",
 	"bs-pro-distribution-ec-config-file-whitelist-help": "List of allowed file extensions. Leave empty to have no restriction.",
-	"bs-pro-distribution-ec-config-domain-whitelist-help": "List of allowed domains to embed content from. Do not include the protocol, just the domain. Eg. `github.com`. Leave empty to have no restriction."
+	"bs-pro-distribution-ec-config-domain-whitelist-help": "List of allowed domains to embed content from. Do not include the protocol, just the domain. Eg. `github.com`. Leave empty to have no restriction.",
+	"bs-pro-distribution-ec-config-domain-types": "Domain platform types",
+	"bs-pro-distribution-ec-config-domain-types-help": "Maps self-hosted domains to their platform type for paste URL detection. Add entries in the format `domain:type`, e.g. `gitlab.mycompany.com:gitlab`. Supported types: github, gitlab, bitbucket."
 }
