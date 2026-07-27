@@ -78,5 +78,7 @@
 	"bs-pro-distribution-ec-config-domain-whitelist": "域名白名单",
 	"bs-pro-distribution-ec-config-file-whitelist": "后缀名白名单",
 	"bs-pro-distribution-ec-config-file-whitelist-help": "允许的后缀名清单。留空则无限制。",
-	"bs-pro-distribution-ec-config-domain-whitelist-help": "允许嵌入内容的域名清单。不要包含协定类型（如：https://），只需输入域名即可。例如：`github.com`。留空则无限制。"
+	"bs-pro-distribution-ec-config-domain-whitelist-help": "允许嵌入内容的域名清单。不要包含协定类型（如：https://），只需输入域名即可。例如：`github.com`。留空则无限制。",
+	"bs-pro-distribution-ec-config-domain-types": "域名平台类型",
+	"bs-pro-distribution-ec-config-domain-types-help": "将自托管域名映射到其平台类型，以便检测所粘贴的URL。请按`domain:type`的格式添加项目，例如`gitlab.mycompany.com:gitlab`。支持的类型：github、gitlab、bitbucket。"
 }

@@ -74,5 +74,7 @@
 	"bs-pro-distribution-ec-config-domain-whitelist": "Toegestane domeinen",
 	"bs-pro-distribution-ec-config-file-whitelist": "Toegestane bestandsnaamextensies",
 	"bs-pro-distribution-ec-config-file-whitelist-help": "Lijst met toegestane bestandsnaamextensies. Laat leeg om geen beperkingen in te stellen.",
-	"bs-pro-distribution-ec-config-domain-whitelist-help": "Lijst met voor het inbedden van inhoud toegestane domeinen. Geef geen protocol aan, alleen het domein, bv. `github.com`. Laat leeg om geen beperkingen in te stellen."
+	"bs-pro-distribution-ec-config-domain-whitelist-help": "Lijst met voor het inbedden van inhoud toegestane domeinen. Geef geen protocol aan, alleen het domein, bv. `github.com`. Laat leeg om geen beperkingen in te stellen.",
+	"bs-pro-distribution-ec-config-domain-types": "Domeinplatformtypen",
+	"bs-pro-distribution-ec-config-domain-types-help": "Koppelt zelfgehoste domeinen aan hun platformtype voor detectie van url's die in een url kunnen worden geplakt. Voeg vermeldingen toe in de opmaak `domein:type`, bijvoorbeeld `gitlab.mycompany.com:gitlab`. Ondersteunde typen: github, gitlab, bitbucket."
 }
