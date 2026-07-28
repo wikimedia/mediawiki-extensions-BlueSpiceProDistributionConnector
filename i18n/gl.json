@@ -71,5 +71,7 @@
 	"bs-pro-distribution-ec-config-domain-whitelist": "Lista branca de dominios",
 	"bs-pro-distribution-ec-config-file-whitelist": "Lista branca de extensións de ficheiros",
 	"bs-pro-distribution-ec-config-file-whitelist-help": "Lista de extensións de ficheiro permitidas. Déixao en branco para non ter ningunha restrición.",
-	"bs-pro-distribution-ec-config-domain-whitelist-help": "Lista de dominios permitidos desde os que inserir contido. Non inclúas o protocolo, só o dominio. Por exemplo: `github.com`. Déixao en branco para non ter ningunha restrición."
+	"bs-pro-distribution-ec-config-domain-whitelist-help": "Lista de dominios permitidos desde os que inserir contido. Non inclúas o protocolo, só o dominio. Por exemplo: `github.com`. Déixao en branco para non ter ningunha restrición.",
+	"bs-pro-distribution-ec-config-domain-types": "Tipos de plataformas de dominio",
+	"bs-pro-distribution-ec-config-domain-types-help": "Fai corresponder os dominios autoaloxados co seu tipo de plataforma para a detección de enderezos URL ao pegar. Engade entradas co formato `dominio:tipo`; por exemplo, `gitlab.empresa.gal:gitlab`. Tipos compatibles: github, gitlab, bitbucket."
 }
