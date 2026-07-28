@@ -63,7 +63,6 @@
 	"bs-pro-distribution-droplet-bitbucket-name": "File BitBucket",
 	"bs-pro-distribution-droplet-bitbucket-desc": "Integrar un file de un repositorio BitBucket",
 	"bs-pro-distribution-droplet-ec-embed-url-label": "URL",
-	"bs-pro-distribution-droplets-ec-embed-render-label": "Visualisar Markdown",
 	"bs-pro-distribution-droplets-ec-embed-lang-label": "Lingua del contento integrate",
 	"bs-pro-distribution-droplets-ec-embed-lang-help": "Un del [https://prismjs.com/#supported-languages linguas supportate]. Solo necessari si le lingua non es detegite ab le extension del nomine del file.",
 	"bs-pro-distribution-droplets-ec-embed-show-lines-label": "Lineas a monstrar",
