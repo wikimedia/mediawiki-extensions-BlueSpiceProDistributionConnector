@@ -72,5 +72,6 @@
 	"bs-pro-distribution-ec-config-domain-whitelist": "도메인 허용 목록",
 	"bs-pro-distribution-ec-config-file-whitelist": "파일 확장 기능 허용 목록",
 	"bs-pro-distribution-ec-config-file-whitelist-help": "허용되는 파일 확장자 목록입니다. 제한이 없으면 비워 두세요.",
-	"bs-pro-distribution-ec-config-domain-whitelist-help": "콘텐츠를 삽입할 수 있는 허용 도메인 목록입니다. 프로토콜은 포함하지 말고 도메인만 입력하세요. 예: `github.com`. 제한이 없으면 비워 두세요."
+	"bs-pro-distribution-ec-config-domain-whitelist-help": "콘텐츠를 삽입할 수 있는 허용 도메인 목록입니다. 프로토콜은 포함하지 말고 도메인만 입력하세요. 예: `github.com`. 제한이 없으면 비워 두세요.",
+	"bs-pro-distribution-ec-config-domain-types": "도메인 플랫폼 유형"
 }
