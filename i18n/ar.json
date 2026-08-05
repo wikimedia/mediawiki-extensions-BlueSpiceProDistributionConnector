@@ -73,5 +73,6 @@
 	"bs-pro-distribution-ec-config-domain-whitelist": "قائمة النطاقات المسموح بها",
 	"bs-pro-distribution-ec-config-file-whitelist": "قائمة الملفات المسموح بها",
 	"bs-pro-distribution-ec-config-file-whitelist-help": "قائمة بامتدادات الملفات المسموح بها. اتركها فارغة لعدم وجود قيود.",
-	"bs-pro-distribution-ec-config-domain-whitelist-help": "قائمة النطاقات المسموح بتضمين المحتوى منها. لا تُدرج البروتوكول، فقط النطاق. مثال: `github.com`. اترك هذا الحقل فارغًا لعدم وجود قيود."
+	"bs-pro-distribution-ec-config-domain-whitelist-help": "قائمة النطاقات المسموح بتضمين المحتوى منها. لا تُدرج البروتوكول، فقط النطاق. مثال: `github.com`. اترك هذا الحقل فارغًا لعدم وجود قيود.",
+	"bs-pro-distribution-ec-config-domain-types": "أنواع منصات النطاق"
 }
