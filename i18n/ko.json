@@ -73,5 +73,6 @@
 	"bs-pro-distribution-ec-config-file-whitelist": "파일 확장 기능 허용 목록",
 	"bs-pro-distribution-ec-config-file-whitelist-help": "허용되는 파일 확장자 목록입니다. 제한이 없으면 비워 두세요.",
 	"bs-pro-distribution-ec-config-domain-whitelist-help": "콘텐츠를 삽입할 수 있는 허용 도메인 목록입니다. 프로토콜은 포함하지 말고 도메인만 입력하세요. 예: `github.com`. 제한이 없으면 비워 두세요.",
-	"bs-pro-distribution-ec-config-domain-types": "도메인 플랫폼 유형"
+	"bs-pro-distribution-ec-config-domain-types": "도메인 플랫폼 유형",
+	"bs-pro-distribution-ec-config-domain-types-help": "자체 호스팅 도메인을 해당 플랫폼 유형에 매핑하여 URL 붙여넣기 감지 기능을 제공합니다. `domain:type` 형식으로 항목을 추가하세요. 예: `gitlab.mycompany.com:gitlab`. 지원되는 유형: github, gitlab, bitbucket."
 }
