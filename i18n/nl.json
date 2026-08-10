@@ -45,7 +45,7 @@
 	"bs-pro-distribution-pdfembed-inspector-height-label": "Hoogte",
 	"bs-pro-distribution-pdfembed-inspector-height-help": "Stel de hoogte van het pdf-voorbeeld in. Laat leeg voor gebruik van de standaardgrootte van 1090px",
 	"bs-pro-distribution-pdfembed-inspector-page-label": "Begin met pagina",
-	"bs-pro-distribution-pdfembed-inspector-page-help": "Aantal pagina’s dat wordt getoond na het weergeven van de voorvertoning",
+	"bs-pro-distribution-pdfembed-inspector-page-help": "Aantal pagina’s dat wordt weergegeven na het maken van de voorvertoning",
 	"bs-pro-distribution-pdfembed-inspector-title": "Pdf insluiten",
 	"bs-pro-distribution-pdfembed-droplet-name": "Pdf-voorbeeld",
 	"bs-pro-distribution-pdfembed-droplet-description": "Voorbeeld van pdf-bestand insluiten in wikipagina",
