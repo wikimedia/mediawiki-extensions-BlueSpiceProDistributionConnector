@@ -95,7 +95,7 @@ class FileAuthHandler extends SimpleHandler {
 		$hookRunner->onImgAuthModifyHeaders( $titleObj->getTitleValue(), $extraHeaders );
 
 		$request = $this->getRequest();
-		if ( $request->getQueryParams()['download'] ?? null ) {
+		if ( array_key_exists( 'download', $request->getQueryParams() ) ) {
 			$extraHeaders['Content-Disposition'] = 'attachment; filename="' . addslashes( $file->getName() ) . '"';
 		}
 
