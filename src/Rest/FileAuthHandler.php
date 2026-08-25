@@ -42,7 +42,14 @@ class FileAuthHandler extends SimpleHandler {
 		$this->hookContainer = $hookContainer;
 	}
 
+	/**
+	 * @param string $title
+	 * @return Response
+	 * @throws HttpException
+	 */
 	public function run( string $title ): Response {
+		$params = $this->getValidatedParams();
+		$shouldDownload = $params['download'];
 		$authority = $this->getAuthority();
 		$user = $authority->getUser();
 		$publicWiki = $this->groupPermissionsLookup->groupHasPermission( '*', 'read' );
@@ -95,7 +102,7 @@ class FileAuthHandler extends SimpleHandler {
 		$hookRunner->onImgAuthModifyHeaders( $titleObj->getTitleValue(), $extraHeaders );
 
 		$request = $this->getRequest();
-		if ( array_key_exists( 'download', $request->getQueryParams() ) ) {
+		if ( $shouldDownload ) {
 			$extraHeaders['Content-Disposition'] = 'attachment; filename="' . addslashes( $file->getName() ) . '"';
 		}
 
@@ -148,10 +155,16 @@ class FileAuthHandler extends SimpleHandler {
 		return $response;
 	}
 
+	/**
+	 * @return bool
+	 */
 	public function needsWriteAccess(): bool {
 		return false;
 	}
 
+	/**
+	 * @return array[]
+	 */
 	public function getParamSettings(): array {
 		return [
 			'title' => [
@@ -159,6 +172,11 @@ class FileAuthHandler extends SimpleHandler {
 				ParamValidator::PARAM_TYPE => 'string',
 				ParamValidator::PARAM_REQUIRED => true,
 			],
+			'download' => [
+				self::PARAM_SOURCE => 'query',
+				ParamValidator::PARAM_TYPE => 'boolean',
+				ParamValidator::PARAM_DEFAULT => false,
+			]
 		];
 	}
 }
