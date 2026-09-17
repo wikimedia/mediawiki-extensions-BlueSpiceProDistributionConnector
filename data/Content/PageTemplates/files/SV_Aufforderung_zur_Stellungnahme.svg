@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="297" viewBox="0 0 210 297" role="img" aria-labelledby="t">
+	<title id="t">Vorschau der Seitenvorlage Aufforderung zur Stellungnahme</title>
+	<rect x="0.5" y="0.5" width="209" height="296" fill="#ffffff" stroke="#e1e4e8" stroke-width="1"/>
+	<rect x="15.0" y="15.0" width="93.6" height="6.4" rx="1.4" fill="#6b737b"/>
+	<rect x="15.0" y="27.4" width="87.5" height="17.0" rx="1.4" fill="#f6f7f9" stroke="#e3e6ea" stroke-width="0.4"/>
+	<rect x="18.0" y="30.8" width="26.2" height="2.0" rx="1.0" fill="#c3c9cf"/>
+	<rect x="47.8" y="30.8" width="29.8" height="2.0" rx="1.0" fill="#dde1e5"/>
+	<rect x="18.0" y="35.0" width="26.2" height="2.0" rx="1.0" fill="#c3c9cf"/>
+	<rect x="47.8" y="35.0" width="43.8" height="2.0" rx="1.0" fill="#dde1e5"/>
+	<rect x="18.0" y="39.2" width="26.2" height="2.0" rx="1.0" fill="#c3c9cf"/>
+	<rect x="47.8" y="39.2" width="29.8" height="2.0" rx="1.0" fill="#dde1e5"/>
+	<rect x="107.5" y="27.4" width="87.5" height="17.0" rx="1.4" fill="#f6f7f9" stroke="#e3e6ea" stroke-width="0.4"/>
+	<rect x="110.5" y="30.8" width="26.2" height="2.0" rx="1.0" fill="#c3c9cf"/>
+	<rect x="140.2" y="30.8" width="29.8" height="2.0" rx="1.0" fill="#dde1e5"/>
+	<rect x="110.5" y="35.0" width="26.2" height="2.0" rx="1.0" fill="#c3c9cf"/>
+	<rect x="140.2" y="35.0" width="43.8" height="2.0" rx="1.0" fill="#dde1e5"/>
+	<rect x="110.5" y="39.2" width="26.2" height="2.0" rx="1.0" fill="#c3c9cf"/>
+	<rect x="140.2" y="39.2" width="29.8" height="2.0" rx="1.0" fill="#dde1e5"/>
+	<rect x="15.0" y="50.4" width="180.0" height="11.5" rx="1.2" fill="#f6f7f9" stroke="#e3e6ea" stroke-width="0.4"/>
+	<rect x="15.0" y="50.4" width="1.8" height="11.5" rx="0.9" fill="#b6bec5"/>
+	<circle cx="21.0" cy="56.1" r="2.0" fill="#b6bec5"/>
+	<rect x="26.0" y="53.4" width="46.8" height="2.2" rx="1.1" fill="#c3c9cf"/>
+	<rect x="26.0" y="57.4" width="111.6" height="1.9" rx="0.95" fill="#dde1e5"/>
+	<rect x="15.0" y="66.9" width="82.8" height="4.2" rx="1.1" fill="#929aa2"/>
+	<rect x="15.0" y="75.3" width="118.8" height="2.2" rx="1.1" fill="#d7dbdf"/>
+	<rect x="15.0" y="79.3" width="158.4" height="2.2" rx="1.1" fill="#d7dbdf"/>
+	<rect x="15.0" y="83.3" width="135.0" height="2.2" rx="1.1" fill="#d7dbdf"/>
+	<rect x="15.0" y="89.9" width="75.6" height="4.2" rx="1.1" fill="#929aa2"/>
+	<rect x="15.0" y="98.3" width="104.4" height="2.2" rx="1.1" fill="#d7dbdf"/>
+	<rect x="15.0" y="104.9" width="180.0" height="5.4" rx="1.0" fill="#c4cad0"/>
+	<rect x="15.0" y="104.9" width="180.0" height="21.0" rx="1.0" fill="none" stroke="#e0e4e8" stroke-width="0.5"/>
+	<rect x="15.0" y="110.3" width="180.0" height="5.2" rx="0" fill="#f7f8fa"/>
+	<line x1="15.0" y1="110.3" x2="195.0" y2="110.3" stroke="#e0e4e8" stroke-width="0.35"/>
+	<rect x="16.6" y="112.0" width="46.8" height="1.8" rx="0.9" fill="#e2e6ea"/>
+	<rect x="106.6" y="112.0" width="66.6" height="1.8" rx="0.9" fill="#e2e6ea"/>
+	<line x1="15.0" y1="115.5" x2="195.0" y2="115.5" stroke="#e0e4e8" stroke-width="0.35"/>
+	<rect x="16.6" y="117.2" width="66.6" height="1.8" rx="0.9" fill="#e2e6ea"/>
+	<rect x="15.0" y="120.7" width="180.0" height="5.2" rx="0" fill="#f7f8fa"/>
+	<line x1="15.0" y1="120.7" x2="195.0" y2="120.7" stroke="#e0e4e8" stroke-width="0.35"/>
+	<rect x="106.6" y="122.4" width="46.8" height="1.8" rx="0.9" fill="#e2e6ea"/>
+	<line x1="105.0" y1="104.9" x2="105.0" y2="125.9" stroke="#e0e4e8" stroke-width="0.35"/>
+	<rect x="15.0" y="130.9" width="70.7" height="4.2" rx="1.1" fill="#929aa2"/>
+	<rect x="15.0" y="139.3" width="180.0" height="5.4" rx="1.0" fill="#c4cad0"/>
+	<rect x="15.0" y="139.3" width="180.0" height="24.0" rx="1.0" fill="none" stroke="#e0e4e8" stroke-width="0.5"/>
+	<line x1="105.0" y1="139.3" x2="105.0" y2="163.3" stroke="#e0e4e8" stroke-width="0.35"/>
+	<line x1="15.0" y1="144.7" x2="195.0" y2="144.7" stroke="#e0e4e8" stroke-width="0.35"/>
+	<circle cx="18.4" cy="148.9" r="0.8" fill="#b6bec5"/>
+	<rect x="21.2" y="147.9" width="55.8" height="2.0" rx="1.0" fill="#e2e6ea"/>
+	<circle cx="18.4" cy="153.5" r="0.8" fill="#b6bec5"/>
+	<rect x="21.2" y="152.5" width="45.0" height="2.0" rx="1.0" fill="#e2e6ea"/>
+	<circle cx="18.4" cy="158.1" r="0.8" fill="#b6bec5"/>
+	<rect x="21.2" y="157.1" width="34.2" height="2.0" rx="1.0" fill="#e2e6ea"/>
+	<circle cx="108.4" cy="148.9" r="0.8" fill="#b6bec5"/>
+	<rect x="111.2" y="147.9" width="55.8" height="2.0" rx="1.0" fill="#e2e6ea"/>
+	<circle cx="108.4" cy="153.5" r="0.8" fill="#b6bec5"/>
+	<rect x="111.2" y="152.5" width="45.0" height="2.0" rx="1.0" fill="#e2e6ea"/>
+	<circle cx="108.4" cy="158.1" r="0.8" fill="#b6bec5"/>
+	<rect x="111.2" y="157.1" width="34.2" height="2.0" rx="1.0" fill="#e2e6ea"/>
+	<rect x="15.0" y="168.3" width="78.2" height="4.2" rx="1.1" fill="#929aa2"/>
+	<circle cx="16.3" cy="177.8" r="1.1" fill="#b6bec5"/>
+	<rect x="19.4" y="176.7" width="146.3" height="2.2" rx="1.1" fill="#d7dbdf"/>
+	<circle cx="16.3" cy="182.4" r="1.1" fill="#b6bec5"/>
+	<rect x="19.4" y="181.3" width="102.5" height="2.2" rx="1.1" fill="#d7dbdf"/>
+	<rect x="15.0" y="188.3" width="73.0" height="4.2" rx="1.1" fill="#929aa2"/>
+	<circle cx="16.3" cy="197.8" r="1.1" fill="#b6bec5"/>
+	<rect x="19.4" y="196.7" width="117.1" height="2.2" rx="1.1" fill="#d7dbdf"/>
+	<circle cx="16.3" cy="202.4" r="1.1" fill="#b6bec5"/>
+	<rect x="19.4" y="201.3" width="152.7" height="2.2" rx="1.1" fill="#d7dbdf"/>
+	<circle cx="16.3" cy="207.0" r="1.1" fill="#b6bec5"/>
+	<rect x="19.4" y="205.9" width="89.6" height="2.2" rx="1.1" fill="#d7dbdf"/>
+	<rect x="15.0" y="212.9" width="70.7" height="4.2" rx="1.1" fill="#929aa2"/>
+	<rect x="15.0" y="221.3" width="180.0" height="2.2" rx="1.1" fill="#d7dbdf"/>
+	<circle cx="16.3" cy="229.0" r="1.1" fill="#b6bec5"/>
+	<rect x="19.4" y="227.9" width="146.3" height="2.2" rx="1.1" fill="#d7dbdf"/>
+	<circle cx="16.3" cy="233.6" r="1.1" fill="#b6bec5"/>
+	<rect x="19.4" y="232.5" width="102.5" height="2.2" rx="1.1" fill="#d7dbdf"/>
+	<rect x="15.0" y="239.5" width="73.0" height="4.2" rx="1.1" fill="#929aa2"/>
+	<rect x="15.0" y="247.9" width="180.0" height="10.5" rx="1.2" fill="#eef0f3" stroke="#dcdfe4" stroke-width="0.4"/>
+	<rect x="15.0" y="247.9" width="2.4" height="10.5" rx="1.0" fill="#8f979f"/>
+	<rect x="22.0" y="251.1" width="99.0" height="2.4" rx="1.2" fill="#b0b8c0"/>
+	<rect x="22.0" y="254.5" width="59.4" height="1.8" rx="0.9" fill="#dde1e5"/>
+</svg>
