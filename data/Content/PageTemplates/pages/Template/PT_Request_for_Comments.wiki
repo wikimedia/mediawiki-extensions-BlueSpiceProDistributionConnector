@@ -3,10 +3,10 @@
 {|
 |-
 !Component:
-|name of the affected  component or structure
+|name of the affected component or structure
 |-
 !Stakeholders:
-|who is affected by or influences the idea or its results?
+|who is affected by the idea or influences its result?
 |-
 !Created:
 |mm/dd/yyyy
@@ -19,27 +19,26 @@
 |username
 |-
 !Status:
-|'''in draft''' / in discussion / accepted / declined
+| class="select" |'''in draft''' / in discussion / accepted / declined
 |-
-!End date:
+!Feedback until:
 |mm/dd/yyyy
 |}
 </div>
 </div>
-==Description==
-A Request for Comment (RfC) is a tool for assessing and evaluating internal projects or ideas for change. A maximum of two weeks should elapse before a decision is made. If the RfC is approved, the corresponding tickets for implementation will be created after completion.
+{{Textbox|boxtype=note|header=How a request for comments works|text=A request for comments (RfC) is used to assess internal projects or change proposals. Everyone concerned comments by the given end date – no more than two weeks should pass until the decision. Once accepted, the implementation tickets are created.|icon=yes}}
 
-Give a brief executive summery of the topic here.
+== 📝 Summary ==
+Describe the idea in three to five sentences: what do you propose, and which problem does it solve? Readers should understand the proposal without any prior knowledge.
 
-==Realisation ==
-How to proceed:
-
-{| class="wikitable wikitablee" style="width:100%;"
+== 🛠️ Proposed implementation ==
+How would the idea be put into practice?
+{| class="wikitable" style="width:100%;"
 !'''Step'''
 !'''Description'''
 |-
-|What needs to happen
-|Details about this step
+|What needs to happen?
+|Details about this step – who is involved and what is the result?
 |-
 |..
 |
@@ -48,20 +47,38 @@ How to proceed:
 |
 |}
 
-==Advantages / chances==
-Why we should do this?
+== ⚖️ Advantages and disadvantages ==
+{{ProConList
+|title-advantages=👍 Advantages / opportunities
+|title-disadvantages=👎 Disadvantages / risks
+|advantages=
+*Which problem disappears?
+*Who benefits – and how noticeably?
+|disadvantages=
+*Which costs, risks or dependencies come with it?
+*What could go wrong during the implementation?
+}}
 
-==Disadvantages / risks==
-What issues do we expect?
+== 🎯 Affected areas ==
+Which teams, processes or systems are affected – and in which way?
 
-==Affected areas / effects==
-Which areas are affected and how?
+*'''Area 1:''' what changes there?
+*'''Area 2:''' what changes there?
 
-==Time estimate==
-How long will it take?
+== ⏱️ Effort and schedule ==
+Estimate the effort and name a realistic time frame.
 
-== Comments and evaluation ==
-What does everyone think about the idea?
+*'''Effort:''' e.g. approx. 10 person-days
+*'''Earliest start:''' mm/dd/yyyy
+*'''Expected duration:''' e.g. 4 weeks
 
-*comment, name / sign
-*comment, name / sign
+== 💬 Comments and evaluation ==
+What does everyone think about the idea? Add your comment and sign it so that questions can be clarified directly.
+
+*Comment – ''name''
+*Comment – ''name''
+
+<bs:signhere />
+
+== ✅ Result ==
+{{Decision|decision=Record the result here: accepted, declined or postponed – including reason and decision date.}}

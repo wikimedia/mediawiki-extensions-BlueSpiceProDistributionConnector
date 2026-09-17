@@ -3,10 +3,10 @@
 {|
 |-
 !Date / time:
-|mm/dd/yyyy - 0:00 p.m.
+|mm/dd/yyyy, 0:00 p.m.
 |-
 !Organizer:
-|Department, organization or company
+|department, organization or company
 |-
 !Person responsible:
 |username
@@ -16,239 +16,287 @@
 {| 
 |-
 !Venue:
-|location of event
+|location of the event
 |-
 !Venue contact:
-|name of contact
+|name and phone number
 |-
 !Status:
 | class="select" |'''open''' / closed
 |}
 </div>
 </div>
-==Initial planning phase==
+== 🎯 Goal and target group ==
+Why does this event take place, and who should attend? Name a measurable goal – it makes the review at the end much easier.
+
+*'''Goal:''' e.g. 80 registrations, 50 participants on site
+*'''Target group:''' who do we invite?
+*'''Format:''' on site / hybrid / online
+
+{{Textbox|boxtype=tip|header=Working with this checklist|text=Tick a task as soon as it is started or finished. Delete rows you do not need and add your own – the tables are sortable by every column.|icon=yes}}
+
+== 💡 Concept phase ==
 {| class="wikitable sortable" style="width:100%;"
-! style="width:200px;" |Task
+! style="width:220px;" |Task
 !Owner
 ! style="vertical-align:middle;text-align:center;width:120px;" |Deadline
 ! style="vertical-align:middle;text-align:center;width:100px;" |Started
 ! style="vertical-align:middle;text-align:center;width:100px;" |Finished
 !Notes
 |-
-| style="width:200px;" |Set goals, collect ideas
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" | x
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-| style="width:200px;" |Approve budget
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;" |x
-| style="vertical-align:middle;text-align:center;" |
-|
-|-
-| style="width:200px;" |Assemble guest lists
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-|Assemble speakers list
+| style="width:220px;" |Set goals, collect ideas
 |
 | style="vertical-align:middle;text-align:center;" |mm/dd
-| style="vertical-align:middle;text-align:center;" |
-| style="vertical-align:middle;text-align:center;" |
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" |Book venue
+| style="width:220px;" |Approve budget
 |
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-| style="width:200px;" |Select menu
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" |Contract suppliers
+| style="width:220px;" |Assemble guest list
 |
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Assemble speaker list
+|
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Book venue
+|
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Select menu
+|
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Contract suppliers
+|
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |}
 
-===Notes ===
-Provide some details if necessary.
+=== Notes ===
+Open questions, agreements and decisions of this phase.
 
-==Before the event==
+== 📣 Before the event ==
 {| class="wikitable sortable" style="width:100%;"
-! style="width:200px;" |Task
+! style="width:220px;" |Task
 !Owner
 ! style="vertical-align:middle;text-align:center;width:120px;" |Deadline
 ! style="vertical-align:middle;text-align:center;width:100px;" |Started
 ! style="vertical-align:middle;text-align:center;width:100px;" |Finished
 !Notes
 |-
-|Set up registration
+| style="width:220px;" |Set up registration
 |
 | style="vertical-align:middle;text-align:center;" |mm/dd
-| style="vertical-align:middle;text-align:center;" |x
-| style="vertical-align:middle;text-align:center;" |
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" |Design and distribution of invitations
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-|Communicate arrival and accommodation
+| style="width:220px;" |Design and send invitations
 |
 | style="vertical-align:middle;text-align:center;" |mm/dd
-| style="vertical-align:middle;text-align:center;" |
-| style="vertical-align:middle;text-align:center;" |
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" | Create materials (print / online)
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-| style="width:200px;" |Prepare social media campaign
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-|Briefing speakers
+| style="width:220px;" |Communicate arrival and accommodation
 |
 | style="vertical-align:middle;text-align:center;" |mm/dd
-| style="vertical-align:middle;text-align:center;" |
-| style="vertical-align:middle;text-align:center;" |
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" | Finalize program
+| style="width:220px;" |Create materials (print / online)
 |
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" |Support participants
+| style="width:220px;" |Prepare social media campaign
 |
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Brief speakers
+|
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Finalize program
+|
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Support participants
+|
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |}
 
-===Notes===
-Provide some details if necessary.
+=== Notes ===
+Open questions, agreements and decisions of this phase.
 
-==During the event ==
+== 🎪 During the event ==
 {| class="wikitable sortable" style="width:100%;"
-! style="width:200px;" |Task
+! style="width:220px;" |Task
 !Owner
 ! style="vertical-align:middle;text-align:center;width:120px;" |Deadline
 ! style="vertical-align:middle;text-align:center;width:100px;" |Started
 ! style="vertical-align:middle;text-align:center;width:100px;" |Finished
 !Notes
 |-
-| style="width:200px;" |Coordinate catering, equipment, etc.
+| style="width:220px;" |Coordinate catering, equipment, etc.
 |
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |x
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-| style="width:200px;" |Manage set up
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" |Setup registration desk
+| style="width:220px;" |Manage set-up
 |
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-| style="width:200px;" |Share wifi and password
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" |Support participants
+| style="width:220px;" |Set up registration desk
 |
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Share wifi and password
+|
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Support participants
+|
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Document the event (photos, recordings)
+|
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |}
 
-===Notes===
-Provide some details if necessary.
+=== Notes ===
+Who is on site when – and who can be reached in case of problems?
 
-==After the event==
+== 🏁 After the event ==
 {| class="wikitable sortable" style="width:100%;"
-! style="width:200px;" |Task
-! style="vertical-align:middle;text-align:center;" |Owner
+! style="width:220px;" |Task
+!Owner
 ! style="vertical-align:middle;text-align:center;width:120px;" |Deadline
 ! style="vertical-align:middle;text-align:center;width:100px;" |Started
 ! style="vertical-align:middle;text-align:center;width:100px;" |Finished
 !Notes
 |-
-| style="width:200px;" |Clean up site
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-| style="width:200px;" |Wrap up venue tasks
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |x
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-| style="width:200px;" |Follow up with participants
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |mm/dd
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-|Distribute event records (videos, presentations, scripts)
+| style="width:220px;" |Clean up site
 |
 | style="vertical-align:middle;text-align:center;" |mm/dd
-| style="vertical-align:middle;text-align:center;" |
-| style="vertical-align:middle;text-align:center;" |
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-|Post-mortem analysis
+| style="width:220px;" |Wrap up venue tasks
 |
 | style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Check invoices against budget
+|
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Follow up with participants
+|
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Distribute event records (videos, presentations, scripts)
+|
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Post-mortem analysis
+|
+| style="vertical-align:middle;text-align:center;" |mm/dd
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|}
+
+=== Notes ===
+Open items that still have to be closed after the event.
+
+== 💶 Budget ==
+{| class="wikitable" style="width:100%;"
+!Item
+! style="vertical-align:middle;text-align:center;width:150px;" |Planned
+! style="vertical-align:middle;text-align:center;width:150px;" |Actual
+!Notes
+|-
+|Venue, technology, catering ...
+| style="vertical-align:middle;text-align:center;" |0.00 EUR
+| style="vertical-align:middle;text-align:center;" |0.00 EUR
+|
+|-
+|..
 | style="vertical-align:middle;text-align:center;" |
 | style="vertical-align:middle;text-align:center;" |
 |
 |}
 
-===Notes===
-Provide some details if necessary.
+== 🔍 Review ==
+Fill in this section right after the event, while everything is still fresh.
+
+*'''What worked well:''' 
+*'''What we do differently next time:''' 
+*'''Goal reached?''' compare with the goal named at the top

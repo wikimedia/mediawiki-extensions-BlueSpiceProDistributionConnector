@@ -6,31 +6,40 @@
 |Benutzername
 |-
 !Stakeholder:
-|Wer beeinflusst die Entscheidung oder ist betroffen?
+|Wer ist von der Entscheidung betroffen oder beeinflusst sie?
 |-
-!Entscheidung:
-|Endgültige Entscheidung hier eintragen
+!Mitwirkende:
+|Benutzername, Benutzername
 |}
 </div>
 <div class="tbl">
 {| 
 |-
-!Mitwirkende:
-|Benutzername , Benutzername
-|-
 !Status:
-|'''nicht begonnen''' / in Bearbeitung / abgeschlossen
+| class="select" |'''nicht begonnen''' / in Bearbeitung / entschieden
 |-
 !Fällig am:
+|tt.mm.jjjj
+|-
+!Entschieden am:
 |tt.mm.jjjj
 |}
 </div>
 </div>
-==Derzeitiger Stand==
-Erklären Sie den jetzigen Stand, der eine Entscheidung erfordert.
+== 📋 Ausgangslage ==
+Was ist zu entscheiden und warum jetzt? Beschreiben Sie in wenigen Sätzen den Anlass, den Ausgangspunkt und die Frist.
 
-==Entscheidungsmatrix==
-Geben Sie nur  Optionen an und  bewerten Sie diese. Führen Sie Sie keine Optionen auf, die Sie bereits ausgeschlossen haben (diese werden  unter  [[Template:SV Entscheidungsmatrix#ausgeschlossene Optionen|ausgeschlossene Optionen]] unterhalb der Entscheidungsmatrix gesammelt).
+''Beispiel: Das aktuelle Ticketsystem erreicht zum Quartalsende seine Lizenzgrenze. Bis zum 31.05. muss entschieden werden, ob wir verlängern oder wechseln.''
+
+== 🎯 Entscheidungskriterien ==
+Benennen Sie die Kriterien, nach denen alle Optionen bewertet werden – so bleibt der Vergleich fair und nachvollziehbar.
+
+*'''Kriterium 1:''' z. B. einmalige und laufende Kosten
+*'''Kriterium 2:''' z. B. Aufwand für Einführung und Schulung
+*'''Kriterium 3:''' z. B. Datenschutz und Compliance
+
+== ⚖️ Entscheidungsmatrix ==
+Führen und bewerten Sie nur Optionen, die realistisch sind. Bereits ausgeschlossene Optionen gehören unter [[#🚫 Ausgeschlossene Optionen|ausgeschlossene Optionen]].
 {| class="wikitable pagetemplate" style="width:100%;"
 !
 !<span class="bi bi-plus-circle-dotted">&nbsp;</span> Vorteile
@@ -38,9 +47,9 @@ Geben Sie nur  Optionen an und  bewerten Sie diese. Führen Sie Sie keine Option
 !<span class="bi bi-chat-right-text">&nbsp;</span> Anmerkungen
 |-
 !Option 1
-|
-|
-|
+|Was spricht für diese Option?
+|Was könnte schiefgehen – und wie wahrscheinlich ist das?
+|Offene Fragen, Kosten, Aufwand
 |-
 !Option 2
 |
@@ -53,14 +62,34 @@ Geben Sie nur  Optionen an und  bewerten Sie diese. Führen Sie Sie keine Option
 |
 |}
 
-===Ausgeschlossene Optionen===
-*ausgeschlossene Option 1
-*ausgeschlossene Option 2
+=== 🚫 Ausgeschlossene Optionen ===
 
-==Nächste Schritte==
-Nachdem eine Entscheidung getroffen wurde, dokumentieren Sie die nächsten Schritte. Was ist zur Umsetzung der Entscheidung notwendig?
-==Begleitende Dokumente==
-Verlinken Sie auf Seiten oder Dateien, die sich auf diesen Entscheidungsprozess beziehen. 
+*Ausgeschlossene Option 1 – ''warum wurde sie verworfen?''
+*Ausgeschlossene Option 2 – ''warum wurde sie verworfen?''
 
-*Seite / Dokument 1
-*Seite / Dokument 2
+== ✅ Entscheidung ==
+{{Decision|decision=Halten Sie hier in einem Satz die gewählte Option fest – inklusive Entscheidungsträger und Gültigkeit.}}
+
+{{Textbox|boxtype=note|header=Begründung|text=Fassen Sie kurz zusammen, warum sich diese Option gegen die anderen durchgesetzt hat. Wer die Seite später liest, soll die Entscheidung ohne Rückfrage verstehen.|icon=yes}}
+
+== 🚀 Nächste Schritte ==
+Was muss jetzt geschehen, damit die Entscheidung wirksam wird?
+{| class="wikitable" style="width:100%;"
+!Nächster Schritt
+!Verantwortlich
+! style="vertical-align:middle;text-align:center;width:120px;" |Fällig am
+|-
+|Was ist zu tun?
+|Benutzername
+| style="vertical-align:middle;text-align:center;" |tt.mm.jjjj
+|-
+|..
+|
+| style="vertical-align:middle;text-align:center;" |
+|}
+
+== 🔗 Begleitende Dokumente ==
+Seiten, Dateien oder Tickets, die zu diesem Entscheidungsprozess gehören.
+
+*Dokument 1 – ''was steuert es bei?''
+*Dokument 2 – ''was steuert es bei?''

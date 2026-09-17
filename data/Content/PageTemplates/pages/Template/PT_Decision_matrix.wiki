@@ -3,34 +3,43 @@
 {|
 |-
 !Owner:
-|username1
+|username
 |-
 !Stakeholders:
-|who is affected by or influences this decision?
+|who is affected by this decision or influences it?
 |-
-!Decision:
-|list the final decision here
+!Contributors:
+|username, username
 |}
 </div>
 <div class="tbl">
 {| 
 |-
-!Contributors:
-| username1, username2
-|-
 !Status:
-|'''not started''' / in progress / decided
+| class="select" |'''not started''' / in progress / decided
 |-
 !Due on:
+|mm/dd/yyyy
+|-
+!Decided on:
 |mm/dd/yyyy
 |}
 </div>
 </div>
-==Current status==
-Provide some brief context for the decision at hand.
+== 📋 Initial situation ==
+What has to be decided, and why now? Describe the starting point, the trigger and the deadline in a few sentences.
 
-==Decision matrix==
-List and evaluate only reasonable options. Don't include options that you have already ruled out (list them under [[#Exluded options|exluded options]]).
+''Example: The current ticket system reaches its license limit at the end of the quarter. We have to decide by 05/31 whether we extend it or switch.''
+
+== 🎯 Decision criteria ==
+Name the criteria against which all options are evaluated – this keeps the comparison below fair and comprehensible.
+
+*'''Criterion 1:''' e.g. one-off and running costs
+*'''Criterion 2:''' e.g. effort for implementation and training
+*'''Criterion 3:''' e.g. data protection and compliance
+
+== ⚖️ Decision matrix ==
+List and evaluate only options that are still realistic. Options you have already ruled out belong under [[#🚫 Excluded options|excluded options]].
 {| class="wikitable pagetemplate" style="width:100%;"
 !
 !<span class="bi bi-plus-circle-dotted">&nbsp;</span> Benefits
@@ -38,9 +47,9 @@ List and evaluate only reasonable options. Don't include options that you have a
 !<span class="bi bi-chat-right-text">&nbsp;</span> Comments
 |-
 !Option 1
-|
-|
-|
+|What speaks in favor of this option?
+|What could go wrong – and how likely is it?
+|Open questions, costs, effort
 |-
 !Option 2
 |
@@ -53,14 +62,34 @@ List and evaluate only reasonable options. Don't include options that you have a
 |
 |}
 
-===Excluded options===
-*excluded option 1
-*excluded option 2
+=== 🚫 Excluded options ===
 
-==Next steps==
-After a decision has been made, document the next steps that are necessary to implement the decision.
-==Supporting documents==
-Link to pages or files that are related to this decision-making process 
+*Excluded option 1 – ''why was it ruled out?''
+*Excluded option 2 – ''why was it ruled out?''
 
-*Document 1
-*Document 2
+== ✅ Decision ==
+{{Decision|decision=State the chosen option here in one sentence – including who decided and from when it applies.}}
+
+{{Textbox|boxtype=note|header=Reasons for the decision|text=Summarize briefly why this option won against the others. Anyone who reads the page later should understand the decision without asking back.|icon=yes}}
+
+== 🚀 Next steps ==
+What has to happen now so that the decision takes effect?
+{| class="wikitable" style="width:100%;"
+!Next step
+!Responsible person
+! style="vertical-align:middle;text-align:center;width:120px;" |Due on
+|-
+|What has to be done?
+|username
+| style="vertical-align:middle;text-align:center;" |mm/dd/yyyy
+|-
+|..
+|
+| style="vertical-align:middle;text-align:center;" |
+|}
+
+== 🔗 Supporting documents ==
+Pages, files or tickets that belong to this decision-making process.
+
+*Document 1 – ''what does it contribute?''
+*Document 2 – ''what does it contribute?''

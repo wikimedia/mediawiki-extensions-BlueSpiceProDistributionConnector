@@ -3,7 +3,7 @@
 {|
 |-
 !Datum / Uhrzeit:
-|tt.mm.jjjj - 00:00 Uhr
+|tt.mm.jjjj, 00:00 Uhr
 |-
 !Organisator:
 |Abteilung, Organisation oder Firma
@@ -19,236 +19,284 @@
 |Name des Ortes
 |-
 !Kontaktperson:
-|Kontaktperson am Veranstaltungsort
+|Name und Telefonnummer
 |-
 !Status:
 | class="select" |'''offen''' / abgeschlossen
 |}
 </div>
 </div>
-==Konzeptionsphase==
+== 🎯 Ziel und Zielgruppe ==
+Warum findet die Veranstaltung statt und wer soll teilnehmen? Nennen Sie ein messbares Ziel – das erleichtert den Rückblick am Ende erheblich.
+
+*'''Ziel:''' z. B. 80 Anmeldungen, 50 Teilnehmende vor Ort
+*'''Zielgruppe:''' Wen laden wir ein?
+*'''Format:''' vor Ort / hybrid / online
+
+{{Textbox|boxtype=tip|header=So nutzen Sie diese Checkliste|text=Haken Sie eine Aufgabe ab, sobald sie begonnen oder erledigt ist. Löschen Sie Zeilen, die Sie nicht brauchen, und ergänzen Sie eigene – die Tabellen lassen sich nach jeder Spalte sortieren.|icon=yes}}
+
+== 💡 Konzeptionsphase ==
 {| class="wikitable sortable" style="width:100%;"
-! style="width:200px;" |Aufgabe
+! style="width:220px;" |Aufgabe
 !Eigner
 ! style="vertical-align:middle;text-align:center;width:120px;" |Fällig am
 ! style="vertical-align:middle;text-align:center;width:100px;" |Begonnen
-! style="vertical-align:middle;text-align:center;width:100px;" |Beendet
+! style="vertical-align:middle;text-align:center;width:100px;" |Erledigt
 !Bemerkungen
 |-
-| style="width:200px;" |Ziele setzen, Ideen sammeln
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |x
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-| style="width:200px;" |Budget genehmigen
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |x
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-| style="width:200px;" |Gästeliste zusammenstellen
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-|Sprecherliste aufbauen
+| style="width:220px;" |Ziele setzen, Ideen sammeln
 |
 | style="vertical-align:middle;text-align:center;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" |Ort buchen
+| style="width:220px;" |Budget genehmigen
 |
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-| style="width:200px;" |Menü auswählen
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" |Lieferanten kontaktieren
+| style="width:220px;" |Gästeliste zusammenstellen
 |
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Sprecherliste aufbauen
+|
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Ort buchen
+|
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Menü auswählen
+|
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Lieferanten beauftragen
+|
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |}
 
-===Bemerkungen===
-Geben Sie bei Bedarf weitere Details an.
+=== Anmerkungen ===
+Offene Fragen, Absprachen und Entscheidungen dieser Phase.
 
-==Vor der Veranstaltung==
+== 📣 Vor der Veranstaltung ==
 {| class="wikitable sortable" style="width:100%;"
-! style="width:200px;" |Aufgabe
-!Zuständig
+! style="width:220px;" |Aufgabe
+!Eigner
 ! style="vertical-align:middle;text-align:center;width:120px;" |Fällig am
 ! style="vertical-align:middle;text-align:center;width:100px;" |Begonnen
-! style="vertical-align:middle;text-align:center;width:100px;" |Beendet
+! style="vertical-align:middle;text-align:center;width:100px;" |Erledigt
 !Bemerkungen
 |-
-|Anmeldung einrichten
+| style="width:220px;" |Anmeldung einrichten
 |
 | style="vertical-align:middle;text-align:center;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |x
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" |Einladungen erstellen und verschicken
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-|Ankunft und Unterkunft kommunizieren
+| style="width:220px;" |Einladungen gestalten und versenden
 |
 | style="vertical-align:middle;text-align:center;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" |Materialien erstellen (Druck / Online)
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-| style="width:200px;" |Social Media Kampagne vorbereiten
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-|Sprecher einweisen
+| style="width:220px;" |Anreise und Unterkunft kommunizieren
 |
 | style="vertical-align:middle;text-align:center;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" |Programm finalisieren
+| style="width:220px;" |Materialien erstellen (Print / online)
 |
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" |Teilnehmer unterstützen
+| style="width:220px;" |Social-Media-Kampagne vorbereiten
 |
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Sprecher briefen
+|
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Programm finalisieren
+|
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Teilnehmende betreuen
+|
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |}
 
-===Bemerkungen===
-Geben Sie bei Bedarf einige Details an.
+=== Anmerkungen ===
+Offene Fragen, Absprachen und Entscheidungen dieser Phase.
 
-==Während der Veranstaltung==
+== 🎪 Während der Veranstaltung ==
 {| class="wikitable sortable" style="width:100%;"
-! style="width:200px;" |Aufgabe
-!Zuständig
-! style="vertical-align:middle;text-align:center;width:120px;" |Fällig
+! style="width:220px;" |Aufgabe
+!Eigner
+! style="vertical-align:middle;text-align:center;width:120px;" |Fällig am
 ! style="vertical-align:middle;text-align:center;width:100px;" |Begonnen
-! style="vertical-align:middle;text-align:center;width:100px;" |Beendet
+! style="vertical-align:middle;text-align:center;width:100px;" |Erledigt
 !Bemerkungen
 |-
-| style="width:200px;" |Catering, Ausstattung etc. koordinieren
+| style="width:220px;" |Catering, Technik etc. koordinieren
 |
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |x
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-| style="width:200px;" |Aufbau betreuen
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" |Anmeldestand aufbauen
+| style="width:220px;" |Aufbau steuern
 |
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-| style="width:200px;" |Wifi und andere Passwörter verteilen
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-| style="width:200px;" |Teilnehmer unterstützen
+| style="width:220px;" |Empfang einrichten
 |
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |WLAN und Passwort bekannt geben
+|
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Teilnehmende betreuen
+|
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Veranstaltung dokumentieren (Fotos, Aufzeichnungen)
+|
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |}
 
-===Bemerkungen===
-Geben Sie bei Bedarf  weitere  Details an.
+=== Anmerkungen ===
+Wer ist wann vor Ort – und wer ist bei Problemen erreichbar?
 
-==Nach der Veranstaltung==
+== 🏁 Nach der Veranstaltung ==
 {| class="wikitable sortable" style="width:100%;"
-! style="width:200px;" |Aufgabe
-! style="vertical-align:middle;text-align:left;" |Zuständig
-! style="vertical-align:middle;text-align:center;width:120px;" |Fällig
+! style="width:220px;" |Aufgabe
+!Eigner
+! style="vertical-align:middle;text-align:center;width:120px;" |Fällig am
 ! style="vertical-align:middle;text-align:center;width:100px;" |Begonnen
-! style="vertical-align:middle;text-align:center;width:100px;" |Beendet
+! style="vertical-align:middle;text-align:center;width:100px;" |Erledigt
 !Bemerkungen
 |-
-| style="width:200px;" |Veranstaltungsort aufräumen
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |x
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-| style="width:200px;" |Aufgaben bezüglich Veranstaltungsort abschließen
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |x
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-| style="width:200px;" |Follow-up mit den Teilnehmern
-|
-| style="vertical-align:middle;text-align:center;width:120px;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
-|
-|-
-|Veranstaltungsmaterial verteilen (Videos, Präsentationen, Skripte)
+| style="width:220px;" |Veranstaltungsort aufräumen
 |
 | style="vertical-align:middle;text-align:center;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |-
-|Abschlussanalyse
+| style="width:220px;" |Abschlussarbeiten mit dem Veranstaltungsort
 |
 | style="vertical-align:middle;text-align:center;" |tt.mm
-| style="vertical-align:middle;text-align:center;width:100px;" |
-| style="vertical-align:middle;text-align:center;width:100px;" |
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Rechnungen gegen das Budget prüfen
+|
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Teilnehmende nachbetreuen
+|
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Unterlagen verteilen (Videos, Präsentationen, Skripte)
+|
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+|
+|-
+| style="width:220px;" |Nachbereitung / Manöverkritik
+|
+| style="vertical-align:middle;text-align:center;" |tt.mm
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
+| style="vertical-align:middle;text-align:center;" |<bs:checkbox checked="false" />
 |
 |}
 
-===Bemerkungen===
-Geben Sie bei Bedarf weitere Details an.
+=== Anmerkungen ===
+Offene Punkte, die nach der Veranstaltung noch abgeschlossen werden müssen.
+
+== 💶 Budget ==
+{| class="wikitable" style="width:100%;"
+!Position
+! style="vertical-align:middle;text-align:center;width:150px;" |Geplant
+! style="vertical-align:middle;text-align:center;width:150px;" |Tatsächlich
+!Bemerkungen
+|-
+|Ort, Technik, Catering ...
+| style="vertical-align:middle;text-align:center;" |0,00 EUR
+| style="vertical-align:middle;text-align:center;" |0,00 EUR
+|
+|-
+|..
+| style="vertical-align:middle;text-align:center;" |
+| style="vertical-align:middle;text-align:center;" |
+|
+|}
+
+== 🔍 Rückblick ==
+Füllen Sie diesen Abschnitt direkt nach der Veranstaltung aus, solange alles frisch ist.
+
+*'''Was gut funktioniert hat:''' 
+*'''Was wir beim nächsten Mal anders machen:''' 
+*'''Ziel erreicht?''' Vergleich mit dem oben genannten Ziel

@@ -3,10 +3,10 @@
 {|
 |-
 !Author:
-|responsible for report content
+|responsible for the report content
 |-
-! Reports to:
-| recipient of the report
+!Reports to:
+|recipient of the report
 |-
 !Report date:
 |mm/dd/yyyy
@@ -15,29 +15,49 @@
 <div class="tbl">
 {| 
 |-
-!Team / Department / Project:
+!Team / department / project:
 |scope of the report
 |-
 !Reporting period / milestone:
-|what time period/project milestone is covered?
+|which time period or milestone is covered?
 |-
 !Report status:
-|'''draft''' / finished
+| class="select" |'''draft''' / finished
 |}
 </div>
 </div>
-==Executive summary==
-Give a brief executive summary about takeaways from this report.
+== 🧭 Executive summary ==
+Three to five sentences for readers who only read this section: where do we stand, what changed since the last report, and what do you need from the recipients?
 
-==Details==
-List major tasks that have been completed and evaluate their outcomes.
+{{Textbox|boxtype=important|header=Needs a decision|text=Name here what the recipients have to decide or approve – including the date by which you need the answer. Delete this box if nothing is open.|icon=yes}}
 
+== 🚦 Status at a glance ==
+{| class="wikitable" style="width:100%;"
+! style="width:200px;" |Area
+! style="vertical-align:middle;text-align:center;width:120px;" |Status
+!Comment
+|-
+|Schedule
+| style="vertical-align:middle;text-align:center;" |🟢
+|On track – next milestone mm/dd/yyyy
+|-
+|Budget
+| style="vertical-align:middle;text-align:center;" |🟡
+|Why is it tight, and what is being done about it?
+|-
+|Quality / scope
+| style="vertical-align:middle;text-align:center;" |🔴
+|What is blocked, and who can unblock it?
+|}
+''🟢 on track  ·  🟡 needs attention  ·  🔴 critical''
+
+== 📌 Details ==
+List the major tasks that were completed in the reporting period and evaluate their outcome.
 {| class="wikitable" style="width:100%;"
 !Business area
 !Topic
 !Highlights
-!Major obstacles
-unexpected (project) risks
+!Major obstacles and unexpected risks
 !Lessons learned
 |-
 |Marketing
@@ -49,7 +69,7 @@ unexpected (project) risks
 *Unexpected cost
 *New competitor
 |
-*review of cost estimation plan is necessary
+*Review of the cost estimation plan is necessary
 |-
 |..
 |
@@ -63,9 +83,9 @@ unexpected (project) risks
 |
 |
 |}
-==Business review==
-Evaluate the impact of key results for the reporting period.
- 
+
+== 📊 Business review ==
+Evaluate the impact of the key results for the reporting period.
 {| class="wikitable" style="width:100%;"
 !Metric
 !Target
@@ -77,16 +97,16 @@ Evaluate the impact of key results for the reporting period.
 |Number of customers
 |700
 |631
-|
+|655
 | +24
 |680
 |-
 |Billable time (hrs)
 |650
 |620
-|
+|550
 |<nowiki>-70</nowiki>
-|
+|650
 |-
 |..
 |
@@ -96,34 +116,34 @@ Evaluate the impact of key results for the reporting period.
 |
 |}
 
-==Measures==
-Based on the performance of the reporting period, the following measures for the above metrics will be implemented.
+== 🛠️ Measures ==
+Based on the results of the reporting period, the following measures are implemented for the metrics above.
 
-===Metric 1===
+=== Metric 1 ===
 {| class="wikitable" style="width:100%;"
-!'''Responsibe'''
+!'''Responsible'''
 !'''Measures'''
 |-
-|Who will make sure this gets done in a timely manner?
-|To improve this metric, it is necessary to complete the following tasks:
+|Who makes sure this gets done in time?
+|To improve this metric, the following tasks are necessary:
 
-# First measure
+#First measure
 #Second measure
 |-
 |..
 | 
 |-
-| ..
+|..
 |
 |}
 
-===Metric 2===
+=== Metric 2 ===
 {| class="wikitable" style="width:100%;"
-!'''Responsibe'''
+!'''Responsible'''
 !'''Measures'''
 |-
-|Who will make sure this gets done in a timely manner?
-|To improve this metric, it is necessary to complete the following tasks:
+|Who makes sure this gets done in time?
+|To improve this metric, the following tasks are necessary:
 
 #First measure
 #Second measure
@@ -135,8 +155,8 @@ Based on the performance of the reporting period, the following measures for the
 |
 |}
 
-==Supporting documents==
-Link to any documents related to this report:
+== 🔗 Supporting documents ==
+Pages, files or dashboards that belong to this report.
 
-* Document 1
-* Document 2
+*Document 1 – ''what does it show?''
+*Document 2 – ''what does it show?''

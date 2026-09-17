@@ -1,158 +1,198 @@
-==Anwesende==
-Wer ist zur Besprechung erschienen?
+<div class="databox">
+<div class="tbl">
+{|
+|-
+!Datum / Uhrzeit:
+|tt.mm.jjjj, 00:00 Uhr
+|-
+!Leitung:
+|Benutzername
+|-
+!Schriftführung:
+|Benutzername
+|}
+</div>
+<div class="tbl">
+{| 
+|-
+!Besprechung:
+|z. B. Management-Jour-fixe, KW 00
+|-
+!Ort:
+|Raum oder Link zur Videokonferenz
+|-
+!Status:
+| class="select" |'''Entwurf''' / freigegeben
+|}
+</div>
+</div>
+== 👥 Anwesende ==
 
-==Ankündigungen/ Fokuspunkte==
-Wer ist diese Woche nicht verfügbar/abwesend? Was sind die Wochenziele? Was sollten wir wissen?
-{| class="wikitable" style="width:100%;" 
+*'''Anwesend:''' Benutzername, Benutzername
+*'''Entschuldigt:''' Benutzername
+
+== 📣 Ankündigungen und Fokuspunkte ==
+Wer ist diese Woche nicht verfügbar? Was sind unsere Ziele und was sollten alle wissen?
+{| class="wikitable" style="width:100%;"
 !'''Wer'''
 !'''Was'''
 !'''Wann'''
 ! style="vertical-align:middle;text-align:center;" |'''Status'''
 |-
-| style="width:10%;" |..
+| style="width:10%;" |Ankündigung oder Fokuspunkt dieser Woche
 | style="width:50%;" |
 | style="width:10%;" |
-| style="vertical-align:middle;text-align:left;width:20%;" class="list" |'''nicht gestarted''' / in Bearbeitung / fertig
+| style="vertical-align:middle;text-align:center;width:20%;" class="select" |'''nicht begonnen''' / in Bearbeitung / erledigt
 |-
 | style="width:10%;" |..
 | style="width:50%;" |
 | style="width:10%;" |
-| style="vertical-align:middle;text-align:left;width:20%;" |
+| style="vertical-align:middle;text-align:center;width:20%;" |
 |}
 
-==Cockpit==
-===Unternehmenssituation / KPIs / Berichte===
+== 📊 Cockpit ==
+=== Unternehmenssituation, KPIs und Berichte ===
 {| class="wikitable" style="width:100%;"
-! style="width:0px;" |'''Bereich'''
+!'''Bereich'''
 !'''Was'''
 !'''Beurteilung / Aktion'''
 |-
-| style="width:0px;" |Projektmanagment
+| style="width:20%;" |Projektmanagement
 | style="width:60%;" |
-*Abrechenbare Zeit diese Woche:
+*Abrechenbare Zeit diese Woche: 
 *Aktive Kunden diese Woche: 
-| style="width:20%;" |
+| style="width:20%;" |Was fällt auf – und was tun wir?
 |-
-| style="width:0px;" |Vertrieb
+| style="width:20%;" |Vertrieb
 | style="width:60%;" |
 *Bestellungen: 
 *Angebote: 
 *Leads: 
 | style="width:20%;" |
 |-
-| style="width:0px;" |Rechnungsabteilung
+| style="width:20%;" |Rechnungswesen
 | style="width:60%;" |
-*geplanter Rechnungsbetrag(Mo):  EUR
-*in Rechnung gestellt (Fr):  EUR
+*Geplanter Rechnungsbetrag (Mo):  EUR
+*In Rechnung gestellt (Fr):  EUR
 *Rechnungsbetrag aus Neubestellungen:  EUR
 | style="width:20%;" |
 |}
 
-==Abteilung==
-===Finanzen===
+== 🏢 Abteilungen ==
+Eine Tabelle pro Abteilung: Wer erledigt was bis wann? Nicht Erledigtes wird in die nächste Besprechung übernommen.
+
+=== 💰 Finanzen und Rechnungswesen ===
 {| class="wikitable" style="width:100%;"
 !'''Wer'''
 !'''Was'''
 !'''Wann'''
-!'''Status'''
+! style="vertical-align:middle;text-align:center;" |'''Status'''
 |-
-| style="width:10%;" |
+| style="width:10%;" |Welche Zahlen, Rechnungen oder Budgets brauchen diese Woche Aufmerksamkeit?
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |nicht gestarted / in Bearbeitung / fertig
+| style="vertical-align:middle;text-align:center;width:20%;" class="select" |'''nicht begonnen''' / in Bearbeitung / erledigt
 |-
 | style="width:10%;" |..
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |
+| style="vertical-align:middle;text-align:center;width:20%;" |
 |}
 
-===Marketing und Vertrieb===
-{| class="wikitable" style="width:100%;" 
+=== 📣 Marketing und Vertrieb ===
+{| class="wikitable" style="width:100%;"
 !'''Wer'''
 !'''Was'''
 !'''Wann'''
-!'''Status'''
+! style="vertical-align:middle;text-align:center;" |'''Status'''
 |-
-| style="width:10%;" |
+| style="width:10%;" |Welche Kampagnen, Angebote oder Leads besprechen wir?
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |nicht gestarted / in Bearbeitung / fertig
+| style="vertical-align:middle;text-align:center;width:20%;" class="select" |'''nicht begonnen''' / in Bearbeitung / erledigt
 |-
 | style="width:10%;" |..
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |
+| style="vertical-align:middle;text-align:center;width:20%;" |
 |}
 
-===Projekte, Services und Support===
-{| class="wikitable" style="width:100%;" 
+=== 🤝 Projekte, Service und Support ===
+{| class="wikitable" style="width:100%;"
 !'''Wer'''
 !'''Was'''
 !'''Wann'''
-!'''Status'''
+! style="vertical-align:middle;text-align:center;" |'''Status'''
 |-
-| style="width:10%;" |
+| style="width:10%;" |Welche Projekte oder Eskalationen brauchen eine Entscheidung?
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |nicht gestarted / in Bearbeitung / fertig
+| style="vertical-align:middle;text-align:center;width:20%;" class="select" |'''nicht begonnen''' / in Bearbeitung / erledigt
 |-
 | style="width:10%;" |..
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |
+| style="vertical-align:middle;text-align:center;width:20%;" |
 |}
 
-===Produktentwicklung===
-{| class="wikitable" style="width:100%;" 
+=== 🧪 Produktentwicklung ===
+{| class="wikitable" style="width:100%;"
 !'''Wer'''
 !'''Was'''
 !'''Wann'''
-!'''Status'''
+! style="vertical-align:middle;text-align:center;" |'''Status'''
 |-
-| style="width:10%;" |
+| style="width:10%;" |Welche Releases oder Funktionen stehen an?
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |nicht gestarted / in Bearbeitung / fertig
+| style="vertical-align:middle;text-align:center;width:20%;" class="select" |'''nicht begonnen''' / in Bearbeitung / erledigt
 |-
 | style="width:10%;" |..
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |
+| style="vertical-align:middle;text-align:center;width:20%;" |
 |}
 
-===Technologie und Infrastruktur===
-{| class="wikitable" style="width:100%;" 
+=== 🖥️ Technologie und Infrastruktur ===
+{| class="wikitable" style="width:100%;"
 !'''Wer'''
 !'''Was'''
 !'''Wann'''
-!'''Status'''
+! style="vertical-align:middle;text-align:center;" |'''Status'''
 |-
-| style="width:10%;" |
+| style="width:10%;" |Welche Systeme, Updates oder Störungen sind relevant?
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |nicht gestarted / in Bearbeitung / fertig
+| style="vertical-align:middle;text-align:center;width:20%;" class="select" |'''nicht begonnen''' / in Bearbeitung / erledigt
 |-
 | style="width:10%;" |..
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |
+| style="vertical-align:middle;text-align:center;width:20%;" |
 |}
 
-===Intere Organisation===
-{| class="wikitable" style="width:100%;" 
+=== 🏢 Interne Organisation ===
+{| class="wikitable" style="width:100%;"
 !'''Wer'''
 !'''Was'''
 !'''Wann'''
-!'''Status'''
+! style="vertical-align:middle;text-align:center;" |'''Status'''
 |-
-| style="width:10%;" |
+| style="width:10%;" |Personal, Büro, Prozesse – was betrifft alle?
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |nicht gestarted / in Bearbeitung / fertig
+| style="vertical-align:middle;text-align:center;width:20%;" class="select" |'''nicht begonnen''' / in Bearbeitung / erledigt
 |-
 | style="width:10%;" |..
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |
+| style="vertical-align:middle;text-align:center;width:20%;" |
 |}
+
+== ✅ Entscheidungen ==
+{{Decision|decision=Halten Sie hier die Entscheidungen dieser Besprechung fest – ein Satz pro Entscheidung, mit Verantwortlichkeit und Gültigkeit.}}
+
+== 📅 Nächste Besprechung ==
+
+*'''Datum / Uhrzeit:''' tt.mm.jjjj, 00:00 Uhr
+*'''Vertagte Themen:''' Thema 1, Thema 2

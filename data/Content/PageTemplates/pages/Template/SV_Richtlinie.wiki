@@ -6,59 +6,71 @@
 |Rolle oder (Benutzer-)Name
 |-
 !Geltungsbereich:
-|Geschäftsbereiche, für die diese Richtlinie Geltung hat
+|Geschäftsbereiche, für die diese Richtlinie gilt
 |-
 !Genehmigt durch:
 |(Benutzer-)Name
-|-
-!
-|
 |}
 </div>
 <div class="tbl">
 {| 
 |-
 !Status:
-|'''in Bearbeitung''' / gültig / veraltet
+| class="select" |'''in Bearbeitung''' / gültig / veraltet
 |-
 !Gültig von - bis:
-|TT.MM.YYYY - TT.MM.YYYY
+|tt.mm.jjjj - tt.mm.jjjj
 |-
-!
-|
+!Nächste Prüfung:
+|tt.mm.jjjj
 |}
 </div>
 </div>
-==Zielsetzung==
-Warum ist diese Richtlinie notwendig? Wer profitiert davon?  
+== 🎯 Zielsetzung ==
+Warum gibt es diese Richtlinie und wer profitiert davon? Richtlinien helfen Mitarbeitenden, Entscheidungen im Sinne der Unternehmenswerte zu treffen.
 
-Richtlinien sollen dazu beitragen, dass Mitarbeitern ihre Entscheidungen entsprechend der Unternehmenswerte treffen.  
+''Beispiel: Diese Richtlinie regelt den Umgang mit Kundendaten im Arbeitsalltag – damit alle rechtlich auf der sicheren Seite sind und Kunden sich auf uns verlassen können.''
 
-==Bestimmungen==
-Beschreiben Sie allgemeinverständlich  in Unterabschnitten (beachten Sie Ihre Zielgruppen), welche Regeln durch diese Richtlinie aufgestellt werden. Verhaltensregeln sind wichtig, damit alle, die in einem Unternehmen agieren, ihre Rechte und Pflichte kennen und umsetzen.
+== 👥 Geltungsbereich ==
+Machen Sie unmissverständlich klar, wer sich an diese Richtlinie halten muss.
 
-Achten Sie darauf, dass Ihre Aussagen prägnant und eindeutig sind. Richtlinien sollten durch Verfahren unterstützt werden, die in verschiedenen Dokumenten, wie z. B. Arbeitsanweisungen, definiert werden.
+*'''Gilt für:''' z. B. alle Mitarbeitenden mit Kundenkontakt
+*'''Gilt nicht für:''' z. B. externe Dienstleister – für sie gilt der Vertrag
+*'''Gültig ab:''' tt.mm.jjjj
 
-Eine Richtlinie ist nur dann effizient, wenn klar definiert wird, was die Konsequenzen der Nichteinhaltung einzelner Regeln sind. 
+== 📜 Bestimmungen ==
+Beschreiben Sie in den Unterabschnitten, welche Regeln diese Richtlinie aufstellt. Formulieren Sie kurz und eindeutig und schreiben Sie für die Menschen, die die Regeln täglich anwenden. Verhaltensregeln wirken nur, wenn alle ihre Rechte und Pflichten kennen.
 
-===Regel 1===
-Erläutern Sie mit konkreten Beispielen, was die Regel festlegt und wie sie umgesetzt werden soll. 
+Unterstützen Sie die Richtlinie durch Verfahren, die in eigenen Dokumenten beschrieben sind, zum Beispiel in Arbeitsanweisungen oder Checklisten.
+
+=== Regel 1 ===
+Erläutern Sie, was die Regel festlegt und wie sie umgesetzt wird – mit einem konkreten Beispiel aus dem Arbeitsalltag.
+
+*'''Immer:''' Was ist verpflichtend?
+*'''Niemals:''' Was ist untersagt?
+*'''Im Zweifel:''' Wer entscheidet?
 
 === Regel 2 ===
-Erläutern Sie mit konkreten Beispielen, was die Regel festlegt und wie sie umgesetzt werden soll.
+Erläutern Sie, was die Regel festlegt und wie sie umgesetzt wird – mit einem konkreten Beispiel aus dem Arbeitsalltag.
 
-==Rollen und Verantwortlichkeiten==
-Geben Sie alle Rollen an, die sich auf diese Richtlinie beziehen, und verlinken Sie auf unterstützende Dokumente wie Verfahren, Arbeitsanweisungen oder Checklisten.
+*'''Immer:''' Was ist verpflichtend?
+*'''Niemals:''' Was ist untersagt?
+*'''Im Zweifel:''' Wer entscheidet?
+
+{{Textbox|boxtype=warning|header=Wenn Regeln nicht eingehalten werden|text=Eine Richtlinie ist nur wirksam, wenn die Konsequenzen einer Nichteinhaltung klar sind. Beschreiben Sie hier, was bei einem Verstoß geschieht und wer zu informieren ist.|icon=yes}}
+
+== 👤 Rollen und Verantwortlichkeiten ==
+Geben Sie alle Rollen an, die sich auf diese Richtlinie beziehen, und verlinken Sie unterstützende Dokumente wie Verfahren, Arbeitsanweisungen oder Checklisten.
 {| class="wikitable" style="width:100%;"
-!Rolle
-!Eigner
-!Verantwortlichkeit
+!'''Rolle'''
+!'''Derzeit zugewiesen'''
+!'''Verantwortlichkeit'''
 !Unterstützende Dokumente
 |-
 |Titel der Rolle
 |Derzeit verantwortliche Person
-|Beschreibung der Rechte und Pflichten
-|<nowiki>- Link zum Dokument</nowiki>
+|Was entscheidet, prüft oder genehmigt diese Rolle?
+|Link zum Dokument
 |-
 |...
 |
@@ -71,8 +83,14 @@ Geben Sie alle Rollen an, die sich auf diese Richtlinie beziehen, und verlinken 
 |
 |}
 
-==Definitionen==
-Definieren Sie Begriffe, die möglicherweise mehrdeutig, technisch oder spezialisiert sind.
+== 📖 Definitionen ==
+Definieren Sie Begriffe, die mehrdeutig, fachlich oder unternehmensspezifisch sind.
 
-*'''Term 1:''' Definition
-*'''Term 2:''' Definition
+*'''Begriff 1:''' Definition
+*'''Begriff 2:''' Definition
+
+== 🔗 Verwandte Dokumente ==
+Richtlinien, Arbeitsanweisungen oder Formulare, die zu diesem Dokument gehören.
+
+*Dokument 1 – ''wie hängt es zusammen?''
+*Dokument 2 – ''wie hängt es zusammen?''

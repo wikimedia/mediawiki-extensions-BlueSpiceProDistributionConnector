@@ -6,7 +6,7 @@
 |Name der betroffenen Thematik
 |-
 !Stakeholder:
-|Wer beeinflusst die Resultate oder ist davon betroffen?
+|Wer ist von der Idee betroffen oder beeinflusst das Ergebnis?
 |-
 !Erstellt:
 |tt.mm.jjjj
@@ -19,27 +19,26 @@
 |Benutzername
 |-
 !Status:
-|'''Entwurf''' / Diskussion / Angenommen /  Abgelehnt
+| class="select" |'''Entwurf''' / in Diskussion / angenommen / abgelehnt
 |-
-!Enddatum:
+!Rückmeldung bis:
 |tt.mm.jjjj
 |}
 </div>
 </div>
-==Beschreibung==
-Eine Aufforderung zur Stellungnahme (AzS)  ist ein Instrument zur Einschätzung und Bewertung interner Projekte oder Veränderungsvorschläge. Bis zur Entscheidung sollten maximal zwei Wochen vergehen. Wird die AzS genehmigt, werden nach Fertigstellung die entsprechenden Tickets zur Umsetzung erstellt.
+{{Textbox|boxtype=note|header=So funktioniert die Aufforderung zur Stellungnahme|text=Eine Aufforderung zur Stellungnahme (AzS) dient der Einschätzung interner Projekte oder Veränderungsvorschläge. Alle Beteiligten kommentieren bis zum genannten Enddatum – bis zur Entscheidung sollten maximal zwei Wochen vergehen. Nach der Annahme werden die Tickets zur Umsetzung erstellt.|icon=yes}}
 
-Erstellen Sie hier eine kurze Zusammenfassung des Themas.
+== 📝 Zusammenfassung ==
+Beschreiben Sie die Idee in drei bis fünf Sätzen: Was schlagen Sie vor und welches Problem löst es? Leserinnen und Leser sollen den Vorschlag ohne Vorwissen verstehen.
 
-==Umsetzung==
-Folgende Vorgehensweise soll umgesetzt werden:
-
-{| class="wikitable wikitablee" style="width:100%;"
+== 🛠️ Umsetzung ==
+Wie würde die Idee konkret umgesetzt?
+{| class="wikitable" style="width:100%;"
 !'''Schritt'''
 !'''Beschreibung'''
 |-
 |Was soll geschehen?
-|Einzelheiten zu diesem Schritt
+|Einzelheiten zu diesem Schritt – wer ist beteiligt und was ist das Ergebnis?
 |-
 |..
 |
@@ -48,20 +47,38 @@ Folgende Vorgehensweise soll umgesetzt werden:
 |
 |}
 
-==Vorteile / Chancen==
-Warum sollten wir das tun?
+== ⚖️ Vorteile und Nachteile ==
+{{ProConList
+|title-advantages=👍 Vorteile / Chancen
+|title-disadvantages=👎 Nachteile / Risiken
+|advantages=
+*Welches Problem verschwindet?
+*Wer profitiert – und wie spürbar?
+|disadvantages=
+*Welche Kosten, Risiken oder Abhängigkeiten entstehen?
+*Was könnte bei der Umsetzung schiefgehen?
+}}
 
-==Nachteile / Risiken==
-Welche Probleme erwarten wir?
+== 🎯 Betroffene Bereiche ==
+Welche Teams, Prozesse oder Systeme sind betroffen – und auf welche Weise?
 
-==Betroffene Bereiche==
-Welche Bereiche sind betroffen und wie sind sie betroffen?
+*'''Bereich 1:''' Was ändert sich dort?
+*'''Bereich 2:''' Was ändert sich dort?
 
-==Zeiteinschätzung==
-Wie lange soll es dauern?
+== ⏱️ Aufwand und Zeitplan ==
+Schätzen Sie den Aufwand und nennen Sie einen realistischen Zeitrahmen.
 
-==Kommentare und Evaluation==
-Was denken alle von dieser Idee?
+*'''Aufwand:''' z. B. ca. 10 Personentage
+*'''Frühester Start:''' tt.mm.jjjj
+*'''Voraussichtliche Dauer:''' z. B. 4 Wochen
 
-*Kommentar, Name / Signatur
-*Kommentar, Name / Signatur
+== 💬 Kommentare und Bewertung ==
+Was denken alle über die Idee? Ergänzen Sie Ihren Kommentar und signieren Sie ihn, damit Rückfragen direkt möglich sind.
+
+*Kommentar – ''Name''
+*Kommentar – ''Name''
+
+<bs:signhere />
+
+== ✅ Ergebnis ==
+{{Decision|decision=Halten Sie hier das Ergebnis fest: angenommen, abgelehnt oder vertagt – mit Begründung und Datum.}}

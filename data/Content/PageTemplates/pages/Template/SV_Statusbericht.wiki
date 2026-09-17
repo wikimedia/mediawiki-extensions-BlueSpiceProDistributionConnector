@@ -3,10 +3,10 @@
 {|
 |-
 !Autor:
-|Verantwortlicher für den Inhalt
+|verantwortlich für den Inhalt
 |-
 !Empfänger:
-|Zielgruppe des Reports
+|Zielgruppe des Berichts
 |-
 !Datum des Berichts:
 |tt.mm.jjjj
@@ -18,33 +18,53 @@
 !Team / Abteilung / Projekt:
 |Berichtsumfang
 |-
-!Berichtszeitraum/ Meilenstein:
-|welcher Zeitraum ist hier berücksichtigt?
+!Berichtszeitraum / Meilenstein:
+|Welcher Zeitraum oder Meilenstein ist berücksichtigt?
 |-
 !Status des Berichts:
-|Entwurf / Abgeschlossen
+| class="select" |'''Entwurf''' / abgeschlossen
 |}
 </div>
 </div>
-==Überblick==
-Geben Sie eine kurze Zusammenfassung der Erkenntnisse aus diesem Bericht.
+== 🧭 Überblick ==
+Drei bis fünf Sätze für alle, die nur diesen Abschnitt lesen: Wo stehen wir, was hat sich seit dem letzten Bericht geändert und was benötigen Sie von den Empfängern?
 
-==Details==
-Führen Sie wichtige Aufgaben an, die abgeschlossen wurden. Bewerten Sie deren Ergebnisse.
+{{Textbox|boxtype=important|header=Entscheidung erforderlich|text=Benennen Sie hier, was die Empfänger entscheiden oder freigeben müssen – inklusive Datum, bis wann Sie eine Antwort benötigen. Löschen Sie die Box, wenn nichts offen ist.|icon=yes}}
 
+== 🚦 Status auf einen Blick ==
+{| class="wikitable" style="width:100%;"
+! style="width:200px;" |Bereich
+! style="vertical-align:middle;text-align:center;width:120px;" |Status
+!Kommentar
+|-
+|Zeitplan
+| style="vertical-align:middle;text-align:center;" |🟢
+|Im Plan – nächster Meilenstein tt.mm.jjjj
+|-
+|Budget
+| style="vertical-align:middle;text-align:center;" |🟡
+|Warum wird es knapp und was wird dagegen getan?
+|-
+|Qualität / Umfang
+| style="vertical-align:middle;text-align:center;" |🔴
+|Was ist blockiert und wer kann es lösen?
+|}
+''🟢 im Plan  ·  🟡 beobachten  ·  🔴 kritisch''
+
+== 📌 Details ==
+Führen Sie die wichtigsten Aufgaben des Berichtszeitraums auf und bewerten Sie deren Ergebnis.
 {| class="wikitable" style="width:100%;"
 !Geschäftsbereich
 !Thema
 !Highlights
-!Hindernisse
-unerwartete Projekt-Risiken
+!Hindernisse und unerwartete Risiken
 !Gewonnene Erkenntnisse
 |-
 |Marketing
 |Alle
 |
 *Leads
-*Q1 Kampagnen
+*Q1-Kampagnen
 |
 *Unerwartete Kosten
 *Neuer Mitbewerber
@@ -63,14 +83,13 @@ unerwartete Projekt-Risiken
 |
 |
 |}
-==Geschäftsrückblick==
+
+== 📊 Geschäftsrückblick ==
 Bewerten Sie die Auswirkungen der wichtigsten Ergebnisse für den Berichtszeitraum.
- 
 {| class="wikitable" style="width:100%;"
-!Metriken
+!Metrik
 !Ziel
-!Vorheriger
-Zeitraum
+!Vorheriger<br />Zeitraum
 !Aktueller<br />Zeitraum
 !Änderung
 !Neues Ziel
@@ -78,16 +97,16 @@ Zeitraum
 |Anzahl Kunden
 |700
 |631
-|
+|655
 | +24
 |680
 |-
 |Abrechenbare Zeit (in Stunden)
 |650
 |620
-|
+|550
 |<nowiki>-70</nowiki>
-|
+|650
 |-
 |..
 |
@@ -97,37 +116,37 @@ Zeitraum
 |
 |}
 
-==Maßnahmen==
-Basierend auf der Leistung des Berichtszeitraums werden die folgenden Maßnahmen für die oben genannten Kennzahlen umgesetzt.
+== 🛠️ Maßnahmen ==
+Basierend auf den Ergebnissen des Berichtszeitraums werden die folgenden Maßnahmen für die oben genannten Kennzahlen umgesetzt.
 
-===Metrik 1===
+=== Metrik 1 ===
 {| class="wikitable" style="width:100%;"
 !'''Verantwortlich'''
 !'''Maßnahmen'''
 |-
 |Wer stellt sicher, dass dies rechtzeitig erledigt wird?
-|Um diese Metrik zu verbessern, müssen die folgenden Aufgaben ausgeführt werden:
+|Um diese Metrik zu verbessern, sind die folgenden Aufgaben notwendig:
 
 #Erste Maßnahme
 #Zweite Maßnahme
 |-
 |..
-|..
+|
 |-
 |..
-|..
+|
 |}
 
-===Metrik 2===
+=== Metrik 2 ===
 {| class="wikitable" style="width:100%;"
-!'''Responsibe'''
-!'''Measures'''
+!'''Verantwortlich'''
+!'''Maßnahmen'''
 |-
 |Wer stellt sicher, dass dies rechtzeitig erledigt wird?
-|Um diese Metrik zu verbessern, müssen die folgenden Aufgaben ausgeführt werden:
+|Um diese Metrik zu verbessern, sind die folgenden Aufgaben notwendig:
 
-# Erste Maßnahme
-# Zweite Maßnahme
+#Erste Maßnahme
+#Zweite Maßnahme
 |-
 |..
 |
@@ -136,8 +155,8 @@ Basierend auf der Leistung des Berichtszeitraums werden die folgenden Maßnahmen
 |
 |}
 
-==Begleitdokumente==
-Link zu allen Dokumenten im Zusammenhang mit diesem Bericht:
+== 🔗 Begleitdokumente ==
+Seiten, Dateien oder Dashboards, die zu diesem Bericht gehören.
 
-*Dokument 1
-*Dokument 2
+*Dokument 1 – ''was zeigt es?''
+*Dokument 2 – ''was zeigt es?''
