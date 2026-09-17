@@ -1,37 +1,67 @@
-==Attendees==
-Who attended this meeting?
+<div class="databox">
+<div class="tbl">
+{|
+|-
+!Date / time:
+|mm/dd/yyyy, 0:00 a.m.
+|-
+!Chair:
+|username
+|-
+!Minute-taker:
+|username
+|}
+</div>
+<div class="tbl">
+{| 
+|-
+!Meeting:
+|e.g. management weekly, calendar week 00
+|-
+!Location:
+|room or video conference link
+|-
+!Status:
+| class="select" |'''draft''' / approved
+|}
+</div>
+</div>
+== 👥 Attendees ==
 
-==Announcements / focus points==
-Who is absent this week? What are our goals for this week? What is important for meeting participants to know?
-{| class="wikitable" style="width:100%;" 
+*'''Present:''' username, username
+*'''Excused:''' username
+
+== 📣 Announcements and focus points ==
+Who is unavailable this week? What are our goals, and what does everyone need to know?
+{| class="wikitable" style="width:100%;"
 !'''Who'''
 !'''What'''
 !'''When'''
 ! style="vertical-align:middle;text-align:center;" |'''Status'''
 |-
-| style="width:10%;" |
+| style="width:10%;" |Announcement or focus point for this week
 | style="width:50%;" |
 | style="width:10%;" |
-| style="vertical-align:middle;text-align:left;width:20%;" class="list" | not started / in progress / done
+| style="vertical-align:middle;text-align:center;width:20%;" class="select" |'''not started''' / in progress / done
 |-
 | style="width:10%;" |..
 | style="width:50%;" |
 | style="width:10%;" |
-| style="vertical-align:middle;text-align:left;width:20%;" |
+| style="vertical-align:middle;text-align:center;width:20%;" |
 |}
 
-==Cockpit==
-===Company situation / KPIs /Reports===
+== 📊 Cockpit ==
+=== Company situation, KPIs and reports ===
 {| class="wikitable" style="width:100%;"
 !'''Area'''
 !'''What'''
-!'''Evaluation / Action'''
+!'''Evaluation / action'''
 |-
 | style="width:20%;" |Project management
 | style="width:60%;" |
 *Billable time this week: 
-*Active customers this week:
-| style="width:20%;" |
+*Active customers this week: 
+| style="width:20%;" |What stands out – and what do we do about it?
 |-
 | style="width:20%;" |Sales
 | style="width:60%;" |
@@ -42,117 +72,127 @@ Who is absent this week? What are our goals for this week? What is important for
 |-
 | style="width:20%;" |Billing
 | style="width:60%;" |
-*planned billing amount (Mon):  EUR
-*invoiced billing amount (Fri):  EUR
+*Planned billing amount (Mon):  EUR
+*Invoiced billing amount (Fri):  EUR
 *Invoice amount from new orders:  EUR
 | style="width:20%;" |
 |}
 
-==Department==
-===Finance and Billing===
+== 🏢 Departments ==
+One table per department: who does what by when? Carry unfinished items over to the next meeting.
+
+=== 💰 Finance and billing ===
 {| class="wikitable" style="width:100%;"
 !'''Who'''
 !'''What'''
 !'''When'''
-!'''Status'''
+! style="vertical-align:middle;text-align:center;" |'''Status'''
 |-
-| style="width:10%;" |
+| style="width:10%;" |Which figures, invoices or budgets need attention this week?
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |not started / in progress / done
+| style="vertical-align:middle;text-align:center;width:20%;" class="select" |'''not started''' / in progress / done
 |-
 | style="width:10%;" |..
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |
+| style="vertical-align:middle;text-align:center;width:20%;" |
 |}
 
-===Marketing and Sales===
-{| class="wikitable" style="width:100%;" 
+=== 📣 Marketing and sales ===
+{| class="wikitable" style="width:100%;"
 !'''Who'''
 !'''What'''
 !'''When'''
-!'''Status'''
+! style="vertical-align:middle;text-align:center;" |'''Status'''
 |-
-| style="width:10%;" |
+| style="width:10%;" |Which campaigns, offers or leads are we discussing?
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |not started / in progress / done
+| style="vertical-align:middle;text-align:center;width:20%;" class="select" |'''not started''' / in progress / done
 |-
 | style="width:10%;" |..
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |
+| style="vertical-align:middle;text-align:center;width:20%;" |
 |}
 
-===Projects, Service and Support===
-{| class="wikitable" style="width:100%;" 
+=== 🤝 Projects, service and support ===
+{| class="wikitable" style="width:100%;"
 !'''Who'''
 !'''What'''
 !'''When'''
-!'''Status'''
+! style="vertical-align:middle;text-align:center;" |'''Status'''
 |-
-| style="width:10%;" |
+| style="width:10%;" |Which projects or escalations need a decision?
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |not started / in progress / done
+| style="vertical-align:middle;text-align:center;width:20%;" class="select" |'''not started''' / in progress / done
 |-
 | style="width:10%;" |..
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |
+| style="vertical-align:middle;text-align:center;width:20%;" |
 |}
 
-===Product Development===
-{| class="wikitable" style="width:100%;" 
+=== 🧪 Product development ===
+{| class="wikitable" style="width:100%;"
 !'''Who'''
 !'''What'''
 !'''When'''
-!'''Status'''
+! style="vertical-align:middle;text-align:center;" |'''Status'''
 |-
-| style="width:10%;" |
+| style="width:10%;" |Which releases or features are due?
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |not started / in progress / done
+| style="vertical-align:middle;text-align:center;width:20%;" class="select" |'''not started''' / in progress / done
 |-
 | style="width:10%;" |..
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |
+| style="vertical-align:middle;text-align:center;width:20%;" |
 |}
 
-===Technology and Infrastructure===
-{| class="wikitable" style="width:100%;" 
+=== 🖥️ Technology and infrastructure ===
+{| class="wikitable" style="width:100%;"
 !'''Who'''
 !'''What'''
 !'''When'''
-!'''Status'''
+! style="vertical-align:middle;text-align:center;" |'''Status'''
 |-
-| style="width:10%;" |
+| style="width:10%;" |Which systems, updates or incidents are relevant?
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |not started / in progress / done
+| style="vertical-align:middle;text-align:center;width:20%;" class="select" |'''not started''' / in progress / done
 |-
 | style="width:10%;" |..
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |
+| style="vertical-align:middle;text-align:center;width:20%;" |
 |}
 
-===Internal organization===
-{| class="wikitable" style="width:100%;" 
+=== 🏢 Internal organization ===
+{| class="wikitable" style="width:100%;"
 !'''Who'''
 !'''What'''
 !'''When'''
-!'''Status'''
+! style="vertical-align:middle;text-align:center;" |'''Status'''
 |-
-| style="width:10%;" |
+| style="width:10%;" |Staff, office, processes – what concerns everybody?
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |not started / in progress / done
+| style="vertical-align:middle;text-align:center;width:20%;" class="select" |'''not started''' / in progress / done
 |-
 | style="width:10%;" |..
 | style="width:50%;" |
 | style="width:10%;" |
-| style="width:20%;" |
+| style="vertical-align:middle;text-align:center;width:20%;" |
 |}
+
+== ✅ Decisions ==
+{{Decision|decision=Record the decisions of this meeting here – one sentence per decision, including who is responsible and from when it applies.}}
+
+== 📅 Next meeting ==
+
+*'''Date / time:''' mm/dd/yyyy, 0:00 a.m.
+*'''Topics carried over:''' topic 1, topic 2
