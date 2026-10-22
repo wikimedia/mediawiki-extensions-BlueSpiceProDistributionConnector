@@ -46,4 +46,17 @@ class OAuth2PublicKey extends ConfigDefinition\StringSetting implements ConfigDe
 	public function getGlobalName() {
 		return 'wgOAuth2PublicKey';
 	}
+
+	/**
+	 * Fall back to the global (e.g. set from environment) if nothing is configured
+	 *
+	 * @return mixed
+	 */
+	public function getValue() {
+		$value = parent::getValue();
+		if ( $value === null || $value === '' ) {
+			return $GLOBALS[$this->getGlobalName()] ?? $value;
+		}
+		return $value;
+	}
 }
