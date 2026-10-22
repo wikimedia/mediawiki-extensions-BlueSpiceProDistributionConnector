@@ -299,6 +299,10 @@
 			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\ApplyUserQuota",
 			"services": [ "BlueSpiceUserCounter" ]
 		},
+		"applyOAuth2Keys": {
+			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\ApplyOAuth2Keys",
+			"services": [ "ConfigFactory" ]
+		},
 		"addResources": {
 			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\AddResources"
 		},
@@ -333,6 +337,7 @@
 			"addResources"
 		],
 		"UnblockUser": "applyUserQuota",
+		"SetupAfterCache": "applyOAuth2Keys",
 		"NamespaceManager::getMetaFields": "namespaceManagerCommentStreams",
 		"BSApiNamespaceStoreMakeData": "namespaceManagerCommentStreams",
 		"NamespaceManager::editNamespace": "namespaceManagerCommentStreams",
