@@ -4,6 +4,7 @@ namespace BlueSpice\ProDistributionConnector\Rest;
 
 use File;
 use GuzzleHttp\Psr7\LimitStream;
+use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\HookContainer\HookContainer;
 use MediaWiki\HookContainer\HookRunner;
 use MediaWiki\Permissions\GroupPermissionsLookup;
@@ -13,7 +14,6 @@ use MediaWiki\Rest\Response;
 use MediaWiki\Rest\SimpleHandler;
 use MediaWiki\Rest\Stream;
 use MediaWiki\Title\Title;
-use RepoGroup;
 use Wikimedia\FileBackend\HTTPFileStreamer;
 use Wikimedia\ParamValidator\ParamValidator;
 
