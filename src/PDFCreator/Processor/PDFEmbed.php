@@ -6,8 +6,8 @@ use BlueSpice\ProDistributionConnector\PDFCreator\Utility\PDFEmbedFinder;
 use MediaWiki\Config\Config;
 use MediaWiki\Extension\PDFCreator\IProcessor;
 use MediaWiki\Extension\PDFCreator\Utility\ExportContext;
+use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\Title\TitleFactory;
-use RepoGroup;
 
 class PDFEmbed implements IProcessor {
 
