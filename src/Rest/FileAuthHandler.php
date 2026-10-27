@@ -2,8 +2,8 @@
 
 namespace BlueSpice\ProDistributionConnector\Rest;
 
-use File;
 use GuzzleHttp\Psr7\LimitStream;
+use MediaWiki\FileRepo\File\File;
 use MediaWiki\FileRepo\RepoGroup;
 use MediaWiki\HookContainer\HookContainer;
 use MediaWiki\HookContainer\HookRunner;
