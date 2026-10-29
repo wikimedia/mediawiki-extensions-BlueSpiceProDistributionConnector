@@ -68,5 +68,11 @@
 	"bs-pro-distribution-droplet-bitbucket-desc": "Datei aus dem BitBucket-Repository einbetten",
 	"bs-pro-distribution-droplet-ec-embed-url-label": "URL",
 	"bs-pro-distribution-droplets-ec-embed-lang-label": "Sprache der eingebetteten Inhalte",
-	"bs-pro-distribution-droplets-ec-embed-show-line-numbers-label": "Zeilennummern anzeigen"
+	"bs-pro-distribution-droplets-ec-embed-show-lines-label": "Angezeigte Zeilen",
+	"bs-pro-distribution-droplets-ec-embed-show-lines-help": "Nur bestimmte Zeilen anzeigen. Dies kann eine einzelne Zeilennummer oder ein durch einen Bindestrich (-) getrennter Bereich sein. Mehrere Zeilennummern oder Bereiche können durch Kommas getrennt werden.",
+	"bs-pro-distribution-droplets-ec-embed-show-line-numbers-label": "Zeilennummern anzeigen",
+	"bs-pro-distribution-ec-config-domain-whitelist": "Domain-Whitelist",
+	"bs-pro-distribution-ec-config-file-whitelist": "Whitelist für Dateierweiterungen",
+	"bs-pro-distribution-ec-config-file-whitelist-help": "Liste der zulässigen Dateierweiterungen. Leer lassen, um keine Einschränkungen festzulegen.",
+	"bs-pro-distribution-ec-config-domain-whitelist-help": "Liste der zulässigen Domains, aus denen Inhalte eingebettet werden können. Bitte {{#FORMAL:gib|geben Sie}} nur die Domain an, nicht das Protokoll. Beispiel: `github.com`. {{#FORMAL:Lasse|Lassen Sie}} das Feld leer, um keine Einschränkungen festzulegen."
 }
