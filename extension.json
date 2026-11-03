@@ -161,6 +161,10 @@
 	"AutoloadNamespaces": {
 		"BlueSpice\\ProDistributionConnector\\": "src/"
 	},
+	"TestAutoloadNamespaces": {
+		"BlueSpice\\ProDistributionConnector\\Tests\\Integration\\": "tests/phpunit/integration/",
+		"BlueSpice\\ProDistributionConnector\\Tests\\Structure\\": "tests/phpunit/structure/"
+	},
 	"RestRoutes": [
 		{
 			"method": "GET",
@@ -169,9 +173,6 @@
 			"services": [ "RepoGroup", "PermissionManager", "GroupPermissionsLookup", "HookContainer" ]
 		}
 	],
-	"TestAutoloadNamespaces": {
-		"BlueSpice\\ProDistributionConnector\\Tests\\": "tests/phpunit"
-	},
 	"ResourceModules": {
 		"ext.prodistributionconnector.droplet.math": {
 			"styles": "stylesheets/droplet.math.css"

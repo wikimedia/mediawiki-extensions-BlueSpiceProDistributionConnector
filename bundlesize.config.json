@@ -1,6 +1,10 @@
 [
 	{
 		"resourceModule": "ext.prodistributionconnector.droplet.modalDialog.execution.script",
-		"maxSize": "0.3 kB"
+		"maxSize": "2 kB"
+	},
+	{
+		"resourceModule": "ext.prodistributionconnector.externalcontent",
+		"maxSize": "2 kB"
 	}
 ]
