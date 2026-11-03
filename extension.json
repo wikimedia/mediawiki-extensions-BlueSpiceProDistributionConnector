@@ -315,6 +315,10 @@
 		},
 		"unregisterCommentStreamsNotifyMeSubscriberProvider": {
 			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\RemoveCommentStreamsSubscriptionProvider"
+		},
+		"getPrivacyPageTitle": {
+			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\GetPrivacyPageTitle",
+			"services": [ "TitleFactory" ]
 		}
 	},
 	"AuthManagerAutoConfig": {
@@ -339,7 +343,9 @@
 		"NamespaceManagerBeforePersistSettings": "namespaceManagerCommentStreams",
 		"LoadExtensionSchemaUpdates": "runDatabaseUpdates",
 		"ResourceLoaderRegisterModules": "ResourceLoaderRegisterModules",
-		"NotifyMeSubscriberProviderFactory": "unregisterCommentStreamsNotifyMeSubscriberProvider"
+		"NotifyMeSubscriberProviderFactory": "unregisterCommentStreamsNotifyMeSubscriberProvider",
+		"BlueSpicePrivacyPageProviderGetPage": "getPrivacyPageTitle",
+		"BlueSpicePrivacyShowShowMissingPageAlert": "getPrivacyPageTitle"
 	},
 	"config_prefix": "bsg",
 	"config": {
