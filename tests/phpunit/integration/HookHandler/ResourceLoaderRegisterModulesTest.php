@@ -1,15 +1,16 @@
 <?php
 
-namespace BlueSpice\ProDistributionConnector\Tests\HookHandler;
+namespace BlueSpice\ProDistributionConnector\Tests\Integration\HookHandler;
 
 use BlueSpice\ProDistributionConnector\HookHandler\ResourceLoaderRegisterModules;
 use MediaWiki\Registration\ExtensionRegistry;
 use MediaWiki\ResourceLoader\ResourceLoader;
+use MediaWikiIntegrationTestCase;
 
 /**
  * @covers \BlueSpice\ProDistributionConnector\HookHandler\ResourceLoaderRegisterModules
  */
-class ResourceLoaderRegisterModulesTest extends \MediaWikiIntegrationTestCase {
+class ResourceLoaderRegisterModulesTest extends MediaWikiIntegrationTestCase {
 
 	/**
 	 * @dataProvider provideEnabled
