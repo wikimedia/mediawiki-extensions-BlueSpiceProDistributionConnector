@@ -28,9 +28,6 @@ class GetPrivacyPageTitle implements
 		if ( !defined( 'FARMER_CALLED_INSTANCE' ) || FARMER_CALLED_INSTANCE === 'w' ) {
 			return;
 		}
-		if ( !$title || $title->exists() ) {
-			return;
-		}
 		$title = $this->titleFactory->newFromText( 'w:Special:PrivacyPages/' . $name );
 	}
 
