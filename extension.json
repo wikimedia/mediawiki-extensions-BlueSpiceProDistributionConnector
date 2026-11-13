@@ -64,26 +64,8 @@
 				}
 			}
 		},
-		"BlueSpiceInstanceStatus": {
-			"InstanceStatusProvider": {
-				"numberofusers": {
-					"class": "BlueSpice\\ProDistributionConnector\\InstanceStatusProvider\\NumberOfUsers",
-					"services": [ "BlueSpiceUserCounter" ]
-				}
-			},
-			"ApiInstanceStatusProvider": {
-				"numberofusers": {
-					"class": "BlueSpice\\ProDistributionConnector\\InstanceStatusProvider\\NumberOfUsers",
-					"services": [ "BlueSpiceUserCounter" ]
-				}
-			}
-		},
 		"BlueSpiceFoundation": {
-			"JSConfigVars": {
-				"BlueSpiceUserLimit": "\\BlueSpice\\ProDistributionConnector\\JSConfigVariable\\UserLimit::factory"
-			},
 			"ConfigDefinitionRegistry": {
-				"LicenseKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\LicenseKey::getInstance",
 				"OAuth2PublicKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\OAuth2PublicKey::getInstance",
 				"OAuth2PrivateKey": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\OAuth2PrivateKey::getInstance",
 				"ExternalContentDomainWhitelist": "BlueSpice\\ProDistributionConnector\\ConfigDefinition\\ExternalContentDomainWhitelist::getInstance",
@@ -224,13 +206,6 @@
 				"droplets-decision-label"
 			]
 		},
-		"ext.prodistributionconnector.usermanager.quota": {
-			"scripts": "ext.prodistributionconnector.usermanager.quota.js",
-			"dependencies": [
-				"ext.bluespice",
-				"oojs-ui"
-			]
-		},
 		"ext.prodistributionconnector.droplet.pdfembed": {
 			"scripts": [
 				"nodes/ext.prodistributionconnector.ce.PDFEmbedNode.js",
@@ -295,10 +270,6 @@
 		"remoteExtPath": "BlueSpiceProDistributionConnector/resources"
 	},
 	"HookHandlers": {
-		"applyUserQuota": {
-			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\ApplyUserQuota",
-			"services": [ "BlueSpiceUserCounter" ]
-		},
 		"applyOAuth2Keys": {
 			"class": "\\BlueSpice\\ProDistributionConnector\\HookHandler\\ApplyOAuth2Keys",
 			"services": [ "ConfigFactory" ]
@@ -325,22 +296,9 @@
 			"services": [ "TitleFactory" ]
 		}
 	},
-	"AuthManagerAutoConfig": {
-		"preauth": {
-			"UserLimitedAuthenticationProvider": {
-				"class": "BlueSpice\\ProDistributionConnector\\UserLimitedAuthenticationProvider",
-				"services": [ "BlueSpiceUserCounter" ],
-				"sort": 25
-			}
-		}
-	},
 	"Hooks": {
 		"BSUsageTrackerRegisterCollectors": "BlueSpice\\ProDistributionConnector\\Hook\\BSUsageTrackerRegisterCollectors\\NumberOfNamespaces::callback",
-		"BeforePageDisplay": [
-			"applyUserQuota",
-			"addResources"
-		],
-		"UnblockUser": "applyUserQuota",
+		"BeforePageDisplay": "addResources",
 		"SetupAfterCache": "applyOAuth2Keys",
 		"NamespaceManager::getMetaFields": "namespaceManagerCommentStreams",
 		"BSApiNamespaceStoreMakeData": "namespaceManagerCommentStreams",
@@ -354,24 +312,10 @@
 	},
 	"config_prefix": "bsg",
 	"config": {
-		"UserLimitWhitelist": {
-			"value": [
-				"BSMaintenance", "WikiSysop", "MediaWiki default", "DynamicPageList3 extension",
-				"Mediawiki default", "Maintenance script", "BlueSpice default"
-			],
-			"description": "Contains user names that do not count towards the user limit"
-		},
-		"LicenseKey": {
-			"value": null,
-			"description": "License key for BlueSpice edition"
-		},
 		"ExternalContentDomainTypes": {
 			"value": [],
 			"description": "Maps self-hosted domains to their platform type for paste detection. Entries in the format 'domain:type', e.g. 'gitlab.mycompany.com:gitlab'. Supported types: github, gitlab, bitbucket."
 		}
 	},
-	"ServiceWiringFiles": [
-		"includes/ServiceWiring.php"
-	],
 	"manifest_version": 2
 }
